@@ -37,7 +37,7 @@ Update the status as each class moves from planned to delivered.
 
 ### Class 1: Introduction to the Vibe Paradigm
 
-**Presenter:** Phy Ko Ko · **Status:** Planned **Roadmap session:** S1
+**Presenter:** Phyo Ko Ko · **Status:** Planned **Roadmap session:** S1
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
