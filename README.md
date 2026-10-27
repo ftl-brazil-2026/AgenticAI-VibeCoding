@@ -1,21 +1,17 @@
----
-title: "README"
----
-
 # Agentic AI Lessons
 
 Let's leave this page to be human written and have some better coordination here.
 
-UNV volunteer series **Agentic Software Development & Vibe Coding**. Here we are gathering the proposed shared roadmap, the lesson index and the class materials that volunteers present, for planning lessons and keep tracking. 
+UNV volunteer series **Agentic Software Development & Vibe Coding**. Here we are gathering the proposed roadmap, which came from UNV alignment meeting. We are also organizing the lessons and the materials, providing brief description and the link to the repositories (if any). 
 
-It is an attempt to be a display towards yours own repository that will be used in the classes. The students can always look from here to get to their willing classes and topics. 
+The students can always look from here to get to their classes and topics. 
 
 The site is built with [Quarto](https://quarto.org) using the `journal` theme. The built site lives in `docs/`, ready to publish with GitHub Pages.
 
 
 ## Modify and contribute for the repo
 
-- Just modify the .qmd or the .md files.
+- Quickly Just modify the .qmd or the .md files to adjust existing pages. If you wanna create a new page don't forget to put in the `_quarto.yml` who manages the navbar and page indexing. 
 
 - Feel free to modify the roadmap and correct some themes that are not fitting your class proposal. 
 
