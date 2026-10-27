@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - roadmap_synthesis.md
+    - README.md
+    - roadmap.md
+    - setup.md
+    - free-providers.md
+  resources:
+    - roadmap_cards.html
+    - roadmap_cards.js
+
+website:
+  title: "Agentic AI Lessons"
+  description: "Lessons, roadmap and class materials for the UNV Agentic Software Development & Vibe Coding series."
+  navbar:
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Roadmap"
+        href: roadmap.md
+      - text: "Roadmap synthesis"
+        href: roadmap_synthesis.md
+      - text: "Setup"
+        href: setup.md
+      - text: "Free providers"
+        href: free-providers.md
+
+format:
+  html:
+    theme: journal
+    toc: true
+    toc-depth: 2
+    code-copy: true

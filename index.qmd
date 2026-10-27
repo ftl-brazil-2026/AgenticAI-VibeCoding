@@ -1,0 +1,106 @@
+---
+title: "Agentic AI & Vibe Coding"
+subtitle: "UNV volunteer series"
+---
+
+This site organises the **Agentic Software Development & Vibe Coding** series. It gathers the programme material and provides a road map of learning in the quickly evolving field of AgenticAI. The idea is provide an overview and provide some guide of how to develop our own skills to create and assist AgenticAI.
+
+We are also creating the space for community contributions towards open-source and digital soveigrinity.  It gives volunteers one place to plan lessons, find the shared roadmap and track which classes are ready.
+
+## Start here
+
+- **[Learning roadmap](roadmap.html)**: interactive card view of all sessions, tracks and comparison of models and costs. cost paths.
+- **[Roadmap synthesis](roadmap_synthesis.html)**: the written plan behind the roadmap, with design principles and learner tracks.
+- **[Standard setup](setup.html)**: the tools, folder layout and config rules every volunteer should follow, including WSL on Windows.
+- **[README](README.html)**: how this repository is organised and how to rebuild the site.
+
+## Class progress
+
+Update the status as each class moves from planned to delivered.
+
+| Class | Topic | Presenter | Date and Time |
+|:--|:--|:--|:--|
+| 1 | Quick-off & First Steps | Emanuel Goulart | Planned |
+| 2 | Introduction to the Vibe Paradigm | Phy Ko Ko | Confirmed |
+| 3 |  Architecting and configuring the AI Workspace  | Akshi Rao | Planned |
+| 4 | Development paradigms | Ruiya Zhou | Planned |
+| 5 | Agentic Mechanics | Alan al-jammar | Planned |
+| 6 | Managing Multi-Agent | Lwin Ravendom | Planned |
+| 7 | The "Safety Net" | Almegdad Elfaki | Planned |
+| 8 | Debugging in the Agentic Age  | Shakila Alam | Planned |
+| 9 | Context Engineering | Ekoko Clesh | Planned |
+| 10 | AI-First SDLC | Seth Odhiambo | Planned |
+| 11 |Building an Autonomous Micro-Product | Serra Tosun |Planned |
+| 12 | AI-First SDLC | Nouran Mansour | Planned |
+
+## Classes
+
+### Class 1: Introduction to the Vibe Paradigm
+
+**Presenter:** Phy Ko Ko · **Status:** Planned **Roadmap session:** S1
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+
+### Class 2: Architecting and configuring the AI Workspace 
+
+**Presenter:** Akshi Rao · **Status:** Planned **Roadmap session:** S2
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+
+### Class 3: Development paradigms: Intent-Based "Vibe" Iteration,  Spec-Driven,  Agentic Orchestration
+
+**Presenter:** Ruiya Zhou · **Status:** Planned **Roadmap session:** S3
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+
+### Class 4: Agentic Mechanics: Planning & Tool Use 
+
+**Presenter:** Alan al-jammar · **Status:** Planned **Roadmap session:** S4
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+
+### Class 5: Managing Multi-Agent Teams 
+
+**Presenter:** Lwin Ravendom, [Github](https://github.com/W4sP4nx2) **Status:** Ready **Roadmap session:** S5
+
+Supervise an agent team through typed handoffs, scoped tools, independent checks and human decisions. The course starts with deterministic fixtures and ends with a Software Factory that builds a minimalist travel website using local files and Git operations. No LLM or API key is needed, so the cost is $0.00.
+
+[Open the class repository on GitHub](https://github.com/W4sP4nx2/Managing-Multi-Agent-Teams/tree/main){.btn .btn-primary target="_blank"}
+
+### Class 6: The "Safety Net": Automated Validation & Evals 
+
+**Presenter:** Almegdad Elfaki,  **Status:** Planned **Roadmap session:** S6
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+
+### Class 7: Debugging in the Agentic Age 
+
+**Presenter:** Shakila Alam,  **Status:** Planned **Roadmap session:** S6
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+
+### Class 8: Context Engineering & Large Codebases 
+
+**Presenter:** Ekoko Clesh,  **Status:** Planned **Roadmap session:** S6
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+
+
+### Class 9: AI-First SDLC: Deployment & Operations  
+
+**Presenter:** Seth Odhiambo,  **Status:** Planned **Roadmap session:** S6
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+
+
+### Class 10: Capstone: Building an Autonomous Micro-Product   
+
+**Presenter:** Serra Tosun,  **Status:** Planned **Roadmap session:** S6
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+
+### Class 11: Practical applications and use cases    
+
+**Presenter:** Nouran Mansour,  **Status:** Planned **Roadmap session:** S6
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.

@@ -1,0 +1,15 @@
+# Secrets and local settings: never commit
+.env
+
+# Python environment: rebuild with `uv sync`
+.venv/
+
+# Quarto build cache (the published site lives in docs/, which stays tracked)
+.quarto/
+
+# Local datasets and scratch work
+data/
+scratch/
+
+/.quarto/
+**/*.quarto_ipynb

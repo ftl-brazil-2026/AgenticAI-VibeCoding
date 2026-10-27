@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>roadmap_synthesis – Agentic AI Lessons</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-1281c15eeab4df350130e4d7c25cc087.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Agentic AI Lessons</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./roadmap.html"> 
+<span class="menu-text">Roadmap</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./roadmap_synthesis.html" aria-current="page"> 
+<span class="menu-text">Roadmap synthesis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./setup.html"> 
+<span class="menu-text">Setup</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./free-providers.html"> 
+<span class="menu-text">Free providers</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#agentic-software-development-vibe-coding-training-series-roadmap-synthesis" id="toc-agentic-software-development-vibe-coding-training-series-roadmap-synthesis" class="nav-link active" data-scroll-target="#agentic-software-development-vibe-coding-training-series-roadmap-synthesis">Agentic Software Development &amp; Vibe Coding Training Series — Roadmap Synthesis</a>
+  <ul class="collapse">
+  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose">1. Purpose</a></li>
+  <li><a href="#learning-goals" id="toc-learning-goals" class="nav-link" data-scroll-target="#learning-goals">2. Learning Goals</a></li>
+  <li><a href="#design-principles" id="toc-design-principles" class="nav-link" data-scroll-target="#design-principles">3. Design principles</a></li>
+  <li><a href="#tool-paths" id="toc-tool-paths" class="nav-link" data-scroll-target="#tool-paths">4. Tool paths</a></li>
+  <li><a href="#the-learning-path" id="toc-the-learning-path" class="nav-link" data-scroll-target="#the-learning-path">5. The learning path</a></li>
+  <li><a href="#limitations-and-workarounds" id="toc-limitations-and-workarounds" class="nav-link" data-scroll-target="#limitations-and-workarounds">6. Limitations and workarounds</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="agentic-software-development-vibe-coding-training-series-roadmap-synthesis" class="level1">
+<h1>Agentic Software Development &amp; Vibe Coding Training Series — Roadmap Synthesis</h1>
+<p><em>UNDP Istanbul International Center for Private Sector in Development (IICPSD) · UN Volunteer trainers</em></p>
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">1. Purpose</h2>
+<p>This roadmap focused for researchers and early-career professionals, from Least Developed Countries and developing economies from no prior experience with AI coding agents to shipping a small, tested and deployed product. It is built around the real constraints of this audience, especially no GPU, no paid AI subscriptions and unreliable connectivity.</p>
+</section>
+<section id="learning-goals" class="level2">
+<h2 class="anchored" data-anchor-id="learning-goals">2. Learning Goals</h2>
+<p><strong>Starting point:</strong> the learner may never have used a terminal, Git or an AI coding agent, and may have no GPU and no paid AI subscription.</p>
+<p>By the end of the series, every learner should be able to:</p>
+<ul>
+<li>Use a terminal, Git and GitHub to create, version and share a project.</li>
+<li>Tell apart chat, vibe coding and agentic engineering, and explain what an LLM, an augmented LLM, a workflow and an agent are.</li>
+<li>Recognise hallucination, insecure code and technical debt in AI output, and apply basic data-privacy rules.</li>
+<li>Choose a tool path (zero-cost, balanced, premium or private/local) using its cost, safety and effort.</li>
+<li>Configure a coding agent, keep secrets out of code and write a project rules file.</li>
+<li>Turn a real business need into a specification and drive an agent from it.</li>
+<li>Explain the plan-act-observe loop, implement tool calling and set permissions with human approval.</li>
+<li>Judge when a multi-agent setup is worth using, and run one safely.</li>
+<li>Turn acceptance criteria into automated tests, CI checks and simple evals.</li>
+<li>Audit, debug and roll back AI-generated code.</li>
+<li>Manage context for large codebases and for small local models.</li>
+<li>Deploy a project from CI to a live URL, with secrets, logging and cost control.</li>
+<li>Deliver a capstone micro-product with a spec, tests, CI, a README and a demo.</li>
+</ul>
+<p>The guiding rule from the meeting still applies: every graduate should be efficient in at least one area, not superficially aware of all of them. All learners follow the same roadmap.</p>
+</section>
+<section id="design-principles" class="level2">
+<h2 class="anchored" data-anchor-id="design-principles">3. Design principles</h2>
+<p>The following design decision were taken from the alignment meeting of UNV.</p>
+<p><strong>One roadmap, not a list of lectures.</strong> Every session is a learning component on a shared path from point A to point B (Alan).</p>
+<p><strong>Shared vocabulary first.</strong> Session 1 defines LLM, augmented LLM, workflow and agent once, and every trainer uses those terms the same way (Alan).</p>
+<p><strong>A ladder with less repetition, but friendly to drop-ins.</strong> Each concept has one owning session. Later sessions open with a three-to-five-minute recap and a link to the owning recording rather than re-teaching it.</p>
+<p><strong>Depth over breadth.</strong> The series teaches the top three or four tools in each category in depth, instead of skimming the whole ecosystem.</p>
+<p><strong>Real workflows, with notebooks as companions.</strong> Practice happens in the terminal, the IDE and Git, because that is how agentic coding is done in practice. Notebooks, which the ToR lists among supporting materials, accompany the sessions where they genuinely help, such as building an agent loop or running evals.</p>
+<p><strong>Explicit cost, safety and effort paths.</strong> Learners choose between zero-cost, balanced, premium and private/local paths with their trade-offs spelled out (Alan, Akshi).</p>
+<p><strong>Privacy by default.</strong> Private, personal or organizational data never goes into external AI tools. Exercises use synthetic or public data, and sensitive work uses local models (Ruiya).</p>
+<p><strong>Horizontal expertise.</strong> Volunteers bring different niches, such as geospatial data science, workflow automation with self-hosted n8n (Seth), UN IT practice and solution architecture. Sessions can include short expert spotlights, and session length is flexible around a 60-minute target (Emanuel).</p>
+<p><strong>The zero-cost guarantee.</strong> Every exercise and the capstone must be completable with an ordinary laptop or a browser and no paid tools. Premium tools can be demonstrated, but every demo also shows the free equivalent.</p>
+</section>
+<section id="tool-paths" class="level2">
+<h2 class="anchored" data-anchor-id="tool-paths">4. Tool paths</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Path</th>
+<th>Examples</th>
+<th>Cost</th>
+<th>Safety</th>
+<th>Effort</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Zero-cost</strong> (default for exercises)</td>
+<td>Aider, Cline or Continue with free API tiers; Gemini CLI; GitHub Copilot Free; GitHub Codespaces; self-hosted n8n</td>
+<td>USD 0</td>
+<td>Medium: free tiers may use prompts for training</td>
+<td>Medium</td>
+</tr>
+<tr class="even">
+<td><strong>Balanced</strong></td>
+<td>Pay-as-you-go API key with a spending cap; one entry-level IDE agent plan; n8n on a cheap server</td>
+<td>About USD 5–20 per month</td>
+<td>Medium to high</td>
+<td>Low to medium</td>
+</tr>
+<tr class="odd">
+<td><strong>Premium</strong> (demo only)</td>
+<td>Claude Code, OpenAI Codex, paid Cursor or Windsurf</td>
+<td>USD 20+ per month</td>
+<td>High on enterprise plans</td>
+<td>Low</td>
+</tr>
+<tr class="even">
+<td><strong>Private / local</strong></td>
+<td>Ollama or LM Studio with small quantized coding models</td>
+<td>USD 0 software, hardware-bound</td>
+<td>Highest</td>
+<td>High</td>
+</tr>
+</tbody>
+</table>
+<p>Free tiers and prices change often, so every free-tier option must be re-checked the week before the session that uses it.</p>
+</section>
+<section id="the-learning-path" class="level2">
+<h2 class="anchored" data-anchor-id="the-learning-path">5. The learning path</h2>
+<p>The path has four phases: Foundation, Core Mechanics, Quality &amp; Scale, and Ship. Every live session follows the same template: entry recap, objectives, concept, live demo (premium tool plus its free equivalent), real-world use case, hands-on exercise, and deliverable.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Session</th>
+<th>Phase</th>
+<th>What learners will be able to do</th>
+<th>Real-world use case</th>
+<th>Deliverable</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>Onboarding &amp; command-line survival kit (async)</td>
+<td>Foundation</td>
+<td>Use a terminal, Git and GitHub; set up VS Code or a browser Codespace; store an API key safely</td>
+<td>Setting up a reproducible workspace for a team project</td>
+<td>Passing environment check and a pushed “hello-agent” repo</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Introduction to the vibe paradigm</td>
+<td>Foundation</td>
+<td>Place chat, vibe coding and agentic engineering on a spectrum; tell an LLM, augmented LLM, workflow and agent apart; spot hallucination, insecure code and technical debt; apply privacy rules</td>
+<td>A one-page tool for a local cooperative, built three ways and compared</td>
+<td>Small working artifact and a short critique</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Architecting &amp; configuring the AI workspace</td>
+<td>Foundation</td>
+<td>Choose a tool path with a cost, safety and effort matrix; configure an agent with a free or local model; manage secrets; write a project rules file</td>
+<td>Choosing a setup for an NGO that cannot send data to external services</td>
+<td>Working workspace and a committed AGENTS.md</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Development paradigms</td>
+<td>Core Mechanics</td>
+<td>Choose between vibe iteration, spec-driven development and orchestration; turn a business requirement into a spec; drive an agent from it</td>
+<td>A market-price tracker or a clinic queue page specified from a real need</td>
+<td>spec.md and its implementation (reused in later sessions)</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Agentic mechanics: planning &amp; tool use</td>
+<td>Core Mechanics</td>
+<td>Explain the plan-act-observe loop; implement tool calling; understand MCP; set permissions and human approvals</td>
+<td>An assistant that looks up data and drafts a weekly report</td>
+<td>Mini agent or n8n workflow with a logged run; companion notebook</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Managing multi-agent teams</td>
+<td>Core Mechanics</td>
+<td>Use orchestrator-worker and planner-coder-reviewer patterns; run agents in parallel safely; judge when multi-agent setups are not worth it</td>
+<td>Splitting a feature for a small business website across agents</td>
+<td>Pipeline with reviewer output on a real change</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>The safety net: automated validation &amp; evals</td>
+<td>Quality &amp; Scale</td>
+<td>Turn acceptance criteria into tests; add linting and security checks; set up CI; write simple evals for LLM features</td>
+<td>Making sure a public-service form never accepts invalid data</td>
+<td>Passing CI and at least five meaningful tests; companion eval notebook</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Debugging in the agentic age</td>
+<td>Quality &amp; Scale</td>
+<td>Audit AI-generated code; give agents good error context; escape the “fix loop”; roll back with Git; refactor technical debt</td>
+<td>Fixing a broken AI-built donation page</td>
+<td>Bug report and fix with regression tests</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>Context engineering &amp; large codebases</td>
+<td>Quality &amp; Scale</td>
+<td>Manage the context window; build a context pack; use docs and code search to cut hallucinations; adapt to small local models</td>
+<td>Contributing to an existing open-source civic-tech project</td>
+<td>Context pack and a scoped pull request</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>AI-first SDLC: deployment &amp; operations</td>
+<td>Ship</td>
+<td>Deploy from CI to a free host; handle production secrets, logging and monitoring; control API costs; plan rollbacks</td>
+<td>Putting the session 3 project online for real users</td>
+<td>Public URL and deployment workflow</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>Capstone: an autonomous micro-product</td>
+<td>Ship</td>
+<td>Run the full cycle in a team, from problem and spec through build, tests and deployment to a demo, and justify the chosen tool path</td>
+<td>Team briefs drawn from SDG problems or learners’ own work</td>
+<td>Repo with spec, tests, CI and README, plus a live URL or a three-minute demo</td>
+</tr>
+</tbody>
+</table>
+<p>The ordering rules are that introductions (sessions 0 to 3) always come first, session 4 must precede session 5, and session 6 must precede sessions 7 and 9. Session 8 can move anywhere after session 4 if trainer availability requires it.</p>
+</section>
+<section id="limitations-and-workarounds" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-and-workarounds">6. Limitations and workarounds</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Limitation</th>
+<th>Effect on learners</th>
+<th>Workarounds</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>No GPU or a low-spec laptop</strong></td>
+<td>Cannot run large local models; slow builds</td>
+<td>Use hosted free-tier models, so the GPU is the provider’s. Run small quantized models on CPU with 8–16 GB of RAM. Use Codespaces, Colab or Kaggle for heavier work. No exercise requires a GPU.</td>
+</tr>
+<tr class="even">
+<td><strong>No paid AI tools</strong></td>
+<td>No access to paid agent plans</td>
+<td>Open-source agents work with any model. Use free tiers such as Gemini CLI and Copilot Free, and the GitHub Student Developer Pack where eligible. Rotate providers when rate limits hit and keep tasks small. Organizers can explore sponsored credits for the capstone.</td>
+</tr>
+<tr class="odd">
+<td><strong>No international payment card</strong></td>
+<td>Many “free” tiers require card verification</td>
+<td>Prefer services that need only a Google or GitHub login, publish a vetted no-card list before launch, and fall back to local and self-hosted tools.</td>
+</tr>
+<tr class="even">
+<td><strong>Services unavailable in some countries</strong></td>
+<td>Learners blocked from a provider the class depends on</td>
+<td>Every exercise lists at least two model options, with open-weight local models as the universal fallback. Check provider country lists against participant countries.</td>
+</tr>
+<tr class="odd">
+<td><strong>Low bandwidth or power cuts</strong></td>
+<td>Missed sessions; large model downloads fail</td>
+<td>Record every session, offer low-resolution downloads, PDF slides and transcripts, keep exercises lightweight, state download sizes in advance and accept asynchronous submissions.</td>
+</tr>
+<tr class="even">
+<td><strong>No command-line or programming background</strong></td>
+<td>Learners stall on setup</td>
+<td>Session 0 with a live help clinic, a shared glossary, a common-errors FAQ and peer mentors in capstone teams.</td>
+</tr>
+<tr class="odd">
+<td><strong>Locked-down work computers</strong></td>
+<td>Cannot install tools</td>
+<td>A browser-only path through Codespaces and web assistants.</td>
+</tr>
+<tr class="even">
+<td><strong>Sensitive or regulated data</strong></td>
+<td>Cannot use hosted tools on real work</td>
+<td>Synthetic or public data in exercises, the private/local path for sensitive work, and a checklist of what never goes into a prompt.</td>
+</tr>
+<tr class="odd">
+<td><strong>Time zones and missed sessions</strong></td>
+<td>Learners lose the thread of the ladder</td>
+<td>Entry recaps, the concept-ownership map, an asynchronous forum and office hours that rotate across time zones.</td>
+</tr>
+<tr class="even">
+<td><strong>Non-native English or disabilities</strong></td>
+<td>Reduced comprehension in fast live sessions</td>
+<td>Plain-language slides, captions and transcripts, high-contrast templates, narrated demos and a glossary.</td>
+</tr>
+</tbody>
+</table>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
