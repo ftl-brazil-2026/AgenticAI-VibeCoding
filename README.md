@@ -1,27 +1,33 @@
 # Agentic AI Lessons
 
-Let's leave this page to be human written and have some better coordination here.
+Let's leave this page to be human written and have some better coordination.
 
-UNV volunteer series **Agentic Software Development & Vibe Coding**. Here we are gathering the proposed roadmap, which came from UNV alignment meeting. We are also organizing the lessons and the materials, providing brief description and the link to the repositories (if any). 
+This readme refers to UNV volunteer series **Agentic Software Development & Vibe Coding**. Here we are gathering the proposed roadmap, which came from UNV alignment meeting. We are also organizing the lessons and the materials, providing brief description and the link to the repositories (if any). 
 
-The students can always look from here to get to their classes and topics. 
+The goal of the webpage/ebook (Call it as you want) is for students to be able of getting to any of the lessons's repositories. They can also have a glimpse on the learning goals and objetivos of our program. 
 
 The site is built with [Quarto](https://quarto.org) using the `journal` theme. The built site lives in `docs/`, ready to publish with GitHub Pages.
 
+You can access the site here:
+[github-io](https://ftl-brazil-2026.github.io/AgenticAI-VibeCoding/)
 
-## Modify and contribute for the repo
+
+## How to contribute - Modify and contribute for the repo
 
 - Quickly Just modify the .qmd or the .md files to adjust existing pages. If you wanna create a new page don't forget to put in the `_quarto.yml` who manages the navbar and page indexing. 
 
 - Feel free to modify the roadmap and correct some themes that are not fitting your class proposal. 
 
-- Add your github in the main page. 
+- Add your github with your lesson in the main page. (index.qmd) 
 
 - Please address your class time schedule in the main page as well. 
 
 - pull request into this repo, just quickly comment what you have changed on add. 
 
 - Dont hesitate in contribute, it is a work of many hands. 
+
+- There still some content which does not make so much sense in the roadmap. Feel free to erase and correct it. 
+
 
 ## What is in this repository
 
