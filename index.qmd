@@ -14,48 +14,74 @@ We are also creating the space for community contributions towards open-source a
 - **[Standard setup](setup.html)**: the tools, folder layout and config rules every volunteer should follow, including WSL on Windows.
 - **[README](README.html)**: how this repository is organised and how to rebuild the site.
 
+## Calendar 
+
+You can find our calendar here:
+Any changes will be addressed here 
+[CALENDAR](materials/Agentic_timeline.pdf)
+
+
+## Next Sessions Link
+
+- 02/11 at 15:30 GMT+3 - **Introduction to Vibe Coding I** [Link to event](https://events.teams.microsoft.com/event/69017eeb-0149-423c-bd3e-6633cd9f2620@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog)
+- 03/11 at 15:30 GMT+3 - **Introduction to Vibe Coding II - Pratical Session** [Link to event](https://events.teams.microsoft.com/event/f3d08768-3543-4604-b047-696a7e670583@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog)
+
+## Join our group
+
+- Whatsapp: [whatsapp link](https://chat.whatsapp.com/GhlAwL39n476sq4UhjjKw8?s=cl&p=a&iam=2)
+- Signal: [signal group link](https://signal.group/#CjQKIKv803SR2F1nCIcQUWLFv2pkVM8m0pEMHYTIKVSq_8YzEhApy6SksJvbeLWnD14Q11HT)
+
+## Attendance Form
+
+- Session 02/11 - Phyo Ko Ko - Introduction to Vibe Code Paradigm - [Link to form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5UQlFGVkpOTVhUNElRU1dUQlo2ODM5VFNRNC4u)
+- Session 03/11 - Phyo Ko Ko - Pratical Lab Introduction to Vibe Code - 
+
 ## Class progress
 
-Update the status as each class moves from planned to delivered.
+Update the status as each class moves from planned to delivered. Tokens, cost of tokens and cost per token. 
 
-| Class | Topic | Presenter | Date and Time |
+| Class | Topic | Presenter 
 |:--|:--|:--|:--|
-| 1 | Quick-off & First Steps | Emanuel Goulart | Planned |
-| 2 | Introduction to the Vibe Paradigm | Phy Ko Ko | Confirmed |
-| 3 |  Architecting and configuring the AI Workspace  | Akshi Rao | Planned |
-| 4 | Development paradigms | Ruiya Zhou | Planned |
-| 5 | Agentic Mechanics | Alan al-jammar | Planned |
-| 6 | Managing Multi-Agent | Lwin Ravendom | Planned |
-| 7 | The "Safety Net" | Almegdad Elfaki | Planned |
-| 8 | Debugging in the Agentic Age  | Shakila Alam | Planned |
-| 9 | Context Engineering | Ekoko Clesh | Planned |
-| 10 | AI-First SDLC | Seth Odhiambo | Planned |
-| 11 |Building an Autonomous Micro-Product | Serra Tosun |Planned |
-| 12 | AI-First SDLC | Nouran Mansour | Planned |
+| 1 | Quick-off & First Steps | Emanuel Goulart 
+| 2 | Introduction to the Vibe Paradigm | Phy Ko Ko 
+| 3 |  Architecting and configuring the AI Workspace  | Akshi Rao  
+| 4 | Development paradigms | Ruiya Zhou 
+| 5 | Agentic Mechanics | Alan al-jammar 
+| 6 | Managing Multi-Agent | Lwin Ravendom 
+| 7 | The "Safety Net" | Almegdad Elfaki 
+| 8 | Debugging in the Agentic Age  | Shakila Alam 
+| 9 | Context Engineering | Ekoko Clesh
+| 10 | AI-First SDLC | Seth Odhiambo 
+| 11 |Building an Autonomous Micro-Product | Serra Tosun 
+| 12 | AI-First SDLC | Nouran Mansour 
 
 ## Classes
 
 ### Class 1: Introduction to the Vibe Paradigm
 
-**Presenter:** Phyo Ko Ko · **Status:** Planned **Roadmap session:** S1
+**Presenter:** Phyo Ko Ko · **Status:** on going  **Roadmap session:** S1
 
-Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+Key ideias of Vibe Coding. Setting up a standard dictionary of terms. What is Vibe Coding, what are the best practices? How people have been using Vibe Coding world wide? 
+
+Link for the presentation: 
+
+Link for the github: 
 
 ### Class 2: Architecting and configuring the AI Workspace 
 
-**Presenter:** Akshi Rao · **Status:** Planned **Roadmap session:** S2
+**Presenter:** Akshi Rao · **Status:** Confirmed **Roadmap session:** S2
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
 ### Class 3: Development paradigms: Intent-Based "Vibe" Iteration,  Spec-Driven,  Agentic Orchestration
 
-**Presenter:** Ruiya Zhou · **Status:** Planned **Roadmap session:** S3
+**Presenter:** Ruiya Zhou · **Status:** Confirmed **Roadmap session:** S3
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
 ### Class 4: Agentic Mechanics: Planning & Tool Use 
 
-**Presenter:** Alan al-jammar · **Status:** Planned **Roadmap session:** S4
+**Presenter:** Alan al-jammar · **Status:** Confirmed **Roadmap session:** S4
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
@@ -69,38 +95,38 @@ Supervise an agent team through typed handoffs, scoped tools, independent checks
 
 ### Class 6: The "Safety Net": Automated Validation & Evals 
 
-**Presenter:** Almegdad Elfaki,  **Status:** Planned **Roadmap session:** S6
+**Presenter:** Almegdad Elfaki,  **Status:** Confirmed **Roadmap session:** S6
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
 ### Class 7: Debugging in the Agentic Age 
 
-**Presenter:** Shakila Alam,  **Status:** Planned **Roadmap session:** S6
+**Presenter:** Shakila Alam,  **Status:** Confirmed **Roadmap session:** S6
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
 ### Class 8: Context Engineering & Large Codebases 
 
-**Presenter:** Ekoko Clesh,  **Status:** Planned **Roadmap session:** S6
+**Presenter:** Ekoko Clesh,  **Status:** Confirmed **Roadmap session:** S6
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
 
 ### Class 9: AI-First SDLC: Deployment & Operations  
 
-**Presenter:** Seth Odhiambo,  **Status:** Planned **Roadmap session:** S6
+**Presenter:** Seth Odhiambo,  **Status:** Confirmed **Roadmap session:** S6
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
 
 ### Class 10: Capstone: Building an Autonomous Micro-Product   
 
-**Presenter:** Serra Tosun,  **Status:** Planned **Roadmap session:** S6
+**Presenter:** Serra Tosun,  **Status:** Confirmed **Roadmap session:** S6
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
 ### Class 11: Practical applications and use cases    
 
-**Presenter:** Nouran Mansour,  **Status:** Planned **Roadmap session:** S6
+**Presenter:** Nouran Mansour,  **Status:** Confirmed **Roadmap session:** S6
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.

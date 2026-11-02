@@ -1,11 +1,10 @@
 ---
 title: "Standard setup"
-subtitle: "One zero-cost environment for every learner, with private and premium options"
+subtitle: "Setting up our environment"
 ---
 
-Follow this guide before the first session. It gives every learner the same tools, folder layout and config habits, so a command or a file that works for one person works for everyone in the series.
+This is an advice guide to be followed before our first session. It gives every learner the same tools, folder layout and config habits, so a command or a file that works for one person works for everyone in the series.
 
-Written for: learners and volunteers setting up a laptop for the first time, including people who have never used a terminal.
 
 **Default path: zero-cost.** Everything below is free. You do not need a GPU, a paid AI subscription or an international payment card. Paid and local options are listed in section 6 and explained in [Session 2](roadmap.html).
 
@@ -13,14 +12,15 @@ Written for: learners and volunteers setting up a laptop for the first time, inc
 
 | System | What to do |
 |:--|:--|
-| **Windows** | Install **WSL 2** (Ubuntu) and do every exercise inside it. |
-| **macOS** | Use the built-in Terminal app. Install Homebrew if you do not have it. |
-| **Linux** | Use your normal terminal. |
-| **Locked-down work laptop** | You cannot install tools. Use the browser-only path in section 8. |
+| **Windows** | We reccomend to install **WSL 2** (Ubuntu) and do every exercise inside it. |
+| **macOS** | We reccomend to install Homebrew if you do not have it. |
+| **Linux** | Linux supremacy! |
+
+
 
 ### Windows: install WSL 2
 
-WSL (Windows Subsystem for Linux) gives you a Linux terminal inside Windows. The course commands are written for Linux, so this is the one path that works the same for everyone.
+WSL (Windows Subsystem for Linux) gives you a Linux terminal inside Windows. Some part of the courses will be written in commands. The course commands are written for Linux, so this is the one path that works the same for everyone.
 
 Open **PowerShell as administrator** and run:
 
@@ -31,6 +31,8 @@ wsl --install -d Ubuntu
 Restart when asked, open **Ubuntu** from the Start menu, and create a username and password.
 
 ::: {.callout-important appearance="simple"}
+
+
 ## Keep projects inside WSL
 
 Work in your Linux home folder (`~`), not in `/mnt/c/...` (the Windows drive). Files there are much slower and cause line-ending and permission errors with Git and coding agents. To open a folder in Windows Explorer from the WSL terminal, run `explorer.exe .`.
@@ -88,9 +90,9 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 
-## 4. Install the coding agents
+## 4. Install the coding agents (Optional)
 
-**Gemini CLI is the default agent** for the zero-cost exercises. Install it now. You do not need a key for it: sign in with your Google account the first time you run it.
+**Gemini CLI is the reccomended default agent** for the zero-cost exercises. You do not need a key for it: sign in with your Google account the first time you run it.
 
 | Agent | Role | Install | Account needed |
 |:--|:--|:--|:--|

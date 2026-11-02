@@ -60,7 +60,7 @@
     "href": "roadmap.html",
     "title": "Learning roadmap",
     "section": "",
-    "text": "The card view below is the full roadmap. Use the site navigation above to move between pages, or open the roadmap on its own if you need more room.\n\nOpen the roadmap in a full page"
+    "text": "The card view below is the roadmap with learning goals for the Agentic AI & Vibe Coding cohort. Use the site navigation above to move between pages, or open the roadmap on its own if you need more room.\n\nOpen the roadmap in a full page"
   },
   {
     "objectID": "roadmap_synthesis.html",
@@ -130,26 +130,26 @@
     "href": "index.html#class-progress",
     "title": "Agentic AI & Vibe Coding",
     "section": "Class progress",
-    "text": "Class progress\nUpdate the status as each class moves from planned to delivered.\n\n\n\n\n\n\n\n\n\nClass\nTopic\nPresenter\nDate and Time\n\n\n\n\n1\nQuick-off & First Steps\nEmanuel Goulart\nPlanned\n\n\n2\nIntroduction to the Vibe Paradigm\nPhy Ko Ko\nConfirmed\n\n\n3\nArchitecting and configuring the AI Workspace\nAkshi Rao\nPlanned\n\n\n4\nDevelopment paradigms\nRuiya Zhou\nPlanned\n\n\n5\nAgentic Mechanics\nAlan al-jammar\nPlanned\n\n\n6\nManaging Multi-Agent\nLwin Ravendom\nPlanned\n\n\n7\nThe “Safety Net”\nAlmegdad Elfaki\nPlanned\n\n\n8\nDebugging in the Agentic Age\nShakila Alam\nPlanned\n\n\n9\nContext Engineering\nEkoko Clesh\nPlanned\n\n\n10\nAI-First SDLC\nSeth Odhiambo\nPlanned\n\n\n11\nBuilding an Autonomous Micro-Product\nSerra Tosun\nPlanned\n\n\n12\nAI-First SDLC\nNouran Mansour\nPlanned"
+    "text": "Class progress\nUpdate the status as each class moves from planned to delivered. Tokens, cost of tokens and cost per token.\n\n\n\nClass\nTopic\nPresenter\n\n\n\n\n\n1\nQuick-off & First Steps\nEmanuel Goulart\n\n\n\n2\nIntroduction to the Vibe Paradigm\nPhy Ko Ko\n\n\n\n3\nArchitecting and configuring the AI Workspace\nAkshi Rao\n\n\n\n4\nDevelopment paradigms\nRuiya Zhou\n\n\n\n5\nAgentic Mechanics\nAlan al-jammar\n\n\n\n6\nManaging Multi-Agent\nLwin Ravendom\n\n\n\n7\nThe “Safety Net”\nAlmegdad Elfaki\n\n\n\n8\nDebugging in the Agentic Age\nShakila Alam\n\n\n\n9\nContext Engineering\nEkoko Clesh\n\n\n\n10\nAI-First SDLC\nSeth Odhiambo\n\n\n\n11\nBuilding an Autonomous Micro-Product\nSerra Tosun\n\n\n\n12\nAI-First SDLC\nNouran Mansour"
   },
   {
     "objectID": "index.html#classes",
     "href": "index.html#classes",
     "title": "Agentic AI & Vibe Coding",
     "section": "Classes",
-    "text": "Classes\n\nClass 1: Introduction to the Vibe Paradigm\nPresenter: Phy Ko Ko · Status: Planned Roadmap session: S1\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 2: Architecting and configuring the AI Workspace\nPresenter: Akshi Rao · Status: Planned Roadmap session: S2\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 3: Development paradigms: Intent-Based “Vibe” Iteration, Spec-Driven, Agentic Orchestration\nPresenter: Ruiya Zhou · Status: Planned Roadmap session: S3\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 4: Agentic Mechanics: Planning & Tool Use\nPresenter: Alan al-jammar · Status: Planned Roadmap session: S4\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 5: Managing Multi-Agent Teams\nPresenter: Lwin Ravendom, Github Status: Ready Roadmap session: S5\nSupervise an agent team through typed handoffs, scoped tools, independent checks and human decisions. The course starts with deterministic fixtures and ends with a Software Factory that builds a minimalist travel website using local files and Git operations. No LLM or API key is needed, so the cost is $0.00.\nOpen the class repository on GitHub\n\n\nClass 6: The “Safety Net”: Automated Validation & Evals\nPresenter: Almegdad Elfaki, Status: Planned Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 7: Debugging in the Agentic Age\nPresenter: Shakila Alam, Status: Planned Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 8: Context Engineering & Large Codebases\nPresenter: Ekoko Clesh, Status: Planned Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 9: AI-First SDLC: Deployment & Operations\nPresenter: Seth Odhiambo, Status: Planned Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 10: Capstone: Building an Autonomous Micro-Product\nPresenter: Serra Tosun, Status: Planned Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 11: Practical applications and use cases\nPresenter: Nouran Mansour, Status: Planned Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed."
+    "text": "Classes\n\nClass 1: Introduction to the Vibe Paradigm\nPresenter: Phyo Ko Ko · Status: on going Roadmap session: S1\nKey ideias of Vibe Coding. Setting up a standard dictionary of terms. What is Vibe Coding, what are the best practices? How people have been using Vibe Coding world wide?\nLink for the presentation:\nLink for the github:\n\n\nClass 2: Architecting and configuring the AI Workspace\nPresenter: Akshi Rao · Status: Confirmed Roadmap session: S2\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 3: Development paradigms: Intent-Based “Vibe” Iteration, Spec-Driven, Agentic Orchestration\nPresenter: Ruiya Zhou · Status: Confirmed Roadmap session: S3\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 4: Agentic Mechanics: Planning & Tool Use\nPresenter: Alan al-jammar · Status: Confirmed Roadmap session: S4\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 5: Managing Multi-Agent Teams\nPresenter: Lwin Ravendom, Github Status: Ready Roadmap session: S5\nSupervise an agent team through typed handoffs, scoped tools, independent checks and human decisions. The course starts with deterministic fixtures and ends with a Software Factory that builds a minimalist travel website using local files and Git operations. No LLM or API key is needed, so the cost is $0.00.\nOpen the class repository on GitHub\n\n\nClass 6: The “Safety Net”: Automated Validation & Evals\nPresenter: Almegdad Elfaki, Status: Confirmed Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 7: Debugging in the Agentic Age\nPresenter: Shakila Alam, Status: Confirmed Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 8: Context Engineering & Large Codebases\nPresenter: Ekoko Clesh, Status: Confirmed Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 9: AI-First SDLC: Deployment & Operations\nPresenter: Seth Odhiambo, Status: Confirmed Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 10: Capstone: Building an Autonomous Micro-Product\nPresenter: Serra Tosun, Status: Confirmed Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 11: Practical applications and use cases\nPresenter: Nouran Mansour, Status: Confirmed Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed."
   },
   {
     "objectID": "README.html",
     "href": "README.html",
-    "title": "README",
+    "title": "Agentic AI Lessons",
     "section": "",
-    "text": "Course site for the UNV volunteer series Agentic Software Development & Vibe Coding. It gathers the shared roadmap, the lesson index and the class materials that volunteers present, so the team can plan lessons and track progress in one place.\nThe site is built with Quarto using the journal theme. The built site lives in docs/, ready to publish with GitHub Pages.\n\n\n\n\n\n\n\n\n\nPath\nPurpose\n\n\n\n\nindex.qmd\nHome page: roadmap link, class progress table and class entries\n\n\nREADME.md\nThis page, also published on the site\n\n\n_quarto.yml\nSite configuration: navbar, theme and output folder\n\n\nroadmap_cards.html, roadmap_cards.js\nInteractive roadmap card view\n\n\nroadmap_synthesis.md\nWritten roadmap and design principles\n\n\nagentic_vibe_coding_roadmap.js\nSource data for the roadmap (not published)\n\n\ndocs/\nRendered website, generated by Quarto\n\n\n\n\n\n\n\nOpen index.qmd.\nAdd a row to the Class progress table with the class number, topic, presenter and status.\nCopy one of the Class sections and fill in the topic, presenter, GitHub link and description. Replace the placeholder text.\nSet the status to Planned, Ready or Delivered.\n\nUse the number of the next free slot. To add more slots, copy an existing section and increase the number.\n\n\n\nInstall Quarto (version 1.4 or later) and run the commands below from the repository root.\nquarto preview    # live preview while editing\nquarto render    # builds the full site into docs/\nCommit the updated docs/ folder so GitHub Pages serves the latest version.\n\n\n\nVolunteers who present a class should send a public GitHub repository, a short description and the roadmap session it supports. The series coordinators add it to index.qmd and rebuild the site.\n\n\n\nThe lesson content, roadmap and site text are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You may share and adapt the material, including commercially, as long as you give appropriate credit and indicate any changes.\nClass repositories linked from this site remain under their own licenses. Check each repository before reusing its contents."
+    "text": "Let’s leave this page to be human written and have some better coordination.\nThis readme refers to UNV volunteer series Agentic Software Development & Vibe Coding. Here we are gathering the proposed roadmap, which came from UNV alignment meeting. We are also organizing the lessons and the materials, providing brief description and the link to the repositories (if any).\nThe goal of the webpage/ebook (Call it as you want) is for students to be able of getting to any of the lessons’s repositories. They can also have a glimpse on the learning goals and objetivos of our program.\nThe site is built with Quarto using the journal theme. The built site lives in docs/, ready to publish with GitHub Pages.\nYou can access the site here: github-io\n\n\n\nQuickly Just modify the .qmd or the .md files to adjust existing pages. If you wanna create a new page don’t forget to put in the _quarto.yml who manages the navbar and page indexing.\nFeel free to modify the roadmap and correct some themes that are not fitting your class proposal.\nAdd your github with your lesson in the main page. (index.qmd)\nPlease address your class time schedule in the main page as well.\npull request into this repo, just quickly comment what you have changed on add.\nDont hesitate in contribute, it is a work of many hands.\nThere still some content which does not make so much sense in the roadmap. Feel free to erase and correct it.\n\n\n\n\n\n\n\n\n\n\n\nPath\nPurpose\n\n\n\n\nindex.qmd\nHome page: roadmap link, class progress table and class entries\n\n\nREADME.md\nThis page, also published on the site\n\n\n_quarto.yml\nSite configuration: navbar, theme and output folder\n\n\nroadmap_cards.html, roadmap_cards.js\nInteractive roadmap card view\n\n\nroadmap_synthesis.md\nWritten roadmap and design principles\n\n\nagentic_vibe_coding_roadmap.js\nSource data for the roadmap (not published)\n\n\ndocs/\nRendered website, generated by Quarto\n\n\n\n\n\n\nInstall Quarto (version 1.4 or later) and run the commands below from the repository root.\nquarto preview    # live preview while editing\nquarto render    # builds the full site into docs/\nCommit the updated docs/ folder so GitHub Pages serves the latest version.\n\n\n\nVolunteers who present a class should send a public GitHub repository, a short description and the roadmap session it supports. The series coordinators add it to index.qmd and rebuild the site.\n\n\n\nThe lesson content, roadmap and site text are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You may share and adapt the material, including commercially, as long as you give appropriate credit and indicate any changes.\nClass repositories linked from this site remain under their own licenses. Check each repository before reusing its contents."
   },
   {
     "objectID": "README.html#what-is-in-this-repository",
     "href": "README.html#what-is-in-this-repository",
-    "title": "README",
+    "title": "Agentic AI Lessons",
     "section": "",
     "text": "Path\nPurpose\n\n\n\n\nindex.qmd\nHome page: roadmap link, class progress table and class entries\n\n\nREADME.md\nThis page, also published on the site\n\n\n_quarto.yml\nSite configuration: navbar, theme and output folder\n\n\nroadmap_cards.html, roadmap_cards.js\nInteractive roadmap card view\n\n\nroadmap_synthesis.md\nWritten roadmap and design principles\n\n\nagentic_vibe_coding_roadmap.js\nSource data for the roadmap (not published)\n\n\ndocs/\nRendered website, generated by Quarto"
   },
@@ -163,21 +163,21 @@
   {
     "objectID": "README.html#build-and-preview",
     "href": "README.html#build-and-preview",
-    "title": "README",
+    "title": "Agentic AI Lessons",
     "section": "",
     "text": "Install Quarto (version 1.4 or later) and run the commands below from the repository root.\nquarto preview    # live preview while editing\nquarto render    # builds the full site into docs/\nCommit the updated docs/ folder so GitHub Pages serves the latest version."
   },
   {
     "objectID": "README.html#contributing",
     "href": "README.html#contributing",
-    "title": "README",
+    "title": "Agentic AI Lessons",
     "section": "",
     "text": "Volunteers who present a class should send a public GitHub repository, a short description and the roadmap session it supports. The series coordinators add it to index.qmd and rebuild the site."
   },
   {
     "objectID": "README.html#license",
     "href": "README.html#license",
-    "title": "README",
+    "title": "Agentic AI Lessons",
     "section": "",
     "text": "The lesson content, roadmap and site text are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You may share and adapt the material, including commercially, as long as you give appropriate credit and indicate any changes.\nClass repositories linked from this site remain under their own licenses. Check each repository before reusing its contents."
   },
@@ -186,14 +186,14 @@
     "href": "setup.html",
     "title": "Standard setup",
     "section": "",
-    "text": "Follow this guide before the first session. It gives every learner the same tools, folder layout and config habits, so a command or a file that works for one person works for everyone in the series.\nWritten for: learners and volunteers setting up a laptop for the first time, including people who have never used a terminal.\nDefault path: zero-cost. Everything below is free. You do not need a GPU, a paid AI subscription or an international payment card. Paid and local options are listed in section 6 and explained in Session 2."
+    "text": "This is an advice guide to be followed before our first session. It gives every learner the same tools, folder layout and config habits, so a command or a file that works for one person works for everyone in the series.\nDefault path: zero-cost. Everything below is free. You do not need a GPU, a paid AI subscription or an international payment card. Paid and local options are listed in section 6 and explained in Session 2."
   },
   {
     "objectID": "setup.html#choose-your-operating-system",
     "href": "setup.html#choose-your-operating-system",
     "title": "Standard setup",
     "section": "1. Choose your operating system",
-    "text": "1. Choose your operating system\n\n\n\n\n\n\n\nSystem\nWhat to do\n\n\n\n\nWindows\nInstall WSL 2 (Ubuntu) and do every exercise inside it.\n\n\nmacOS\nUse the built-in Terminal app. Install Homebrew if you do not have it.\n\n\nLinux\nUse your normal terminal.\n\n\nLocked-down work laptop\nYou cannot install tools. Use the browser-only path in section 8.\n\n\n\n\nWindows: install WSL 2\nWSL (Windows Subsystem for Linux) gives you a Linux terminal inside Windows. The course commands are written for Linux, so this is the one path that works the same for everyone.\nOpen PowerShell as administrator and run:\nwsl --install -d Ubuntu\nRestart when asked, open Ubuntu from the Start menu, and create a username and password.\n\n\n\n\n\n\nImportantKeep projects inside WSL\n\n\n\nWork in your Linux home folder (~), not in /mnt/c/... (the Windows drive). Files there are much slower and cause line-ending and permission errors with Git and coding agents. To open a folder in Windows Explorer from the WSL terminal, run explorer.exe .."
+    "text": "1. Choose your operating system\n\n\n\n\n\n\n\nSystem\nWhat to do\n\n\n\n\nWindows\nWe reccomend to install WSL 2 (Ubuntu) and do every exercise inside it.\n\n\nmacOS\nWe reccomend to install Homebrew if you do not have it.\n\n\nLinux\nLinux supremacy!\n\n\n\n\nWindows: install WSL 2\nWSL (Windows Subsystem for Linux) gives you a Linux terminal inside Windows. Some part of the courses will be written in commands. The course commands are written for Linux, so this is the one path that works the same for everyone.\nOpen PowerShell as administrator and run:\nwsl --install -d Ubuntu\nRestart when asked, open Ubuntu from the Start menu, and create a username and password.\n\n\n\n\n\n\nImportantKeep projects inside WSL\n\n\n\nWork in your Linux home folder (~), not in /mnt/c/... (the Windows drive). Files there are much slower and cause line-ending and permission errors with Git and coding agents. To open a folder in Windows Explorer from the WSL terminal, run explorer.exe .."
   },
   {
     "objectID": "setup.html#learn-the-five-terminal-commands",
@@ -257,5 +257,47 @@
     "title": "Standard setup",
     "section": "10. Check your setup",
     "text": "10. Check your setup\nRun each command. Each should print a version number:\ngit --version\nuv --version\nnode --version\ncode --version\ngemini --version\naider --version\nIf a command says “not found”, close the terminal and open a new one. If it still fails, note the exact message and ask in the course channel.\nOptional, for the private/local path only:\nollama --version\n\n\n\n\n\n\nNoteFree tiers change\n\n\n\nLimits, model names and free plans change often. Before each session, the coordinators re-check the tools listed here, so a step that no longer matches the provider’s screen should be reported in the course channel."
+  },
+  {
+    "objectID": "README.html#how-to-contribute---modify-and-contribute-for-the-repo",
+    "href": "README.html#how-to-contribute---modify-and-contribute-for-the-repo",
+    "title": "Agentic AI Lessons",
+    "section": "",
+    "text": "Quickly Just modify the .qmd or the .md files to adjust existing pages. If you wanna create a new page don’t forget to put in the _quarto.yml who manages the navbar and page indexing.\nFeel free to modify the roadmap and correct some themes that are not fitting your class proposal.\nAdd your github with your lesson in the main page. (index.qmd)\nPlease address your class time schedule in the main page as well.\npull request into this repo, just quickly comment what you have changed on add.\nDont hesitate in contribute, it is a work of many hands.\nThere still some content which does not make so much sense in the roadmap. Feel free to erase and correct it."
+  },
+  {
+    "objectID": "index.html#join-our-group",
+    "href": "index.html#join-our-group",
+    "title": "Agentic AI & Vibe Coding",
+    "section": "Join our group",
+    "text": "Join our group\n\nWhatsapp: whatsapp link\nSignal: signal group link"
+  },
+  {
+    "objectID": "index.html#calendar",
+    "href": "index.html#calendar",
+    "title": "Agentic AI & Vibe Coding",
+    "section": "Calendar",
+    "text": "Calendar\nYou can find our calendar here: Any changes will be addressed here CALENDAR"
+  },
+  {
+    "objectID": "index.html#attendance-form",
+    "href": "index.html#attendance-form",
+    "title": "Agentic AI & Vibe Coding",
+    "section": "Attendance Form",
+    "text": "Attendance Form\n\nSession 02/11 - Phyo Ko Ko - Introduction to Vibe Code Paradigm - Link to form\nSession 03/11 - Phyo Ko Ko - Pratical Lab Introduction to Vibe Code -"
+  },
+  {
+    "objectID": "index.html#next-sessions-link",
+    "href": "index.html#next-sessions-link",
+    "title": "Agentic AI & Vibe Coding",
+    "section": "Next Sessions Link",
+    "text": "Next Sessions Link\n\n02/11 at 15:30 GMT+3 - Introduction to Vibe Coding I Link to event\n03/11 at 15:30 GMT+3 - Introduction to Vibe Coding II - Pratical Session Link to event"
+  },
+  {
+    "objectID": "setup.html#install-the-coding-agents-optional",
+    "href": "setup.html#install-the-coding-agents-optional",
+    "title": "Standard setup",
+    "section": "4. Install the coding agents (Optional)",
+    "text": "4. Install the coding agents (Optional)\nGemini CLI is the reccomended default agent for the zero-cost exercises. You do not need a key for it: sign in with your Google account the first time you run it.\n\n\n\n\n\n\n\n\n\nAgent\nRole\nInstall\nAccount needed\n\n\n\n\nGemini CLI (terminal)\nDefault for the exercises\nnpm install -g @google/gemini-cli\nGoogle login\n\n\nAider (open source, terminal)\nOptional; works with any model\nuv tool install aider-chat\nOpenRouter key, section 5\n\n\nCline or Continue (VS Code)\nOptional; the visual alternative\nSearch for the name in the VS Code Extensions panel\nOpenRouter key, section 5\n\n\nGitHub Copilot Free (VS Code)\nOptional\nSearch for “GitHub Copilot” in the Extensions panel\nGitHub login\n\n\n\nCheck the default agent:\ngemini --version\nGemini CLI is the course default, but it is not the only option. Developers often choose differently, and the alternatives and their trade-offs are in Free providers and agents.\nInstalling a tool is not the same as using it. The live demo in each session shows which one to start with, and the cost and privacy notes are in Session 2."
   }
 ]

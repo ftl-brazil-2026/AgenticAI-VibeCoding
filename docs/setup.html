@@ -168,7 +168,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#choose-your-operating-system" id="toc-choose-your-operating-system" class="nav-link active" data-scroll-target="#choose-your-operating-system">1. Choose your operating system</a></li>
   <li><a href="#learn-the-five-terminal-commands" id="toc-learn-the-five-terminal-commands" class="nav-link" data-scroll-target="#learn-the-five-terminal-commands">2. Learn the five terminal commands</a></li>
   <li><a href="#install-the-tools" id="toc-install-the-tools" class="nav-link" data-scroll-target="#install-the-tools">3. Install the tools</a></li>
-  <li><a href="#install-the-coding-agents" id="toc-install-the-coding-agents" class="nav-link" data-scroll-target="#install-the-coding-agents">4. Install the coding agents</a></li>
+  <li><a href="#install-the-coding-agents-optional" id="toc-install-the-coding-agents-optional" class="nav-link" data-scroll-target="#install-the-coding-agents-optional">4. Install the coding agents (Optional)</a></li>
   <li><a href="#store-your-keys-safely" id="toc-store-your-keys-safely" class="nav-link" data-scroll-target="#store-your-keys-safely">5. Store your keys safely</a></li>
   <li><a href="#folder-structure-and-where-files-go" id="toc-folder-structure-and-where-files-go" class="nav-link" data-scroll-target="#folder-structure-and-where-files-go">6. Folder structure and where files go</a></li>
   <li><a href="#branch-and-update-your-work" id="toc-branch-and-update-your-work" class="nav-link" data-scroll-target="#branch-and-update-your-work">7. Branch and update your work</a></li>
@@ -184,7 +184,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Standard setup</h1>
-<p class="subtitle lead">One zero-cost environment for every learner, with private and premium options</p>
+<p class="subtitle lead">Setting up our environment</p>
 </div>
 
 
@@ -201,8 +201,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Follow this guide before the first session. It gives every learner the same tools, folder layout and config habits, so a command or a file that works for one person works for everyone in the series.</p>
-<p>Written for: learners and volunteers setting up a laptop for the first time, including people who have never used a terminal.</p>
+<p>This is an advice guide to be followed before our first session. It gives every learner the same tools, folder layout and config habits, so a command or a file that works for one person works for everyone in the series.</p>
 <p><strong>Default path: zero-cost.</strong> Everything below is free. You do not need a GPU, a paid AI subscription or an international payment card. Paid and local options are listed in section 6 and explained in <a href="roadmap.html">Session 2</a>.</p>
 <section id="choose-your-operating-system" class="level2">
 <h2 class="anchored" data-anchor-id="choose-your-operating-system">1. Choose your operating system</h2>
@@ -220,25 +219,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><strong>Windows</strong></td>
-<td style="text-align: left;">Install <strong>WSL 2</strong> (Ubuntu) and do every exercise inside it.</td>
+<td style="text-align: left;">We reccomend to install <strong>WSL 2</strong> (Ubuntu) and do every exercise inside it.</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>macOS</strong></td>
-<td style="text-align: left;">Use the built-in Terminal app. Install Homebrew if you do not have it.</td>
+<td style="text-align: left;">We reccomend to install Homebrew if you do not have it.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>Linux</strong></td>
-<td style="text-align: left;">Use your normal terminal.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Locked-down work laptop</strong></td>
-<td style="text-align: left;">You cannot install tools. Use the browser-only path in section 8.</td>
+<td style="text-align: left;">Linux supremacy!</td>
 </tr>
 </tbody>
 </table>
 <section id="windows-install-wsl-2" class="level3">
 <h3 class="anchored" data-anchor-id="windows-install-wsl-2">Windows: install WSL 2</h3>
-<p>WSL (Windows Subsystem for Linux) gives you a Linux terminal inside Windows. The course commands are written for Linux, so this is the one path that works the same for everyone.</p>
+<p>WSL (Windows Subsystem for Linux) gives you a Linux terminal inside Windows. Some part of the courses will be written in commands. The course commands are written for Linux, so this is the one path that works the same for everyone.</p>
 <p>Open <strong>PowerShell as administrator</strong> and run:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">wsl</span> <span class="at">--install</span> <span class="at">-d</span> Ubuntu</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Restart when asked, open <strong>Ubuntu</strong> from the Start menu, and create a username and password.</p>
@@ -359,9 +354,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Your Name"</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"you@example.com"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="install-the-coding-agents" class="level2">
-<h2 class="anchored" data-anchor-id="install-the-coding-agents">4. Install the coding agents</h2>
-<p><strong>Gemini CLI is the default agent</strong> for the zero-cost exercises. Install it now. You do not need a key for it: sign in with your Google account the first time you run it.</p>
+<section id="install-the-coding-agents-optional" class="level2">
+<h2 class="anchored" data-anchor-id="install-the-coding-agents-optional">4. Install the coding agents (Optional)</h2>
+<p><strong>Gemini CLI is the reccomended default agent</strong> for the zero-cost exercises. You do not need a key for it: sign in with your Google account the first time you run it.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 25%">
