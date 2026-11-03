@@ -3,34 +3,34 @@ title: "Agentic AI & Vibe Coding"
 subtitle: "UNV volunteer series"
 ---
 
-This site organises the **Agentic Software Development & Vibe Coding** series. It gathers the programme material and provides a road map of learning in the quickly evolving field of AgenticAI. The idea is provide an overview and provide some guide of how to develop our own skills to create and assist AgenticAI.
+This site organises the **Agentic Software Development & Vibe Coding** series. It gathers the programme material and provides a roadmap of learning in the quickly evolving field of Agentic AI. The idea is to provide an overview and some guidance on how to develop our own skills to create and work with Agentic AI.
 
-We are also creating the space for community contributions towards open-source and digital soveigrinity.  It gives student one place to find the lessons, the shared roadmap and track which classes are ready.
+We are also creating a space for community contributions towards open-source and digital sovereignty. It gives students one place to find the lessons and the shared roadmap, and to track which classes are ready.
 
 ## Start here
 
-- **[Learning roadmap](roadmap.html)**: interactive card view of all sessions, tracks and comparison of models and costs. cost paths.
+- **[Learning roadmap](roadmap.html)**: an interactive board of all sessions, learning goals and cost paths.
 - **[Roadmap synthesis](roadmap_synthesis.html)**: the written plan behind the roadmap, with design principles and learner tracks.
 - **[Standard setup](setup.html)**: the tools, folder layout and config rules every volunteer should follow, including WSL on Windows.
 - **[README](README.html)**: how this repository is organised and how to rebuild the site.
 
-## Calendar 
+## Calendar
 
-You can find our calendar here:
-Any changes will be addressed here 
+You can find our calendar here. Any changes will be posted here.
+
 [CALENDAR](materials/Agentic_timeline.pdf){.btn .btn-primary target="_blank"}
 
 ## Recording
 
-Here you can find all the session recordings of our programme. It may take some hours, up to 24h, to upload the video in the current folder. We kindly ask for everyone's compreheension.
+Here you can find all the session recordings of our programme. It may take a few hours, up to 24 hours, for each video to appear in the folder. Thank you for your patience.
 
 [Link to video recording](https://drive.google.com/drive/folders/1V61sL0zoUn0w0_hpfqACW8BueSjfsFl_?usp=sharing){.btn .btn-primary target="_blank"}
 
 ## Next Sessions Link
 
 - 02/11 at 18:30 GMT+3 - **Introduction to Vibe Coding I** [Link to event](https://events.teams.microsoft.com/event/69017eeb-0149-423c-bd3e-6633cd9f2620@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog){.btn .btn-primary target="_blank"}
-- 03/11 at 18:30 GMT+3 - **Introduction to Vibe Coding II - Pratical Session** [Link to event](https://events.teams.microsoft.com/event/f3d08768-3543-4604-b047-696a7e670583@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog){.btn .btn-primary target="_blank"}
-- 04/11 at 18:30 GMT+3 - **Architecting and configuring the AI workspac** [Link to event](https://events.teams.microsoft.com/event/ff87104e-bf86-474e-8b7d-8bb1e6023805@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog){.btn .btn-primary target="_blank"}
+- 03/11 at 18:30 GMT+3 - **Introduction to Vibe Coding II - Practical Session** [Link to event](https://events.teams.microsoft.com/event/f3d08768-3543-4604-b047-696a7e670583@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog){.btn .btn-primary target="_blank"}
+- 04/11 at 18:30 GMT+3 - **Architecting and configuring the AI workspace** [Link to event](https://events.teams.microsoft.com/event/ff87104e-bf86-474e-8b7d-8bb1e6023805@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog){.btn .btn-primary target="_blank"}
 - 05/11 at 18:30 GMT+3 - **Practical Session of Architecting and configuring the AI workspace** [Link to event](https://events.teams.microsoft.com/event/2e356007-baa3-4d59-8445-bb3c9cc8c9a3@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog){.btn .btn-primary target="_blank"}
 - 07/11 at 9:00am GMT+3 - **** []()
 
@@ -41,16 +41,16 @@ Here you can find all the session recordings of our programme. It may take some 
 
 ## Attendance Form
 
-- Session 02/11 - Phyo Ko Ko - Introduction to Vibe Code Paradigm - [Link to form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5UQlFGVkpOTVhUNElRU1dUQlo2ODM5VFNRNC4u){.btn .btn-secondary target="_blank"}
-- Session 03/11 - Phyo Ko Ko - Pratical Lab Introduction to Vibe Code - [Link to form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5UOU05SVBBQUlRVThENDZLVEk1OUVGSUwyQi4u){.btn .btn-secondary target="_blank"}
+- Session 02/11 - Phyo Ko Ko - Introduction to the Vibe Coding Paradigm - [Link to form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5UQlFGVkpOTVhUNElRU1dUQlo2ODM5VFNRNC4u){.btn .btn-secondary target="_blank"}
+- Session 03/11 - Phyo Ko Ko - Practical Lab: Introduction to Vibe Coding - [Link to form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5UOU05SVBBQUlRVThENDZLVEk1OUVGSUwyQi4u){.btn .btn-secondary target="_blank"}
 - Session 04/11 - Ruiya Zhou - Architecting and configuring the AI workspace - [Link to form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5UMjRUSEw5VTZYWkRXTFkyUFFWMU4xV0dBUi4u){.btn .btn-secondary target="_blank"}
 - Session 05/11 - Ruiya Zhou - Practical Lab of Architecting and configuring the AI workspace - [Link to form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5UQjRNR1QzOTVURk40MUlWREhGNTM1TzdHWS4u){.btn .btn-secondary target="_blank"}
 - Session 07/11 - Akshi Rao - Development paradigms and Practical Lab - SOON
- 
-::: {.callout-important appearance="simple"}
-Important! 
 
-The form opens 1 hour before the classes. So if you try to fill up before it will not be possible. The form will close 10 days after the given date of the class. This is the time for anyone watching assyncroulsy to complete the class. 
+::: {.callout-important appearance="simple"}
+Important!
+
+The form opens 1 hour before each class, so you cannot fill it in earlier. It closes 10 days after the class date. This gives anyone who watches the recording asynchronously time to complete it.
 :::
 
 
@@ -60,80 +60,78 @@ The form opens 1 hour before the classes. So if you try to fill up before it wil
 
 **Presenter:** Phyo Ko Ko
 
-Key ideias of Vibe Coding. Setting up a standard dictionary of terms. What is Vibe Coding, what are the best practices? How people have been using Vibe Coding world wide? 
+Key ideas of Vibe Coding. Setting up a standard dictionary of terms. What is Vibe Coding, and what are the best practices? How are people using Vibe Coding around the world?
 
 Link for the presentation: [Presentation](materials/introduction_vibe_coding_phyo_ko_ko.pdf){.btn .btn-primary target="_blank"}
 
-Link for the github: [Github](https://github.com/phyo57/UNDP-Vibe-coding-Introduction-volunteering){.btn .btn-primary target="_blank"}
+Link for the GitHub: [GitHub](https://github.com/phyo57/UNDP-Vibe-coding-Introduction-volunteering){.btn .btn-primary target="_blank"}
 
-### Class 2: Architecting and configuring the AI Workspace 
+### Class 2: Architecting and configuring the AI Workspace
 
-**Presenter:** Ruiya Zhou 
+**Presenter:** Ruiya Zhou
 
-How can we properly config the workspace for dealing with agents. What are the most used softwares, tools, libraries. What the professionals in the field have been using it? These and many more questions to be answer during the session. 
+How can we properly configure the workspace for working with agents? Which software, tools and libraries are the most used? What do professionals in the field use? These and many more questions will be answered during the session.
 
-Link for the presentation: 
+Link for the presentation:
 
-Link for the github: 
+Link for the GitHub:
 
-### Class 3: Development paradigms: Intent-Based "Vibe" Iteration,  Spec-Driven,  Agentic Orchestration
+### Class 3: Development paradigms: Intent-Based "Vibe" Iteration, Spec-Driven, Agentic Orchestration
 
-**Presenter:** Akshi Rao 
+**Presenter:** Akshi Rao
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
-Link for the presentation: 
+Link for the presentation:
 
-Link for the github: [Github]()
+Link for the GitHub: [GitHub]()
 
-### Class 4: Agentic Mechanics: Planning & Tool Use 
+### Class 4: Agentic Mechanics: Planning & Tool Use
 
 **Presenter:** Alan al-jammar · **Status:** Confirmed **Roadmap session:** S4
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
-### Class 5: Managing Multi-Agent Teams 
+### Class 5: Managing Multi-Agent Teams
 
-**Presenter:** Lwin Ravendom, [Github](https://github.com/W4sP4nx2) **Status:** Ready **Roadmap session:** S5
+**Presenter:** Lwin Ravendom, [GitHub](https://github.com/W4sP4nx2) **Status:** Ready **Roadmap session:** S5
 
 Supervise an agent team through typed handoffs, scoped tools, independent checks and human decisions. The course starts with deterministic fixtures and ends with a Software Factory that builds a minimalist travel website using local files and Git operations. No LLM or API key is needed, so the cost is $0.00.
 
 [GitHub](https://github.com/W4sP4nx2/Managing-Multi-Agent-Teams/tree/main){.btn .btn-primary target="_blank"}
 
-### Class 6: The "Safety Net": Automated Validation & Evals 
+### Class 6: The "Safety Net": Automated Validation & Evals
 
-**Presenter:** Almegdad Elfaki,  **Status:** Confirmed **Roadmap session:** S6
-
-Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
-
-### Class 7: Debugging in the Agentic Age 
-
-**Presenter:** Shakila Alam,  **Status:** Confirmed **Roadmap session:** S6
+**Presenter:** Almegdad Elfaki, **Status:** Confirmed **Roadmap session:** S6
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
-### Class 8: Context Engineering & Large Codebases 
+### Class 7: Debugging in the Agentic Age
 
-**Presenter:** Ekoko Clesh,  **Status:** Confirmed **Roadmap session:** S6
-
-Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
-
-
-### Class 9: AI-First SDLC: Deployment & Operations  
-
-**Presenter:** Seth Odhiambo,  **Status:** Confirmed **Roadmap session:** S6
+**Presenter:** Shakila Alam, **Status:** Confirmed **Roadmap session:** S6
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
+### Class 8: Context Engineering & Large Codebases
 
-### Class 10: Capstone: Building an Autonomous Micro-Product   
-
-**Presenter:** Serra Tosun,  **Status:** Confirmed **Roadmap session:** S6
+**Presenter:** Ekoko Clesh, **Status:** Confirmed **Roadmap session:** S6
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
-### Class 11: Practical applications and use cases    
+### Class 9: AI-First SDLC: Deployment & Operations
 
-**Presenter:** Nouran Mansour,  **Status:** Confirmed **Roadmap session:** S6
+**Presenter:** Seth Odhiambo, **Status:** Confirmed **Roadmap session:** S6
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+
+### Class 10: Capstone: Building an Autonomous Micro-Product
+
+**Presenter:** Serra Tosun, **Status:** Confirmed **Roadmap session:** S6
+
+Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+
+### Class 11: Practical Applications and Use Cases
+
+**Presenter:** Nouran Mansour, **Status:** Confirmed **Roadmap session:** S6
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
