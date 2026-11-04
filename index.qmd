@@ -76,6 +76,8 @@ Link for the presentation:
 
 Link for the GitHub:
 
+Link to Drive: [Drive Folder of the Session](https://drive.google.com/drive/folders/1N5UJX2DxvKmK1E2eEwwWzkW4AotRNREJ)
+
 ### Class 3: Development paradigms: Intent-Based "Vibe" Iteration, Spec-Driven, Agentic Orchestration
 
 **Presenter:** Akshi Rao
