@@ -83,9 +83,11 @@ Link to Drive: [Drive Folder of the Session](https://drive.google.com/drive/fold
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
-Link for the presentation:
+Link for the presentation: [Slides-Presentation](materials/Development_Paradigms_Vibe_Coding.pdf)
 
-Link for the GitHub: [GitHub]()
+Link for the coding materials (this is a zip file to be downloaded): [Coding-materials-zip-file](materials/akshi-bhasker-rao-website.zip)
+
+Te
 
 ### Class 4: Agentic Mechanics: Planning & Tool Use
 
