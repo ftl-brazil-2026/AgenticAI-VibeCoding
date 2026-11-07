@@ -119,18 +119,32 @@
     "text": "This site organises the Agentic Software Development & Vibe Coding series. It gathers the programme material and provides a roadmap of learning in the quickly evolving field of Agentic AI. The idea is to provide an overview and some guidance on how to develop our own skills to create and work with Agentic AI.\nWe are also creating a space for community contributions towards open-source and digital sovereignty. It gives students one place to find the lessons and the shared roadmap, and to track which classes are ready."
   },
   {
-    "objectID": "index.html#start-here",
-    "href": "index.html#start-here",
+    "objectID": "index.html#calendar",
+    "href": "index.html#calendar",
     "title": "Agentic AI & Vibe Coding",
-    "section": "Start here",
-    "text": "Start here\n\nLearning roadmap: an interactive board of all sessions, learning goals and cost paths.\nRoadmap synthesis: the written plan behind the roadmap, with design principles and learner tracks.\nStandard setup: the tools, folder layout and config rules every volunteer should follow, including WSL on Windows.\nREADME: how this repository is organised and how to rebuild the site."
+    "section": "Calendar",
+    "text": "Calendar\n\n\nAll times are GMT+3. Tap a highlighted day to join that session.\n\n\n\nNovember 2026\n\n\n\n\nMon\n\n\nTue\n\n\nWed\n\n\nThu\n\n\nFri\n\n\nSat\n\n\nSun\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n\n\n218:30GMT+3\n\n\n318:30GMT+3\n\n\n418:30GMT+3\n\n\n5\n\n\n618:30GMT+3\n\n\n709:00GMT+3\n\n\n8\n\n\n\n\n9\n\n\n10\n\n\n11\n\n\n12\n\n\n13\n\n\n1417:00GMT+3\n\n\n1517:00GMT+3Link coming soon\n\n\n\n\n16\n\n\n17\n\n\n18\n\n\n19\n\n\n20\n\n\n21\n\n\n22\n\n\n\n\n23\n\n\n24\n\n\n25\n\n\n26\n\n\n27\n\n\n28\n\n\n29\n\n\n\n\n30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSessions has ended? You can find the recordings!.\n\n\nDownload the full timeline (PDF)"
   },
   {
-    "objectID": "index.html#class-progress",
-    "href": "index.html#class-progress",
+    "objectID": "index.html#recording",
+    "href": "index.html#recording",
     "title": "Agentic AI & Vibe Coding",
-    "section": "Class progress",
-    "text": "Class progress\nUpdate the status as each class moves from planned to delivered. Tokens, cost of tokens and cost per token.\n\n\n\nClass\nTopic\nPresenter\n\n\n\n\n\n1\nQuick-off & First Steps\nEmanuel Goulart\n\n\n\n2\nIntroduction to the Vibe Paradigm\nPhy Ko Ko\n\n\n\n3\nArchitecting and configuring the AI Workspace\nRuiya Zhou\n\n\n\n4\nDevelopment paradigms\nAkshi Rao\n\n\n\n5\nAgentic Mechanics\nAlan al-jammar\n\n\n\n6\nManaging Multi-Agent\nLwin Ravendom\n\n\n\n7\nThe “Safety Net”\nAlmegdad Elfaki\n\n\n\n8\nDebugging in the Agentic Age\nShakila Alam\n\n\n\n9\nContext Engineering\nEkoko Clesh\n\n\n\n10\nAI-First SDLC\nSeth Odhiambo\n\n\n\n11\nBuilding an Autonomous Micro-Product\nSerra Tosun\n\n\n\n12\nAI-First SDLC\nNouran Mansour"
+    "section": "Recording",
+    "text": "Recording\nHere you can find all the session recordings of our programme. It may take a few hours, up to 24 hours, for each video to appear in the folder. Thank you for your patience.\nLink to video recording"
+  },
+  {
+    "objectID": "index.html#join-our-group",
+    "href": "index.html#join-our-group",
+    "title": "Agentic AI & Vibe Coding",
+    "section": "Join our group",
+    "text": "Join our group\n\nWhatsapp: whatsapp link\nSignal: signal group link"
+  },
+  {
+    "objectID": "index.html#attendance-form",
+    "href": "index.html#attendance-form",
+    "title": "Agentic AI & Vibe Coding",
+    "section": "Attendance Form",
+    "text": "Attendance Form\n\n\nAll times are GMT+3. Tap a highlighted day to open that session’s attendance form. The form opens 1 hour before each class.\n\n\n\nNovember 2026\n\n\n\n\nMon\n\n\nTue\n\n\nWed\n\n\nThu\n\n\nFri\n\n\nSat\n\n\nSun\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n\n\n218:30GMT+3\n\n\n318:30GMT+3\n\n\n418:30GMT+3\n\n\n5\n\n\n618:30GMT+3\n\n\n709:00GMT+3\n\n\n8\n\n\n\n\n9\n\n\n10\n\n\n11\n\n\n12\n\n\n13\n\n\n1417:00GMT+3\n\n\n1517:00GMT+3Link coming soon\n\n\n\n\n16\n\n\n17\n\n\n18\n\n\n19\n\n\n20\n\n\n21\n\n\n22\n\n\n\n\n23\n\n\n24\n\n\n25\n\n\n26\n\n\n27\n\n\n28\n\n\n29\n\n\n\n\n30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSessions has ended? You can find the recordings!.\n\n\n\n\n\n\n\n\nImportant!\nThe form opens 1 hour before each class, so you cannot fill it in earlier. It closes 10 days after the class date. This gives anyone who watches the recording asynchronously time to complete it."
   },
   {
     "objectID": "index.html#classes",
@@ -147,18 +161,18 @@
     "text": "Let’s leave this page to be human written and have some better coordination.\nThis readme refers to UNV volunteer series Agentic Software Development & Vibe Coding. Here we are gathering the proposed roadmap, which came from UNV alignment meeting. We are also organizing the lessons and the materials, providing brief description and the link to the repositories (if any).\nThe goal of the webpage/ebook (Call it as you want) is for students to be able of getting to any of the lessons’s repositories. They can also have a glimpse on the learning goals and objetivos of our program.\nThe site is built with Quarto using the journal theme. The built site lives in docs/, ready to publish with GitHub Pages.\nYou can access the site here: github-io\n\n\n\nQuickly Just modify the .qmd or the .md files to adjust existing pages. If you wanna create a new page don’t forget to put in the _quarto.yml who manages the navbar and page indexing.\nFeel free to modify the roadmap and correct some themes that are not fitting your class proposal.\nAdd your github with your lesson in the main page. (index.qmd)\nPlease address your class time schedule in the main page as well.\npull request into this repo, just quickly comment what you have changed on add.\nDont hesitate in contribute, it is a work of many hands.\nThere still some content which does not make so much sense in the roadmap. Feel free to erase and correct it.\n\n\n\n\n\n\n\n\n\n\n\nPath\nPurpose\n\n\n\n\nindex.qmd\nHome page: roadmap link, class progress table and class entries\n\n\nREADME.md\nThis page, also published on the site\n\n\n_quarto.yml\nSite configuration: navbar, theme and output folder\n\n\nroadmap_cards.html, roadmap_cards.js\nInteractive roadmap card view\n\n\nroadmap_synthesis.md\nWritten roadmap and design principles\n\n\nagentic_vibe_coding_roadmap.js\nSource data for the roadmap (not published)\n\n\ndocs/\nRendered website, generated by Quarto\n\n\n\n\n\n\nInstall Quarto (version 1.4 or later) and run the commands below from the repository root.\nquarto preview    # live preview while editing\nquarto render    # builds the full site into docs/\nCommit the updated docs/ folder so GitHub Pages serves the latest version.\n\n\n\nVolunteers who present a class should send a public GitHub repository, a short description and the roadmap session it supports. The series coordinators add it to index.qmd and rebuild the site.\n\n\n\nThe lesson content, roadmap and site text are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You may share and adapt the material, including commercially, as long as you give appropriate credit and indicate any changes.\nClass repositories linked from this site remain under their own licenses. Check each repository before reusing its contents."
   },
   {
+    "objectID": "README.html#how-to-contribute---modify-and-contribute-for-the-repo",
+    "href": "README.html#how-to-contribute---modify-and-contribute-for-the-repo",
+    "title": "Agentic AI Lessons",
+    "section": "",
+    "text": "Quickly Just modify the .qmd or the .md files to adjust existing pages. If you wanna create a new page don’t forget to put in the _quarto.yml who manages the navbar and page indexing.\nFeel free to modify the roadmap and correct some themes that are not fitting your class proposal.\nAdd your github with your lesson in the main page. (index.qmd)\nPlease address your class time schedule in the main page as well.\npull request into this repo, just quickly comment what you have changed on add.\nDont hesitate in contribute, it is a work of many hands.\nThere still some content which does not make so much sense in the roadmap. Feel free to erase and correct it."
+  },
+  {
     "objectID": "README.html#what-is-in-this-repository",
     "href": "README.html#what-is-in-this-repository",
     "title": "Agentic AI Lessons",
     "section": "",
     "text": "Path\nPurpose\n\n\n\n\nindex.qmd\nHome page: roadmap link, class progress table and class entries\n\n\nREADME.md\nThis page, also published on the site\n\n\n_quarto.yml\nSite configuration: navbar, theme and output folder\n\n\nroadmap_cards.html, roadmap_cards.js\nInteractive roadmap card view\n\n\nroadmap_synthesis.md\nWritten roadmap and design principles\n\n\nagentic_vibe_coding_roadmap.js\nSource data for the roadmap (not published)\n\n\ndocs/\nRendered website, generated by Quarto"
-  },
-  {
-    "objectID": "README.html#add-a-class-from-a-volunteer",
-    "href": "README.html#add-a-class-from-a-volunteer",
-    "title": "README",
-    "section": "",
-    "text": "Open index.qmd.\nAdd a row to the Class progress table with the class number, topic, presenter and status.\nCopy one of the Class sections and fill in the topic, presenter, GitHub link and description. Replace the placeholder text.\nSet the status to Planned, Ready or Delivered.\n\nUse the number of the next free slot. To add more slots, copy an existing section and increase the number."
   },
   {
     "objectID": "README.html#build-and-preview",
@@ -210,11 +224,11 @@
     "text": "3. Install the tools\nInstall these once. Each is free for the zero-cost path.\n\n\n\n\n\n\n\n\nTool\nWhy we use it\nCheck it works\n\n\n\n\nGit\nVersions your work and shares it on GitHub\ngit --version\n\n\nGitHub account\nHosts your repositories and the course examples\nLog in at github.com\n\n\nVS Code\nThe shared editor, with the agent extensions\ncode --version\n\n\nuv\nInstalls Python and Python command-line tools\nuv --version\n\n\nNode.js\nNeeded only for Gemini CLI\nnode --version\n\n\n\nUbuntu / WSL\nsudo apt update && sudo apt install -y git curl nodejs npm\ncurl -LsSf https://astral.sh/uv/install.sh | sh\nmacOS\nbrew install git node uv\nVS Code: install it on Windows or macOS from https://code.visualstudio.com. On Windows, also install the WSL extension by Microsoft. Then, inside your WSL terminal, run code . in a project folder to open it in VS Code.\nRestart the terminal after installing uv or node so the new commands are found.\nThen tell Git who you are, using the same name and email as your GitHub account:\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"you@example.com\""
   },
   {
-    "objectID": "setup.html#install-the-coding-agents",
-    "href": "setup.html#install-the-coding-agents",
+    "objectID": "setup.html#install-the-coding-agents-optional",
+    "href": "setup.html#install-the-coding-agents-optional",
     "title": "Standard setup",
-    "section": "4. Install the coding agents",
-    "text": "4. Install the coding agents\nGemini CLI is the default agent for the zero-cost exercises. Install it now. You do not need a key for it: sign in with your Google account the first time you run it.\n\n\n\n\n\n\n\n\n\nAgent\nRole\nInstall\nAccount needed\n\n\n\n\nGemini CLI (terminal)\nDefault for the exercises\nnpm install -g @google/gemini-cli\nGoogle login\n\n\nAider (open source, terminal)\nOptional; works with any model\nuv tool install aider-chat\nOpenRouter key, section 5\n\n\nCline or Continue (VS Code)\nOptional; the visual alternative\nSearch for the name in the VS Code Extensions panel\nOpenRouter key, section 5\n\n\nGitHub Copilot Free (VS Code)\nOptional\nSearch for “GitHub Copilot” in the Extensions panel\nGitHub login\n\n\n\nCheck the default agent:\ngemini --version\nGemini CLI is the course default, but it is not the only option. Developers often choose differently, and the alternatives and their trade-offs are in Free providers and agents.\nInstalling a tool is not the same as using it. The live demo in each session shows which one to start with, and the cost and privacy notes are in Session 2."
+    "section": "4. Install the coding agents (Optional)",
+    "text": "4. Install the coding agents (Optional)\nGemini CLI is the reccomended default agent for the zero-cost exercises. You do not need a key for it: sign in with your Google account the first time you run it.\n\n\n\n\n\n\n\n\n\nAgent\nRole\nInstall\nAccount needed\n\n\n\n\nGemini CLI (terminal)\nDefault for the exercises\nnpm install -g @google/gemini-cli\nGoogle login\n\n\nAider (open source, terminal)\nOptional; works with any model\nuv tool install aider-chat\nOpenRouter key, section 5\n\n\nCline or Continue (VS Code)\nOptional; the visual alternative\nSearch for the name in the VS Code Extensions panel\nOpenRouter key, section 5\n\n\nGitHub Copilot Free (VS Code)\nOptional\nSearch for “GitHub Copilot” in the Extensions panel\nGitHub login\n\n\n\nCheck the default agent:\ngemini --version\nGemini CLI is the course default, but it is not the only option. Developers often choose differently, and the alternatives and their trade-offs are in Free providers and agents.\nInstalling a tool is not the same as using it. The live demo in each session shows which one to start with, and the cost and privacy notes are in Session 2."
   },
   {
     "objectID": "setup.html#store-your-keys-safely",
@@ -257,54 +271,5 @@
     "title": "Standard setup",
     "section": "10. Check your setup",
     "text": "10. Check your setup\nRun each command. Each should print a version number:\ngit --version\nuv --version\nnode --version\ncode --version\ngemini --version\naider --version\nIf a command says “not found”, close the terminal and open a new one. If it still fails, note the exact message and ask in the course channel.\nOptional, for the private/local path only:\nollama --version\n\n\n\n\n\n\nNoteFree tiers change\n\n\n\nLimits, model names and free plans change often. Before each session, the coordinators re-check the tools listed here, so a step that no longer matches the provider’s screen should be reported in the course channel."
-  },
-  {
-    "objectID": "README.html#how-to-contribute---modify-and-contribute-for-the-repo",
-    "href": "README.html#how-to-contribute---modify-and-contribute-for-the-repo",
-    "title": "Agentic AI Lessons",
-    "section": "",
-    "text": "Quickly Just modify the .qmd or the .md files to adjust existing pages. If you wanna create a new page don’t forget to put in the _quarto.yml who manages the navbar and page indexing.\nFeel free to modify the roadmap and correct some themes that are not fitting your class proposal.\nAdd your github with your lesson in the main page. (index.qmd)\nPlease address your class time schedule in the main page as well.\npull request into this repo, just quickly comment what you have changed on add.\nDont hesitate in contribute, it is a work of many hands.\nThere still some content which does not make so much sense in the roadmap. Feel free to erase and correct it."
-  },
-  {
-    "objectID": "index.html#join-our-group",
-    "href": "index.html#join-our-group",
-    "title": "Agentic AI & Vibe Coding",
-    "section": "Join our group",
-    "text": "Join our group\n\nWhatsapp: whatsapp link\nSignal: signal group link"
-  },
-  {
-    "objectID": "index.html#calendar",
-    "href": "index.html#calendar",
-    "title": "Agentic AI & Vibe Coding",
-    "section": "Calendar",
-    "text": "Calendar\n\n\nAll times are GMT+3. Tap a highlighted day to join that session.\n\n\n\nNovember 2026\n\n\n\n\nMon\n\n\nTue\n\n\nWed\n\n\nThu\n\n\nFri\n\n\nSat\n\n\nSun\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n\n\n218:30GMT+3\n\n\n318:30GMT+3\n\n\n418:30GMT+3\n\n\n5\n\n\n618:30GMT+3\n\n\n709:00GMT+3\n\n\n8\n\n\n\n\n9\n\n\n10\n\n\n11\n\n\n12\n\n\n13\n\n\n1417:00GMT+3\n\n\n1517:00GMT+3Link coming soon\n\n\n\n\n16\n\n\n17\n\n\n18\n\n\n19\n\n\n20\n\n\n21\n\n\n22\n\n\n\n\n23\n\n\n24\n\n\n25\n\n\n26\n\n\n27\n\n\n28\n\n\n29\n\n\n\n\n30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSessions has ended? You can find the recordings!.\n\n\nDownload the full timeline (PDF)"
-  },
-  {
-    "objectID": "index.html#attendance-form",
-    "href": "index.html#attendance-form",
-    "title": "Agentic AI & Vibe Coding",
-    "section": "Attendance Form",
-    "text": "Attendance Form\n\n\nAll times are GMT+3. Tap a highlighted day to open that session’s attendance form. The form opens 1 hour before each class.\n\n\n\nNovember 2026\n\n\n\n\nMon\n\n\nTue\n\n\nWed\n\n\nThu\n\n\nFri\n\n\nSat\n\n\nSun\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n\n\n218:30GMT+3\n\n\n318:30GMT+3\n\n\n418:30GMT+3\n\n\n5\n\n\n618:30GMT+3\n\n\n709:00GMT+3\n\n\n8\n\n\n\n\n9\n\n\n10\n\n\n11\n\n\n12\n\n\n13\n\n\n1417:00GMT+3\n\n\n1517:00GMT+3Link coming soon\n\n\n\n\n16\n\n\n17\n\n\n18\n\n\n19\n\n\n20\n\n\n21\n\n\n22\n\n\n\n\n23\n\n\n24\n\n\n25\n\n\n26\n\n\n27\n\n\n28\n\n\n29\n\n\n\n\n30\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSessions has ended? You can find the recordings!.\n\n\n\n\n\n\n\n\nImportant!\nThe form opens 1 hour before each class, so you cannot fill it in earlier. It closes 10 days after the class date. This gives anyone who watches the recording asynchronously time to complete it."
-  },
-  {
-    "objectID": "index.html#next-sessions-link",
-    "href": "index.html#next-sessions-link",
-    "title": "Agentic AI & Vibe Coding",
-    "section": "Next Sessions Link",
-    "text": "Next Sessions Link\n\n02/11 at 18:30 GMT+3 - Introduction to Vibe Coding I Link to event\n03/11 at 18:30 GMT+3 - Introduction to Vibe Coding II - Practical Session Link to event\n04/11 at 18:30 GMT+3 - Architecting and configuring the AI workspace Link to event\n05/11 at 18:30 GMT+3 - Practical Session of Architecting and configuring the AI workspace Link to event\n07/11 at 9:00am GMT+3 - ****"
-  },
-  {
-    "objectID": "setup.html#install-the-coding-agents-optional",
-    "href": "setup.html#install-the-coding-agents-optional",
-    "title": "Standard setup",
-    "section": "4. Install the coding agents (Optional)",
-    "text": "4. Install the coding agents (Optional)\nGemini CLI is the reccomended default agent for the zero-cost exercises. You do not need a key for it: sign in with your Google account the first time you run it.\n\n\n\n\n\n\n\n\n\nAgent\nRole\nInstall\nAccount needed\n\n\n\n\nGemini CLI (terminal)\nDefault for the exercises\nnpm install -g @google/gemini-cli\nGoogle login\n\n\nAider (open source, terminal)\nOptional; works with any model\nuv tool install aider-chat\nOpenRouter key, section 5\n\n\nCline or Continue (VS Code)\nOptional; the visual alternative\nSearch for the name in the VS Code Extensions panel\nOpenRouter key, section 5\n\n\nGitHub Copilot Free (VS Code)\nOptional\nSearch for “GitHub Copilot” in the Extensions panel\nGitHub login\n\n\n\nCheck the default agent:\ngemini --version\nGemini CLI is the course default, but it is not the only option. Developers often choose differently, and the alternatives and their trade-offs are in Free providers and agents.\nInstalling a tool is not the same as using it. The live demo in each session shows which one to start with, and the cost and privacy notes are in Session 2."
-  },
-  {
-    "objectID": "index.html#recording",
-    "href": "index.html#recording",
-    "title": "Agentic AI & Vibe Coding",
-    "section": "Recording",
-    "text": "Recording\nHere you can find all the session recordings of our programme. It may take a few hours, up to 24 hours, for each video to appear in the folder. Thank you for your patience.\nLink to video recording"
   }
 ]

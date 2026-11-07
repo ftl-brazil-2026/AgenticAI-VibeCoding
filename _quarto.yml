@@ -23,6 +23,7 @@ website:
         href: index.qmd
       - text: "Roadmap"
         href: roadmap.md
+      - text: "Roadmap synthesis"
         href: roadmap_synthesis.md
       - text: "Setup"
         href: setup.md
