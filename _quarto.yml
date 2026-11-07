@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  pre-render: python3 scripts/build_calendar.py
   render:
     - "*.qmd"
     - roadmap_synthesis.md
@@ -22,7 +23,6 @@ website:
         href: index.qmd
       - text: "Roadmap"
         href: roadmap.md
-      - text: "Roadmap synthesis"
         href: roadmap_synthesis.md
       - text: "Setup"
         href: setup.md
@@ -31,7 +31,9 @@ website:
 
 format:
   html:
-    theme: journal
+    theme:
+      - journal
+      - custom.scss
     toc: true
     toc-depth: 2
     code-copy: true

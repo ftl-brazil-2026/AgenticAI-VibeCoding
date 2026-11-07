@@ -1,0 +1,106 @@
+/*-- scss:rules --*/
+
+/* Calendar block: sits in the normal page flow (not sticky or floating). */
+.cal {
+  margin: 1rem 0 2rem;
+  max-width: 40rem;
+}
+
+.cal-intro,
+.cal-legend {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.cal-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 4px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.cal-table caption {
+  caption-side: top;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-bottom: 0.5rem;
+}
+
+.cal-table th {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding-bottom: 0.25rem;
+  color: #4a4a4a;
+}
+
+.cal-table td {
+  height: 3.5rem;
+  padding: 0;
+  vertical-align: middle;
+  border-radius: 0.375rem;
+}
+
+.cal-table td.cal-off {
+  background: transparent;
+}
+
+.cal-day {
+  display: block;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.1;
+}
+
+.cal-time,
+.cal-tz {
+  display: block;
+  font-size: 0.65rem;
+  line-height: 1.25;
+}
+
+.cal-note {
+  display: block;
+  font-size: 0.6rem;
+  line-height: 1.2;
+  margin-top: 0.1rem;
+}
+
+/* Day with a link: the whole cell is the tap target. */
+.cal-table a.cal-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 3.5rem;
+  color: #0b2f57;
+  background: #e7f0fb;
+  border: 2px solid #1f5fa8;
+  border-radius: 0.375rem;
+  text-decoration: none;
+}
+
+.cal-table a.cal-link:hover {
+  background: #1f5fa8;
+  color: #ffffff;
+}
+
+.cal-table a.cal-link:focus-visible {
+  outline: 3px solid #ffbf47;
+  outline-offset: 2px;
+}
+
+/* Day with a session but no link yet: visible, not clickable. */
+.cal-table td.cal-pending {
+  border: 2px dashed #6b6b6b;
+  color: #333333;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cal-table a.cal-link {
+    transition: none;
+  }
+}
