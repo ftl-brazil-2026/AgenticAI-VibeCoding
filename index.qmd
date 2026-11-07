@@ -7,13 +7,6 @@ This site organises the **Agentic Software Development & Vibe Coding** series. I
 
 We are also creating a space for community contributions towards open-source and digital sovereignty. It gives students one place to find the lessons and the shared roadmap, and to track which classes are ready.
 
-## Start here
-
-- **[Learning roadmap](roadmap.html)**: an interactive board of all sessions, learning goals and cost paths.
-- **[Roadmap synthesis](roadmap_synthesis.html)**: the written plan behind the roadmap, with design principles and learner tracks.
-- **[Standard setup](setup.html)**: the tools, folder layout and config rules every volunteer should follow, including WSL on Windows.
-- **[README](README.html)**: how this repository is organised and how to rebuild the site.
-
 ## Calendar
 
 You can find our calendar here. Any changes will be posted here.
