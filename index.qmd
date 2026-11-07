@@ -9,7 +9,7 @@ We are also creating a space for community contributions towards open-source and
 
 ## Calendar
 
-You can find our calendar here. Any changes will be posted here.
+You can find our calendar here.
 
 [CALENDAR](materials/Agentic_timeline.pdf){.btn .btn-primary target="_blank"}
 
@@ -26,7 +26,8 @@ Here you can find all the session recordings of our programme. It may take a few
 - 04/11 at 18:30 GMT+3 - **Architecting and configuring the AI workspace** [Link to event](https://events.teams.microsoft.com/event/ff87104e-bf86-474e-8b7d-8bb1e6023805@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog){.btn .btn-primary target="_blank"}
 - 06/11 at 18:30 GMT+3 - **Practical Session of Architecting and configuring the AI workspace** [Link to event](https://events.teams.microsoft.com/event/2e356007-baa3-4d59-8445-bb3c9cc8c9a3@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog){.btn .btn-primary target="_blank"}
 - 07/11 at 9:00am GMT+3 - **Development Paradigms - Theorical and Practical** [Link to Event](https://events.teams.microsoft.com/event/4c346c5b-12e4-4b47-a34b-242fd71a6c1d@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog){.btn .btn-primary target="_blank"}
-- 09/11 at 18:30 GMT+3 - **Agents Mechanisms** - [Link to Event](https://events.teams.microsoft.com/event/222d6308-1267-4ee7-b6b2-00dfa942eb69@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog){.btn .btn-primary target="_blank"}
+- 14/11 at 17:00 GMT+3 - **Agents Mechanisms** - [Link to Event](https://events.teams.microsoft.com/event/222d6308-1267-4ee7-b6b2-00dfa942eb69@b3e5db5e-2944-4837-99f5-7488ace54319?source=copyLinkOneEventsShareDialog){.btn .btn-primary target="_blank"}
+- 15/11 at 17:00 GMT+3 - **Practical Lab: Agents Mechanisms** - [Link to Event](){.btn .btn-primary target="_blank"}
 
 
 ## Join our group
@@ -41,7 +42,8 @@ Here you can find all the session recordings of our programme. It may take a few
 - Session 04/11 - Ruiya Zhou - Architecting and configuring the AI workspace - [Link to form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5UMjRUSEw5VTZYWkRXTFkyUFFWMU4xV0dBUi4u){.btn .btn-secondary target="_blank"}
 - Session 06/11 - Ruiya Zhou - Practical Lab of Architecting and configuring the AI workspace - [Link to form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5UQjRNR1QzOTVURk40MUlWREhGNTM1TzdHWS4u){.btn .btn-secondary target="_blank"}
 - Session 07/11 - Akshi Rao - Development paradigms and Practical Lab - [Link to form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5UMFdWOVY0QjY1R0Q4TDdURjg1SVdQRTFYSy4u){.btn .btn-secondary target="_blank"}
-- Session 09/11 - Alan Al-jammoor - Agents Mechanisms - [Link to Form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5URFVTQzIwVTRBNjVaSkdaQVJCSVgzVFczSC4u){.btn .btn-secondary target="_blank"}
+- Session 14/11 - Alan Al-jammoor - Agents Mechanisms - [Link to Form](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xtvls0QpN0iZ9XSIrOVDGSpAHN4Sk6VOjg581VoLDf5URFVTQzIwVTRBNjVaSkdaQVJCSVgzVFczSC4u){.btn .btn-secondary target="_blank"}
+- Session 15/11 - Alan Al-jammoor - Practical Agents Mechanisms - [Link to Form](){.btn .btn-secondary target="_blank"}
 
 ::: {.callout-important appearance="simple"}
 Important!
@@ -68,19 +70,18 @@ Link for the GitHub: [GitHub](https://github.com/phyo57/UNDP-Vibe-coding-Introdu
 
 How can we properly configure the workspace for working with agents? Which software, tools and libraries are the most used? What do professionals in the field use? These and many more questions will be answered during the session.
 
-Link to Drive: [Drive Folder of the Session](https://drive.google.com/drive/folders/1N5UJX2DxvKmK1E2eEwwWzkW4AotRNREJ)
+Link to Drive: [Drive Folder of the Session](https://drive.google.com/drive/folders/1N5UJX2DxvKmK1E2eEwwWzkW4AotRNREJ){.btn .btn-primary target="_blank"}
 
 ### Class 3: Development paradigms: Intent-Based "Vibe" Iteration, Spec-Driven, Agentic Orchestration
 
 **Presenter:** Akshi Rao
 
-Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+What is intent-based? spec-based or agentic orchestration? How does the meaning and the driving intents of your project matters for the outcome of LLMs? What are the human specifications for we need to set up when developing in the agentic AI era?
 
-Link for the presentation: [Slides-Presentation](materials/Development_Paradigms_Vibe_Coding.pdf)
+Link for the presentation: [Slides-Presentation](materials/Development_Paradigms_Vibe_Coding.pdf){.btn .btn-primary target="_blank"}
 
-Link for the coding materials (this is a zip file to be downloaded): [Coding-materials-zip-file](materials/akshi-bhasker-rao-website.zip)
+Link for the coding materials (this is a zip file to be downloaded): [Coding-materials-zip-file](materials/akshi-bhasker-rao-website.zip){.btn .btn-primary target="_blank"}
 
-Te
 
 ### Class 4: Agentic Mechanics: Planning & Tool Use
 
