@@ -84,7 +84,7 @@ Forms given in Class: [Session 1 feedback: How AI agents think and act](https://
 
 [How Agent Works](materials/agent-step-by-step.html)
 
-[How an AI Agent Works](materials/agent-step-by-step-Alan-Al-Jamoor.html)
+[Agents at Work](materials/agent-at-work-Alan-Al-Jammoor.html)
 
 
 ### Session VIII and IX: Managing Multi-Agent Teams
