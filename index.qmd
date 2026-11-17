@@ -97,7 +97,7 @@ Supervise an agent team through typed handoffs, scoped tools, independent checks
 
 [Slides](materials/s5-slides.html){.btn .btn-primary}
 [Flashcards Study](materials/s5-flashcards.html){.btn .btn-primary}
-[Reading List]()
+[Reading List](https://drive.google.com/drive/u/0/folders/1YM5b-89gtjnL4vu3Ef9Pqva87TUY1VKP){target="_blank"}
 
 
 ### Class X and XI: Debugging in the Agentic Age
