@@ -18,6 +18,7 @@ import html
 from collections import defaultdict
 from datetime import date
 from pathlib import Path
+from urllib.parse import unquote_to_bytes, urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "materials" / "sessions.csv"
@@ -30,6 +31,55 @@ TZ = "GMT+3"
 WEEKDAY_SHORT = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 WEEKDAY_FULL = list(calendar.day_name)  # Monday first
 MONTH_NAME = list(calendar.month_name)
+
+APPROVED_HOSTS = {
+    "teams_url": {"events.teams.microsoft.com"},
+    "form_url": {"forms.cloud.microsoft"},
+}
+
+
+def sanitize_calendar_url(raw_url: str, field_name: str) -> str:
+    """Validate and HTML-escape a calendar URL, failing closed on bad input."""
+    raw_value = raw_url or ""
+
+    # Check before stripping so leading or trailing control characters cannot hide.
+    if any(ord(character) < 32 or ord(character) == 127 for character in raw_value):
+        raise ValueError(f"Control characters detected in {field_name}")
+
+    value = raw_value.strip()
+    if not value:
+        return ""
+    if any(character.isspace() for character in value):
+        raise ValueError(f"Whitespace detected in {field_name}")
+
+    decoded_value = unquote_to_bytes(value)
+    if any(byte < 32 or byte == 127 for byte in decoded_value):
+        raise ValueError(f"Encoded control characters detected in {field_name}")
+
+    try:
+        parsed = urlsplit(value)
+    except ValueError as error:
+        raise ValueError(f"Malformed URL in {field_name}") from error
+
+    if parsed.scheme != "https":
+        raise ValueError(f"Unsupported scheme for {field_name}: {parsed.scheme!r}")
+
+    if parsed.username is not None or parsed.password is not None:
+        raise ValueError(f"Credential userinfo rejected in {field_name}")
+
+    try:
+        port = parsed.port
+    except ValueError as error:
+        raise ValueError(f"Invalid port in {field_name}") from error
+    if port not in (None, 443):
+        raise ValueError(f"Unexpected port in {field_name}: {port}")
+
+    host = (parsed.hostname or "").lower()
+    allowed_hosts = APPROVED_HOSTS.get(field_name, set())
+    if host not in allowed_hosts:
+        raise ValueError(f"Unapproved host for {field_name}: {host!r}")
+
+    return html.escape(value, quote=True)
 
 
 def load_sessions():
@@ -64,7 +114,9 @@ def day_cell(day, row, kind):
     if row is None:
         return f'<td class="cal-off"><span class="cal-day">{day.day}</span></td>'
 
-    url = row["session_url" if kind == "session" else "form_url"]
+    url_field = "session_url" if kind == "session" else "form_url"
+    sanitizer_field = "teams_url" if kind == "session" else "form_url"
+    url = sanitize_calendar_url(row[url_field], sanitizer_field)
     time_html = f'<span class="cal-time">{html.escape(row["time"])}</span>'
     tz_html = f'<span class="cal-tz">{TZ}</span>'
     day_html = f'<span class="cal-day">{day.day}</span>'
@@ -81,7 +133,7 @@ def day_cell(day, row, kind):
     label = html.escape(describe(row, kind), quote=True)
     return (
         '<td class="cal-has">'
-        f'<a class="cal-link" href="{html.escape(url, quote=True)}" '
+        f'<a class="cal-link" href="{url}" '
         f'target="_blank" rel="noopener" title="{title}" aria-label="{label}">'
         f"{day_html}{time_html}{tz_html}"
         "</a></td>"
