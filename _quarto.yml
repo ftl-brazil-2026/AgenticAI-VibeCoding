@@ -17,6 +17,8 @@ project:
     - materials/s5-flashcards.html
     - materials/deck-Alan-Al-Jammoor.pdf
     - materials/agent-step-by-step.html
+    - materials/prompt-injection-lab/poisoned.md
+    - materials/prompt-injection-lab/poisoned.csv
 
 website:
   title: "Agentic AI Lessons"
