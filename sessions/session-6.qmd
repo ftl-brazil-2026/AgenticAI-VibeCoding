@@ -29,8 +29,7 @@ title: "Session VI: Agents Mechanisms"
 
 You can check the slides and all the materials here:
 
-[Deck - How agents works](materials/deck-Alan-Al-Jammoor.pdf){.btn .btn-primary .btn-lg target="_blank"}
-[]()
+[Deck - How agents works](../materials/deck-Alan-Al-Jammoor.pdf){.btn .btn-primary .btn-lg target="_blank"}
 
 ## Quiz
 

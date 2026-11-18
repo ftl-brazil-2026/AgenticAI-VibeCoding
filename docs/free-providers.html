@@ -242,7 +242,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Your data is sensitive and must stay on your machine</td>
-<td style="text-align: left;">A local model through <strong>Ollama</strong>, with Aider, Cline or OpenCode pointed at it</td>
+<td style="text-align: left;">Use local inference through <strong>Ollama</strong>, disable cloud fallback and telemetry, restrict tools, and enforce a network allowlist</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">You want an open-source agent you can read and change</td>
@@ -250,7 +250,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Your work laptop blocks installs</td>
-<td style="text-align: left;">The browser-only path in <a href="setup.html#8-browser-only-path-no-installation">Standard setup</a></td>
+<td style="text-align: left;">The browser-only path in <a href="setup.html#browser-only-path-no-installation">Standard setup</a></td>
 </tr>
 </tbody>
 </table>
@@ -424,7 +424,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Two ways to get free Gemini access:</p>
 <ol type="1">
 <li><strong>Google login through Gemini CLI.</strong> No key needed. This is the simplest route and what the course default uses.</li>
-<li><strong>An API key from Google AI Studio.</strong> Free, no card required for the basic tier. Use it with Aider, Cline, OpenCode or any agent that accepts a Google key. Store it in <code>.env</code> as shown in <a href="setup.html#5-store-your-keys-safely">Standard setup</a>.</li>
+<li><strong>An API key from Google AI Studio.</strong> Free, no card required for the basic tier. Use it with Aider, Cline, OpenCode or any agent that accepts a Google key. Store it in <code>.env</code> as shown in <a href="setup.html#store-your-keys-safely">Standard setup</a>.</li>
 </ol>
 <p>Free limits are per day and per minute, and they change. The unpaid API key allows far fewer requests than the Google login route.</p>
 </section>
@@ -457,9 +457,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 <p>Good first models to try are the ones marked <code>:free</code> on the model page. Some agents let you list fallback models, so that if one is busy another answers.</p>
 </section>
-<section id="local-models-ollama" class="level3">
-<h3 class="anchored" data-anchor-id="local-models-ollama">Local models (Ollama)</h3>
-<p>For private work, run a small model on your own computer. Nothing leaves your machine, but results are weaker and slower than hosted models. Use it for sensitive exercises only after a short test. Install Ollama from <a href="https://ollama.com" class="uri">https://ollama.com</a>, pull a small coding model, and point Aider, Cline or OpenCode at the local endpoint. Most learners with 8–16 GB RAM can run a model of about 1.5–8 billion parameters.</p>
+<section id="local-models-ollama-know-the-boundary" class="level3">
+<h3 class="anchored" data-anchor-id="local-models-ollama-know-the-boundary">Local models (Ollama): know the boundary</h3>
+<p>Ollama keeps model weights and prompt inference on your machine only when the agent points at the localhost endpoint and you run a local model. Ollama cloud models, whose names end in <code>-cloud</code>, run on ollama.com even when called through the localhost API; run <code>ollama signout</code> to keep them unavailable. A local model still does not make the whole agent workflow offline. MCP servers, web-search tools, editor extensions, package managers, framework telemetry and cloud fallback routing can still send workspace content over the network.</p>
+<p>Use only synthetic sample data in course labs. For an offline lab, start from the committed <code>.env.example</code> profile:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">LAB_OFFLINE</span><span class="op">=</span>1</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">LAB_ALLOW_NETWORK</span><span class="op">=</span>0</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">LAB_ALLOWED_TOOLS</span><span class="op">=</span><span class="st">"read_fixture,validate_schema"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">DO_NOT_TRACK</span><span class="op">=</span>1</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">OTEL_SDK_DISABLED</span><span class="op">=</span>true</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">HF_HUB_DISABLE_TELEMETRY</span><span class="op">=</span>1</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">HF_HUB_OFFLINE</span><span class="op">=</span>1</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">TRANSFORMERS_OFFLINE</span><span class="op">=</span>1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>These variables are instructions to software that supports them; they are not a network security boundary by themselves. The lab launcher must reject tools outside <code>LAB_ALLOWED_TOOLS</code>, disable cloud fallback, and fail closed when <code>LAB_OFFLINE=1</code>. Use an operating-system firewall, container with networking disabled, or an explicit egress allowlist when no outbound traffic is permitted. This separates local inference from tool execution and network access, following the containment ideas in <a href="https://attack.mitre.org/mitigations/M1048/">Enterprise M1048: Application Isolation and Sandboxing</a>, <a href="https://attack.mitre.org/mitigations/M0948/">ICS M0948: Application Isolation and Sandboxing</a>, <a href="https://attack.mitre.org/mitigations/M0930/">ICS M0930: Network Segmentation</a> and <a href="https://attack.mitre.org/mitigations/M0807/">ICS M0807: Network Allowlists</a>.</p>
+<p>Local models are usually weaker and slower than hosted models. Install Ollama from <a href="https://ollama.com" class="uri">https://ollama.com</a>, pull a small coding model, and point Aider, Cline or OpenCode at the local endpoint. Most learners with 8–16 GB RAM can run a model of about 1.5–8 billion parameters.</p>
 </section>
 </section>
 <section id="compare-at-a-glance" class="level2">
@@ -529,22 +540,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: left;">Free</td>
 <td style="text-align: left;">No</td>
 <td style="text-align: left;">Either</td>
-<td style="text-align: left;">Highest</td>
+<td style="text-align: left;">Local inference only; control tools and egress</td>
 <td style="text-align: left;">High</td>
 </tr>
 </tbody>
 </table>
-<p>Privacy depends on the provider and the model you choose, so the table is a guide, not a guarantee. Follow the checklist in <a href="setup.html#9-pick-a-tool-path-and-check-what-you-may-share">Standard setup</a> before you send any data.</p>
+<p>Privacy depends on the provider, model, agent, enabled tools and network controls, so the table is a guide rather than a guarantee. A localhost model protects only the inference path. Follow the checklist in <a href="setup.html#pick-a-tool-path-and-check-what-you-may-share">Standard setup</a> before you send any data.</p>
 </section>
 <section id="record-your-choice" class="level2">
 <h2 class="anchored" data-anchor-id="record-your-choice">6. Record your choice</h2>
 <p>Write your choice in your project’s <code>AGENTS.md</code>, so the agent and your teammates know which tools you use:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Tool choice</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Agent: Gemini CLI (Google login)</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Fallback agent: Aider with OpenRouter model <span class="in">`openrouter/qwen/qwen3-coder:free`</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Private work: none; do not use hosted tools for private data</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<p>Re-check the limits and model names before each session. The sources used for this page were gathered in October 2026, and free tiers change often.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Tool choice</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Agent: Gemini CLI (Google login)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Fallback agent: Aider with OpenRouter model <span class="in">`openrouter/qwen/qwen3-coder:free`</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Private work: none; do not use hosted tools for private data</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Re-check the limits and model names before each session. The sources used for this page were last checked in November 2026, and free tiers change often.</p>
 </section>
 <section id="sources-checked" class="level2">
 <h2 class="anchored" data-anchor-id="sources-checked">Sources checked</h2>
@@ -555,6 +566,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Gemini CLI quotas: <a href="https://geminicli.com/docs/resources/quota-and-pricing/">official quota page</a>, <a href="https://discuss.ai.google.dev/t/why-do-i-only-get-50-free-requests-per-day-for-gemini-2-5-pro-instead-of-100/101693">Google AI developer forum</a></li>
 <li>Aider install and OpenRouter: <a href="https://aider.chat/docs/install.html">aider install docs</a>, <a href="https://aider.chat/docs/llms/openrouter.html">aider OpenRouter docs</a></li>
 <li>Cline with OpenRouter: <a href="https://tech-insider.org/ca/how-to-set-up-cline-2026/">tech-insider setup guide</a></li>
+<li>Local/offline boundaries: <a href="https://ollama.com/blog/cloud-models">Ollama cloud models</a>, <a href="https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables">Hugging Face environment variables</a>, <a href="https://opentelemetry.io/docs/specs/otel/configuration/sdk-environment-variables/">OpenTelemetry SDK environment variables</a></li>
+<li>Containment controls: <a href="https://attack.mitre.org/mitigations/enterprise/">MITRE ATT&amp;CK Enterprise mitigations</a>, <a href="https://attack.mitre.org/mitigations/ics/">MITRE ATT&amp;CK ICS mitigations</a></li>
 </ul>
 
 

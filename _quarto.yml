@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: docs
   pre-render: python3 scripts/build_calendar.py
+  post-render: python3 scripts/check_internal_links.py
   render:
     - "*.qmd"
     - "sessions/*.qmd"
@@ -17,6 +18,8 @@ project:
     - materials/s5-flashcards.html
     - materials/deck-Alan-Al-Jammoor.pdf
     - materials/agent-step-by-step.html
+    - materials/prompt-injection-lab/poisoned.md
+    - materials/prompt-injection-lab/poisoned.csv
 
 website:
   title: "Agentic AI Lessons"

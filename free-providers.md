@@ -23,9 +23,9 @@ Answer these questions first. The rows point to the options that usually fit.
 | You are comfortable in the terminal and want to see every step | **Gemini CLI** or **Aider** |
 | You want one account that unlocks many free models | **OpenRouter** as the model source |
 | You have no card and only a Google login | **Gemini CLI** with your Google account |
-| Your data is sensitive and must stay on your machine | A local model through **Ollama**, with Aider, Cline or OpenCode pointed at it |
+| Your data is sensitive and must stay on your machine | Use local inference through **Ollama**, disable cloud fallback and telemetry, restrict tools, and enforce a network allowlist |
 | You want an open-source agent you can read and change | **OpenCode** or **Aider** |
-| Your work laptop blocks installs | The browser-only path in [Standard setup](setup.html#8-browser-only-path-no-installation) |
+| Your work laptop blocks installs | The browser-only path in [Standard setup](setup.html#browser-only-path-no-installation) |
 
 You can change your choice later. Your project files and `AGENTS.md` do not depend on the agent you used to write them.
 
@@ -116,7 +116,7 @@ An open-source terminal agent that connects to many providers, including local m
 Two ways to get free Gemini access:
 
 1. **Google login through Gemini CLI.** No key needed. This is the simplest route and what the course default uses.
-2. **An API key from Google AI Studio.** Free, no card required for the basic tier. Use it with Aider, Cline, OpenCode or any agent that accepts a Google key. Store it in `.env` as shown in [Standard setup](setup.html#5-store-your-keys-safely).
+2. **An API key from Google AI Studio.** Free, no card required for the basic tier. Use it with Aider, Cline, OpenCode or any agent that accepts a Google key. Store it in `.env` as shown in [Standard setup](setup.html#store-your-keys-safely).
 
 Free limits are per day and per minute, and they change. The unpaid API key allows far fewer requests than the Google login route.
 
@@ -134,9 +134,26 @@ OpenRouter gives one account and one key for many models. Free models have IDs e
 
 Good first models to try are the ones marked `:free` on the model page. Some agents let you list fallback models, so that if one is busy another answers.
 
-### Local models (Ollama)
+### Local models (Ollama): know the boundary
 
-For private work, run a small model on your own computer. Nothing leaves your machine, but results are weaker and slower than hosted models. Use it for sensitive exercises only after a short test. Install Ollama from <https://ollama.com>, pull a small coding model, and point Aider, Cline or OpenCode at the local endpoint. Most learners with 8–16 GB RAM can run a model of about 1.5–8 billion parameters.
+Ollama keeps model weights and prompt inference on your machine only when the agent points at the localhost endpoint and you run a local model. Ollama cloud models, whose names end in `-cloud`, run on ollama.com even when called through the localhost API; run `ollama signout` to keep them unavailable. A local model still does not make the whole agent workflow offline. MCP servers, web-search tools, editor extensions, package managers, framework telemetry and cloud fallback routing can still send workspace content over the network.
+
+Use only synthetic sample data in course labs. For an offline lab, start from the committed `.env.example` profile:
+
+```bash
+export LAB_OFFLINE=1
+export LAB_ALLOW_NETWORK=0
+export LAB_ALLOWED_TOOLS="read_fixture,validate_schema"
+export DO_NOT_TRACK=1
+export OTEL_SDK_DISABLED=true
+export HF_HUB_DISABLE_TELEMETRY=1
+export HF_HUB_OFFLINE=1
+export TRANSFORMERS_OFFLINE=1
+```
+
+These variables are instructions to software that supports them; they are not a network security boundary by themselves. The lab launcher must reject tools outside `LAB_ALLOWED_TOOLS`, disable cloud fallback, and fail closed when `LAB_OFFLINE=1`. Use an operating-system firewall, container with networking disabled, or an explicit egress allowlist when no outbound traffic is permitted. This separates local inference from tool execution and network access, following the containment ideas in [Enterprise M1048: Application Isolation and Sandboxing](https://attack.mitre.org/mitigations/M1048/), [ICS M0948: Application Isolation and Sandboxing](https://attack.mitre.org/mitigations/M0948/), [ICS M0930: Network Segmentation](https://attack.mitre.org/mitigations/M0930/) and [ICS M0807: Network Allowlists](https://attack.mitre.org/mitigations/M0807/).
+
+Local models are usually weaker and slower than hosted models. Install Ollama from <https://ollama.com>, pull a small coding model, and point Aider, Cline or OpenCode at the local endpoint. Most learners with 8–16 GB RAM can run a model of about 1.5–8 billion parameters.
 
 ## 5. Compare at a glance
 
@@ -147,9 +164,9 @@ For private work, run a small model on your own computer. Nothing leaves your ma
 | Cline + OpenRouter free | Free | Yes | VS Code | Medium | Low |
 | Continue | Free | Yes | VS Code | Medium | Low |
 | OpenCode | Free (built-in models) | Optional | Terminal | Medium | Medium |
-| Local model via Ollama | Free | No | Either | Highest | High |
+| Local model via Ollama | Free | No | Either | Local inference only; control tools and egress | High |
 
-Privacy depends on the provider and the model you choose, so the table is a guide, not a guarantee. Follow the checklist in [Standard setup](setup.html#9-pick-a-tool-path-and-check-what-you-may-share) before you send any data.
+Privacy depends on the provider, model, agent, enabled tools and network controls, so the table is a guide rather than a guarantee. A localhost model protects only the inference path. Follow the checklist in [Standard setup](setup.html#pick-a-tool-path-and-check-what-you-may-share) before you send any data.
 
 ## 6. Record your choice
 
@@ -163,7 +180,7 @@ Write your choice in your project's `AGENTS.md`, so the agent and your teammates
 - Private work: none; do not use hosted tools for private data
 ```
 
-Re-check the limits and model names before each session. The sources used for this page were gathered in October 2026, and free tiers change often.
+Re-check the limits and model names before each session. The sources used for this page were last checked in November 2026, and free tiers change often.
 
 ## Sources checked
 
@@ -174,3 +191,5 @@ These public pages were used to check the details above. Re-read them before eac
 - Gemini CLI quotas: [official quota page](https://geminicli.com/docs/resources/quota-and-pricing/), [Google AI developer forum](https://discuss.ai.google.dev/t/why-do-i-only-get-50-free-requests-per-day-for-gemini-2-5-pro-instead-of-100/101693)
 - Aider install and OpenRouter: [aider install docs](https://aider.chat/docs/install.html), [aider OpenRouter docs](https://aider.chat/docs/llms/openrouter.html)
 - Cline with OpenRouter: [tech-insider setup guide](https://tech-insider.org/ca/how-to-set-up-cline-2026/)
+- Local/offline boundaries: [Ollama cloud models](https://ollama.com/blog/cloud-models), [Hugging Face environment variables](https://huggingface.co/docs/huggingface_hub/package_reference/environment_variables), [OpenTelemetry SDK environment variables](https://opentelemetry.io/docs/specs/otel/configuration/sdk-environment-variables/)
+- Containment controls: [MITRE ATT&CK Enterprise mitigations](https://attack.mitre.org/mitigations/enterprise/), [MITRE ATT&CK ICS mitigations](https://attack.mitre.org/mitigations/ics/)
