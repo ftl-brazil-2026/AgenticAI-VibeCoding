@@ -505,10 +505,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="every-project-starts-with-a-.gitignore-file">Every project starts with a <code>.gitignore</code> file</h3>
 <p>Create <code>.gitignore</code> in the project root so Git never tracks secrets or generated files:</p>
 <pre class="text"><code>.env
+.env.*
+!.env.example
+*.log
+logs/
 .venv/
 __pycache__/
-data/
-logs/</code></pre>
+data/</code></pre>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span><code>.gitignore</code> does not remove secrets from history
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Adding <code>.env.*</code> to <code>.gitignore</code> only stops Git from tracking new, untracked files. If an API key was committed in any earlier commit, it remains in repository history. Revoke and rotate the key immediately at the provider. A later deletion commit or <code>.gitignore</code> rule does not make the exposed key safe again.</p>
+</div>
+</div>
 <p>Then create the repository:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/unv-agentic-ai/projects</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> hello-agent <span class="kw">&amp;&amp;</span> <span class="bu">cd</span> hello-agent</span>
@@ -592,7 +608,7 @@ logs/</code></pre>
 <td style="text-align: left;"><strong>Private / local</strong></td>
 <td style="text-align: left;">Ollama or LM Studio with a small coding model</td>
 <td style="text-align: left;">USD 0 software; needs about 8–16 GB RAM</td>
-<td style="text-align: left;">Highest</td>
+<td style="text-align: left;">High for inference; tools and network egress still need controls</td>
 <td style="text-align: left;">High</td>
 </tr>
 </tbody>
@@ -604,7 +620,7 @@ logs/</code></pre>
 <li>Unpublished financial, contract or procurement data from an organisation</li>
 <li>Internal documents, emails or source code that your employer has not cleared for external use</li>
 </ul>
-<p>When in doubt, use synthetic data, or switch to the private/local path for that task.</p>
+<p>When in doubt, use synthetic data. Local inference is only one boundary: also disable cloud fallbacks and telemetry, restrict agent tools, and block network egress when a task must remain offline.</p>
 </section>
 <section id="check-your-setup" class="level2">
 <h2 class="anchored" data-anchor-id="check-your-setup">10. Check your setup</h2>

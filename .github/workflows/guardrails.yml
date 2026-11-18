@@ -1,0 +1,62 @@
+name: Agent guardrail checks
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/guardrails.yml"
+      - "architecture/ARCH-03-agent-runtime-enforcement.md"
+      - "labs/agent-guardrails/**"
+      - "materials/prompt-injection-lab/**"
+  push:
+    paths:
+      - ".github/workflows/guardrails.yml"
+      - "architecture/ARCH-03-agent-runtime-enforcement.md"
+      - "labs/agent-guardrails/**"
+      - "materials/prompt-injection-lab/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  guardrails:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          persist-credentials: false
+
+      - name: Run deterministic unit tests and evals
+        run: python3 -m unittest discover -s labs/agent-guardrails/tests -v
+
+      - name: Build the pinned guardrail test container
+        run: docker build --file labs/agent-guardrails/Containerfile --tag agent-guardrails:test .
+
+      - name: Run container boundary tests
+        run: |
+          mkdir -p guardrail-artifacts
+          docker run --rm \
+            --network none \
+            --read-only \
+            --pids-limit 128 \
+            --memory 256m \
+            --cpus 1.0 \
+            --cap-drop ALL \
+            --security-opt no-new-privileges:true \
+            --user "$(id -u):$(id -g)" \
+            --tmpfs /tmp:rw,noexec,nosuid,nodev,size=64m \
+            --mount type=bind,source="$PWD/guardrail-artifacts",target=/output \
+            --env EXPECT_SANDBOX=1 \
+            --env GUARDRAIL_AUDIT_LOG=/output/audit.jsonl \
+            agent-guardrails:test
+
+      - name: Upload minimized synthetic audit events
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: agent-guardrail-audit
+          path: guardrail-artifacts/audit.jsonl
+          if-no-files-found: error
+          retention-days: 7

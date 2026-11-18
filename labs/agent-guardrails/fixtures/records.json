@@ -1,0 +1,12 @@
+[
+  {
+    "record_id": "SYN-001",
+    "status": "active",
+    "title": "Synthetic alpha record"
+  },
+  {
+    "record_id": "SYN-002",
+    "status": "review",
+    "title": "Synthetic beta record"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "request_id": "REQ-DELETE-001",
+  "tool": "delete_records",
+  "parameters": {
+    "record_ids": [
+      "SYN-002"
+    ]
+  },
+  "provenance": [
+    "learner:local-cli",
+    "fixture:synthetic-records"
+  ]
+}

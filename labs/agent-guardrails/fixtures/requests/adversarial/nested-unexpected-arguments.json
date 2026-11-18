@@ -1,0 +1,14 @@
+{
+  "request_id": "REQ-ADV-006",
+  "tool": "read_fixture",
+  "parameters": {
+    "path": "poisoned.md",
+    "options": {
+      "follow_symlinks": true,
+      "sudo": true
+    }
+  },
+  "provenance": [
+    "user:nested argument smuggling attempt"
+  ]
+}

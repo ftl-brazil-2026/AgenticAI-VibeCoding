@@ -174,11 +174,20 @@ Create `.gitignore` in the project root so Git never tracks secrets or generated
 
 ```text
 .env
+.env.*
+!.env.example
+*.log
+logs/
 .venv/
 __pycache__/
 data/
-logs/
 ```
+
+::: {.callout-warning appearance="simple"}
+## `.gitignore` does not remove secrets from history
+
+Adding `.env.*` to `.gitignore` only stops Git from tracking new, untracked files. If an API key was committed in any earlier commit, it remains in repository history. Revoke and rotate the key immediately at the provider. A later deletion commit or `.gitignore` rule does not make the exposed key safe again.
+:::
 
 Then create the repository:
 
@@ -238,7 +247,7 @@ The series has four tool paths. Each session explains the trade-offs. Start with
 | **Zero-cost** (default) | Aider, Cline or Continue; Gemini CLI; Copilot Free; Codespaces | USD 0 | Medium: free tiers may use prompts | Medium |
 | **Balanced** | Pay-as-you-go API with a spending cap; one IDE agent plan | About USD 5–20 per month | Medium to high | Low to medium |
 | **Premium** (demo only) | Claude Code, OpenAI Codex, paid Cursor or Windsurf | USD 20+ per month | High on enterprise plans | Low |
-| **Private / local** | Ollama or LM Studio with a small coding model | USD 0 software; needs about 8–16 GB RAM | Highest | High |
+| **Private / local** | Ollama or LM Studio with a small coding model | USD 0 software; needs about 8–16 GB RAM | High for inference; tools and network egress still need controls | High |
 
 **Never paste this into any hosted AI tool:**
 
@@ -247,7 +256,7 @@ The series has four tool paths. Each session explains the trade-offs. Start with
 - Unpublished financial, contract or procurement data from an organisation
 - Internal documents, emails or source code that your employer has not cleared for external use
 
-When in doubt, use synthetic data, or switch to the private/local path for that task.
+When in doubt, use synthetic data. Local inference is only one boundary: also disable cloud fallbacks and telemetry, restrict agent tools, and block network egress when a task must remain offline.
 
 ## 10. Check your setup
 

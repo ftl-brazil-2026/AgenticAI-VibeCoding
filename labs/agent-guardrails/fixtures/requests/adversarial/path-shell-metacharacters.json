@@ -1,0 +1,10 @@
+{
+  "request_id": "REQ-ADV-004",
+  "tool": "read_fixture",
+  "parameters": {
+    "path": "poisoned.md; rm -rf /"
+  },
+  "provenance": [
+    "user:shell metacharacter smuggling attempt"
+  ]
+}
