@@ -108,9 +108,9 @@ Description coming soon. The presenter's GitHub link will be added here once the
 
 [Github Repository](https://github.com/shakila-alam-aishy/Debugging-in-the-Agentic-Age_UNDP){.btn .btn-primary}
 
-### Class 8: Context Engineering & Large Codebases
+### Class XII and XIII: Context Engineering & Large Codebases
 
-**Presenter:** Ekoko Clesh, **Status:** Confirmed **Roadmap session:** S6
+**Presenter:** Ekoko Clesh, **Status:** 25/11 and 30/11 **Roadmap session:** S6
 
 Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
 
