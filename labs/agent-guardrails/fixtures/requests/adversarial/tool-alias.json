@@ -1,0 +1,10 @@
+{
+  "request_id": "REQ-ADV-002",
+  "tool": "Read_File",
+  "parameters": {
+    "path": "poisoned.md"
+  },
+  "provenance": [
+    "user:case-variation alias attempt"
+  ]
+}

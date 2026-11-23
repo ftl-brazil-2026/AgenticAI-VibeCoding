@@ -1,0 +1,10 @@
+{
+  "request_id": "REQ-ADV-003",
+  "tool": "read_fixturе",
+  "parameters": {
+    "path": "poisoned.md"
+  },
+  "provenance": [
+    "user:unicode confusable attempt"
+  ]
+}

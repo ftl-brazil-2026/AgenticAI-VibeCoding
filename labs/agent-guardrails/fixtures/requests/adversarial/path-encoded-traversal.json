@@ -1,0 +1,10 @@
+{
+  "request_id": "REQ-ADV-005",
+  "tool": "read_fixture",
+  "parameters": {
+    "path": "..%2f..%2fetc/passwd"
+  },
+  "provenance": [
+    "user:encoded traversal attempt"
+  ]
+}

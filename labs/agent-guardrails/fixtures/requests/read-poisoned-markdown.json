@@ -1,0 +1,11 @@
+{
+  "request_id": "REQ-READ-001",
+  "tool": "read_fixture",
+  "parameters": {
+    "path": "poisoned.md"
+  },
+  "provenance": [
+    "learner:local-cli",
+    "fixture:poisoned.md"
+  ]
+}
