@@ -1,0 +1,28 @@
+---
+title: "Session X: Debugging in the Agentic Cage"
+---
+
+[← All session summaries](../sessions.qmd) · [← Previous: Session IX](session-9.qmd) · [Next: Session XI →](session-11.qmd)
+
+**Date:** November 23, 2026 at 15:42 UTC · **Presenter:** Shakila Alam Aishy · **Type:** Theory (43 minutes 35 seconds)
+
+## What we covered
+
+- **Three Critical Characteristics:** Autonomous loops, generation vs. quality, confidence bias
+- **Four Reasons AI Code Breaks:** Float context, dependency problems, shallow validation, regression
+- **Audit Framework:** Scope verification, credential exposure, network paths, avoiding blind merges
+- **Error Types:** Syntax errors (detected early), runtime errors (crash), logical errors (silent failures)
+- **High-Signal Context:** How to write prompts that prevent AI misunderstanding
+- **The Endless Loop Problem:** Speculative patching → error compounding → total drift. The Stop Rule.
+- **Safety Nets:** Atomic checkpoints, inspecting diffs, using branches for experiments
+- **Regression Testing:** Three-stage test process to prevent breaking related features
+- **Technical Debt:** Eliminating duplication, clear naming, preserving external APIs
+- **Seven-Step Pipeline:** Reproduce → Collect → Audit → Prompt → Review → Test → Commit
+
+## Key takeaway
+
+> AI accelerates coding, but discipline in debugging makes results reliable. Responsibility stays in human hands.
+
+::: {.recording-cta}
+[Watch the recording](https://drive.google.com/drive/folders/1V61sL0zoUn0w0_hpfqACW8BueSjfsFl_?usp=sharing){.btn .btn-primary .btn-lg target="_blank"}
+:::

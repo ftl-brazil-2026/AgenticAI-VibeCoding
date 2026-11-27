@@ -1,0 +1,32 @@
+---
+title: "Session XI: Practical Debugging Lab"
+---
+
+[← All session summaries](../sessions.qmd) · [← Previous: Session X](session-10.qmd)
+
+**Date:** November 24, 2026 at 15:44 UTC · **Presenter:** Shakila Alam Aishy · **Type:** Hands-on Lab (56 minutes 10 seconds)
+
+## What we covered
+
+- **Live Debugging Walkthrough:** Real donation page broken by AI, finding and fixing issues
+- **Reproduce & Observe:** Silent failures—server error vs. user feedback
+- **Code Audit:** Finding hardcoded API keys, missing validation, code duplication
+- **Security Issues:** Exposed credentials in frontend, logged to console, sent in headers
+- **Network Analysis:** Using browser DevTools to verify server behavior and error responses
+- **Weak vs. Strong Prompts:** How prompt quality directly affects AI solution quality
+- **Git Recovery:** rollback techniques with `git restore`, `git reset`, `git clean`
+- **Secure API Management:** Moving secrets to .env files, never committing sensitive data
+- **Git Workflow:** Staging, committing with meaningful messages, pushing changes
+- **Testing & Validation:** Rerunning tests, manual edge-case testing, regression verification
+
+## The debugging checklist
+
+✓ Reproduce · ✓ Collect evidence · ✓ Audit code · ✓ Identify root causes · ✓ Prompt AI clearly · ✓ Review changes · ✓ Test thoroughly · ✓ Commit cleanly
+
+## Key takeaway
+
+> Debugging is systematic: reproduce → understand → fix properly → test → prevent recurrence. Version control is your safety net.
+
+::: {.recording-cta}
+[Watch the recording](https://drive.google.com/drive/folders/1V61sL0zoUn0w0_hpfqACW8BueSjfsFl_?usp=sharing){.btn .btn-primary .btn-lg target="_blank"}
+:::

@@ -186,36 +186,77 @@ This index provides quick navigation to all session summaries, including date, t
 * * *
 
 ### **Session IX: Practical Multi-Agents Orchestration**
-📅 **November 17, 2026 at 18:30**  
-👨‍🏫 **Presenter:** Lwin Ravendo  
-⏱️ **Duration:** 60-90 minutes  
-🎯 **Type:** Hands-On Lab
+📅 **November 17, 2026 at 15:35 (UTC)**  
+👨‍🏫 **Presenter:** Lwin Ravendo (Frontier Tech Leader, UN Volunteer, Agentic AI Trainer)  
+⏱️ **Duration:** 1 hour 37 minutes  
+🎯 **Type:** Hands-On Lab - Multi-Agent System Development
 
-**Topics:** (Transcript not yet summarized)
-- Building multi-agent systems in practice
-- Inter-agent communication
-- Quality gates and verification between agents
-- Deployment of multi-agent applications
-- Scaling considerations
+**Key Topics:**
+- Agentic AI anatomy and loop structure
+- Agent architectures (independent, decentralized, centralized, hybrid)
+- Quro IDE features and multi-agent workflows
+- Multi-session management and parallel development
+- Context window expansion (8K → 1M-10M tokens)
+- Real cloud-native architecture project
+- Error handling & recovery with git
+- Cost management and token economics
+- Production deployment workflow
 
-🔗 *Summary to be added*
+**Learning Outcome:** Master multi-agent orchestration, understand Quro environment, coordinate parallel development tasks, manage token costs effectively
+
+📄 **[Read Full Summary](Session-IX_Practical-Multi-Agents-Orchestration.md)**
 
 * * *
 
-### **Session X: Capstone Project - Building Autonomous Micro Products**
-📅 **TBD (Week 4-5)**  
-👨‍🏫 **Presenter:** TBD  
-⏱️ **Duration:** TBD  
-🎯 **Type:** Final Project + Showcase
+### **Session X: Debugging in the Agentic Cage**
+📅 **November 23, 2026 at 15:42 (UTC)**  
+👩‍🏫 **Presenter:** Shakila Alam Aishy (CS Student, Elite Research Lab Intern)  
+⏱️ **Duration:** 43 minutes 35 seconds  
+🎯 **Type:** Theory & Debugging Principles
 
-**Topics:** (Transcript not yet summarized)
-- Capstone project definition
-- Combining all learned concepts
-- Building production-ready autonomous systems
-- Deployment and operations
-- Project showcase and community feedback
+**Key Topics:**
+- Three critical AI characteristics (autonomous loops, speed vs. quality, confidence bias)
+- Four reasons AI code breaks (float context, dependencies, shallow validation, regression)
+- Code audit framework and verification checklists
+- Error types and their detection
+- High-signal context and effective prompting
+- Endless loop problem and the Stop Rule
+- Safety nets: atomic checkpoints, diff inspection, experimental branches
+- Git recovery commands
+- Regression testing framework
+- Technical debt management
+- Real-world donation page case study
+- Seven-step debugging pipeline
 
-🔗 *Summary to be added*
+**Learning Outcome:** Master systematic debugging of AI-generated code, understand failure modes, provide effective context, maintain control over AI development
+
+📄 **[Read Full Summary](Session-X_Debugging-in-Agentic-Cage.md)**
+
+* * *
+
+### **Session XI: Practical Debugging Lab**
+📅 **November 24, 2026 at 15:44 (UTC)**  
+👩‍🏫 **Presenter:** Shakila Alam Aishy  
+⏱️ **Duration:** 56 minutes 10 seconds  
+🎯 **Type:** Hands-On Lab - Live Debugging Exercise
+
+**Key Topics:**
+- Live reproduction of broken donation page
+- Initial assessment and test execution
+- Detailed code audit (four key questions)
+- Security findings (hardcoded keys, exposed credentials, logging issues)
+- Network traffic analysis with browser DevTools
+- Weak vs. strong prompts comparison
+- Identifying code issues (validation, error display, duplication)
+- Git recovery and rollback techniques
+- Secure API key management with .env files
+- Complete git workflow (staging, committing, pushing)
+- Testing and validation procedures
+- Complete debugging checklist
+
+**Learning Outcome:** Apply systematic debugging techniques to real-world broken code, understand security implications, master proper git workflow, test thoroughly
+
+📄 **[Read Full Summary](Session-XI_Practical-Debugging-Lab.md)**
 
 * * *
 
@@ -231,8 +272,9 @@ This index provides quick navigation to all session summaries, including date, t
 | VI | Agents Mechanisms | Theory | ✅ Complete |
 | VII | Agents Practical Lab | Hands-On | ✅ Complete |
 | VIII | Multi-Agents Orchestration | Theory | ✅ Complete |
-| IX | Multi-Agents Practical | Hands-On | 🔄 Scheduled |
-| X | Capstone Project | Capstone | 🔄 Scheduled |
+| IX | Multi-Agents Practical | Hands-On | ✅ Complete |
+| X | Debugging in Agentic Systems | Theory | ✅ Complete |
+| XI | Practical Debugging Lab | Hands-On | ✅ Complete |
 
 * * *
 

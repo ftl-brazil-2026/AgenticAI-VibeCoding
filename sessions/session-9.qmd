@@ -1,0 +1,27 @@
+---
+title: "Session IX: Practical Multi-Agents Orchestration"
+---
+
+[← All session summaries](../sessions.qmd) · [← Previous: Session VIII](session-8.qmd) · [Next: Session X →](session-10.qmd)
+
+**Date:** November 17, 2026 at 15:35 UTC · **Presenter:** Lwin Ravendo · **Type:** Hands-on Lab (1 hour 37 minutes)
+
+## What we covered
+
+- **Agentic AI Under the Hood:** Loop structure, tool calls, and how intelligence emerges from iteration
+- **Agent Architectures:** Independent, decentralized, centralized, and hybrid agent patterns
+- **Quro Development Environment:** Web IDE, CLI, local setup with multi-agent workflows
+- **Multi-Agent Session Management:** Coordinating parallel development tasks with shared workspace context
+- **Context Window Expansion:** From 8K tokens (2025) to 10M tokens (2026) — massive capability increase
+- **Real Project Example:** Building cloud-native architecture with coordinated agents for backend, frontend, testing, documentation
+- **Cost Management:** Token economics, model selection tradeoffs, budget optimization
+- **Error Handling & Recovery:** Git checkpoints, rollback techniques, handling sandbox issues
+- **Production Deployment:** Complete flow from specification to deployment with proper validation
+
+## Key takeaway
+
+> Understanding the agentic loop is the foundation. Workspace context matters. Multi-agent coordination requires planning. Cost and speed are tradeoffs. Human oversight remains critical.
+
+::: {.recording-cta}
+[Watch the recording](https://drive.google.com/drive/folders/1V61sL0zoUn0w0_hpfqACW8BueSjfsFl_?usp=sharing){.btn .btn-primary .btn-lg target="_blank"}
+:::
