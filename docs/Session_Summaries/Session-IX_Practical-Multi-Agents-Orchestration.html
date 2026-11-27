@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>session-ix_practical-multi-agents-orchestration – Agentic AI Lessons</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a6a6f33836b8e69c33045518c714b347.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Agentic AI Lessons</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../sessions.html"> 
+<span class="menu-text">Session summaries</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../roadmap.html"> 
+<span class="menu-text">Roadmap</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../setup.html"> 
+<span class="menu-text">Setup</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../free-providers.html"> 
+<span class="menu-text">Free providers</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#practical-multi-agents-orchestration---building-ai-driven-development-workflows" id="toc-practical-multi-agents-orchestration---building-ai-driven-development-workflows" class="nav-link active" data-scroll-target="#practical-multi-agents-orchestration---building-ai-driven-development-workflows">Practical Multi-Agents Orchestration - Building AI-Driven Development Workflows</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#key-learning-outcomes" id="toc-key-learning-outcomes" class="nav-link" data-scroll-target="#key-learning-outcomes">Key Learning Outcomes</a></li>
+  <li><a href="#main-topics-covered" id="toc-main-topics-covered" class="nav-link" data-scroll-target="#main-topics-covered">Main Topics Covered</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#technical-lessons-learned" id="toc-technical-lessons-learned" class="nav-link" data-scroll-target="#technical-lessons-learned">Technical Lessons Learned</a></li>
+  <li><a href="#action-items-for-participants" id="toc-action-items-for-participants" class="nav-link" data-scroll-target="#action-items-for-participants">Action Items for Participants</a></li>
+  <li><a href="#resources-tools-mentioned" id="toc-resources-tools-mentioned" class="nav-link" data-scroll-target="#resources-tools-mentioned">Resources &amp; Tools Mentioned</a></li>
+  <li><a href="#session-closing" id="toc-session-closing" class="nav-link" data-scroll-target="#session-closing">Session Closing</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="practical-multi-agents-orchestration---building-ai-driven-development-workflows" class="level1">
+<h1>Practical Multi-Agents Orchestration - Building AI-Driven Development Workflows</h1>
+<p><strong>📅 Date &amp; Time:</strong> November 17, 2026 at 15:35 (3:35 PM UTC)<br>
+<strong>👨‍🏫 Presenter:</strong> Lwin Ravendo (Frontier Tech Leader, UN Volunteer, Agentic AI Trainer)<br>
+<strong>🎯 Session Type:</strong> Hands-On Lab - Multi-Agent System Development<br>
+<strong>⏱️ Duration:</strong> 1 hour 37 minutes</p>
+<hr>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This practical session demonstrates real-world multi-agent orchestration using <strong>Quro</strong>, a modern AI-powered development environment. Participants see how to coordinate multiple AI agents to build complete software projects from specification to deployment, managing parallel workflows, handling errors, and maintaining code quality throughout the development lifecycle.</p>
+<hr>
+</section>
+<section id="key-learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="key-learning-outcomes">Key Learning Outcomes</h2>
+<ol type="1">
+<li><strong>Understand Agentic AI Under the Hood</strong> - Master the anatomy of agents and how loops enable intelligence</li>
+<li><strong>Master Quro Environment</strong> - Learn web-based, CLI, and IDE development with multi-agent workflows</li>
+<li><strong>Manage Multi-Agent Sessions</strong> - Coordinate multiple agents working on different tasks in parallel</li>
+<li><strong>Handle Errors &amp; Rollbacks</strong> - Use git checkpoints and recovery techniques effectively</li>
+<li><strong>Deploy Production Code</strong> - Build complete projects with proper testing and validation</li>
+</ol>
+<hr>
+</section>
+<section id="main-topics-covered" class="level2">
+<h2 class="anchored" data-anchor-id="main-topics-covered">Main Topics Covered</h2>
+<section id="agentic-ai-anatomy-under-the-hood" class="level3">
+<h3 class="anchored" data-anchor-id="agentic-ai-anatomy-under-the-hood">1. <strong>Agentic AI Anatomy: Under the Hood</strong></h3>
+<section id="the-core-loop-structure" class="level4">
+<h4 class="anchored" data-anchor-id="the-core-loop-structure"><strong>The Core Loop Structure</strong></h4>
+<pre><code>Model → System Prompt → Tool Calls → Scales → MCP Instructions
+  ↓
+Messages Block (storage for context, memory, messages)
+  ↓
+Loops continuously until goal is achieved</code></pre>
+<p><strong>Key Components:</strong> - <strong>Model:</strong> The LLM (Claude, GPT, etc.) - <strong>System Prompt:</strong> Triggers tool calls and agent behavior - <strong>Tool Calls:</strong> Actions the agent can request (run code, modify files, etc.) - <strong>Scales:</strong> Reusable instructions and skills - <strong>MCP Instructions:</strong> Model Context Protocol for external integrations - <strong>Messages Block:</strong> Persistent storage for context and history</p>
+<p><strong>Definition:</strong> A strong AI engineer is a person who can run this loop reliably and at scale.</p>
+</section>
+<section id="three-types-of-agent-architectures" class="level4">
+<h4 class="anchored" data-anchor-id="three-types-of-agent-architectures"><strong>Three Types of Agent Architectures</strong></h4>
+<p><strong>1. Independent/Isolated Agents</strong></p>
+<pre><code>Agent A ─┐
+Agent B ─├─ Isolated execution (no direct communication)
+Agent C ─┘</code></pre>
+<ul>
+<li>Each works independently in sandboxed environment</li>
+<li>No coordination between agents</li>
+<li>Best for simple, non-dependent tasks</li>
+</ul>
+<p><strong>2. Decentralized (P2P) Agents</strong></p>
+<pre><code>Agent 1 ←→ Agent 2
+  ↕        ↕
+Agent 3 ←→ Agent 4</code></pre>
+<ul>
+<li>Peer-to-peer direct connections</li>
+<li>Agents communicate directly</li>
+<li>More complex coordination</li>
+<li>Example: blockchain-inspired architectures</li>
+</ul>
+<p><strong>3. Centralized Agents</strong></p>
+<pre><code>Central Controller/Broker
+        ↓
+   ┌────┼────┐
+   ↓    ↓    ↓
+  Sub  Sub  Sub
+  Ag-A Ag-B Ag-C</code></pre>
+<ul>
+<li>Central orchestrator controls all sub-agents</li>
+<li>Clear command flow</li>
+<li>Easier to manage but single point of failure</li>
+</ul>
+<p><strong>4. Hybrid Architecture</strong></p>
+<pre><code>Global Coordinator
+    ↓
+ ┌──┴──┐
+ ↓     ↓
+Cluster A  Cluster B
+(Decentr.) (Centralized)</code></pre>
+<ul>
+<li>Combines multiple patterns</li>
+<li>Used by cloud-augmented research systems</li>
+<li>Most flexible approach</li>
+</ul>
+</section>
+</section>
+<section id="generative-ai-vs.-agentic-ai" class="level3">
+<h3 class="anchored" data-anchor-id="generative-ai-vs.-agentic-ai">2. <strong>Generative AI vs.&nbsp;Agentic AI</strong></h3>
+<section id="traditional-generative-ai" class="level4">
+<h4 class="anchored" data-anchor-id="traditional-generative-ai"><strong>Traditional Generative AI</strong></h4>
+<ul>
+<li><strong>Type:</strong> Reactive systems</li>
+<li><strong>Process:</strong> Prompt → Generate → Return</li>
+<li><strong>Context Window:</strong> Previously ~8K tokens</li>
+<li><strong>Control:</strong> Limited to generation</li>
+<li><strong>Example:</strong> ChatGPT interface usage</li>
+</ul>
+</section>
+<section id="agentic-ai" class="level4">
+<h4 class="anchored" data-anchor-id="agentic-ai"><strong>Agentic AI</strong></h4>
+<ul>
+<li><strong>Type:</strong> Proactive systems</li>
+<li><strong>Process:</strong> Prompt → Action → Tool Call → Perception → Decide → Execute</li>
+<li><strong>Context Window:</strong> 1M - 10M tokens (massive expansion)</li>
+<li><strong>Control:</strong> Agent decides next steps</li>
+<li><strong>Models with Large Context Windows:</strong>
+<ul>
+<li>Llama 2: 10M tokens (recent)</li>
+<li>GPT-6 Extra: 1M tokens</li>
+<li>Claude Opus 5: 1M tokens</li>
+<li>Gemini 4 Aragon: 1M tokens</li>
+<li>Qwen Qwanta: 1-10M tokens (late 2026)</li>
+</ul></li>
+</ul>
+<p><strong>Leading Inference Engineering Platforms:</strong> - HexDash - Prime Perform - Together.ai - Firewalls AI</p>
+<p><strong>New Failure Modes (2026):</strong> - Semantic failures (meaning breaks down at scale) - Logic failures (inference reasoning fails)</p>
+</section>
+</section>
+<section id="evolution-of-vibe-coding-2025-2026" class="level3">
+<h3 class="anchored" data-anchor-id="evolution-of-vibe-coding-2025-2026">3. <strong>Evolution of Vibe Coding: 2025 → 2026</strong></h3>
+<section id="traditional-vibe-coding-2025" class="level4">
+<h4 class="anchored" data-anchor-id="traditional-vibe-coding-2025"><strong>Traditional Vibe Coding (2025)</strong></h4>
+<pre><code>User Prompt
+    ↓
+LLM + Few-shot examples
+    ↓
+Generate output
+    ↓
+Edit prompt → Loop until satisfied
+    ↓
+Result</code></pre>
+<ul>
+<li>Primarily prompt-driven</li>
+<li>Limited by context window</li>
+<li>Trial and error approach</li>
+</ul>
+</section>
+<section id="specification-driven-development-modern" class="level4">
+<h4 class="anchored" data-anchor-id="specification-driven-development-modern"><strong>Specification-Driven Development (Modern)</strong></h4>
+<pre><code>User Prompt (Specification)
+    ↓
+LLM Creates Endpoints/Features
+    ↓
+Add Validation &amp; Error Handling
+    ↓
+Test &amp; Verify
+    ↓
+Return 200 status (success)</code></pre>
+<ul>
+<li>Clear specifications from start</li>
+<li>Structured error handling</li>
+<li>Proper acceptance validation</li>
+</ul>
+</section>
+<section id="ai-first-sdlc-complete-lifecycle" class="level4">
+<h4 class="anchored" data-anchor-id="ai-first-sdlc-complete-lifecycle"><strong>AI-First SDLC (Complete Lifecycle)</strong></h4>
+<pre><code>Requirements (Context Isolation)
+    ↓
+Design (BRDs, mission control files)
+    ↓
+Build (Agent workflow MD files)
+    ↓
+Test (Stack traces, error handling)
+    ↓
+Release (Deployment environment)
+    ↓
+Operate (Grafana dashboards, monitoring)
+    ↓
+Maintain (Production environment)</code></pre>
+<p><strong>Key Principle (2026):</strong> “Evals are the new PRD of digital workspace” — Luin CEO insight that evaluation frameworks now define product requirements.</p>
+</section>
+</section>
+<section id="quro-ai-powered-development-environment" class="level3">
+<h3 class="anchored" data-anchor-id="quro-ai-powered-development-environment">4. <strong>Quro: AI-Powered Development Environment</strong></h3>
+<section id="what-is-quro" class="level4">
+<h4 class="anchored" data-anchor-id="what-is-quro"><strong>What is Quro?</strong></h4>
+<p>Quro is an AI-powered IDE that helps build software from prototype to production with: - Web-based IDE (no local storage needed) - Local IDE (VS Code integration) - CLI interface - Mobile app (newly released)</p>
+</section>
+<section id="multi-model-deployment-options" class="level4">
+<h4 class="anchored" data-anchor-id="multi-model-deployment-options"><strong>Multi-Model Deployment Options</strong></h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Credits</th>
+<th>Context Window</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Claude Opus 5.5</td>
+<td>1 credit</td>
+<td>1M tokens</td>
+<td>Power/precision</td>
+</tr>
+<tr class="even">
+<td>Claude Sonnet 5</td>
+<td>1.38 credits</td>
+<td>1M tokens</td>
+<td>Balanced</td>
+</tr>
+<tr class="odd">
+<td>Claude Haiku 4.4</td>
+<td>2.7 credits</td>
+<td>Lower</td>
+<td>Budget</td>
+</tr>
+<tr class="even">
+<td>GPT-5.6</td>
+<td>4.4 credits</td>
+<td>1M tokens</td>
+<td>Alternative</td>
+</tr>
+<tr class="odd">
+<td>DeepSeek M1</td>
+<td>Lower cost</td>
+<td>Variable</td>
+<td>Budget coding</td>
+</tr>
+<tr class="even">
+<td>Kimi K3</td>
+<td>Variable</td>
+<td>-</td>
+<td>Data flow/code analysis</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="quro-web-environment-features" class="level4">
+<h4 class="anchored" data-anchor-id="quro-web-environment-features"><strong>Quro Web Environment Features</strong></h4>
+<p><strong>1. Cloud Configuration (Agent Config)</strong> - Share configurations across web and local environments - Synchronize workspaces between IDE and browser - Persistent session state</p>
+<p><strong>2. DRM System (Development Requirements)</strong> - Document development standards in IDE and CLI - Include: coding standards, architectural decisions, profile libraries, dependencies - Portable across all environments</p>
+<p><strong>3. Skills</strong> - Reusable instructions for agents - Specialized for specific tasks - Stored as folders with <code>.skill.md</code> and <code>.rules</code> - Applied contextually per session</p>
+<p><strong>4. Custom Agents</strong> - Create tailored agents for specific tasks - Defined via JSON or Markdown+YAML - Synchronized across environments - Task-specific configurations</p>
+<p><strong>5. Hooks</strong> - Trigger agent prompts or shell commands automatically - Events: file saving, tool calls, prompting, etc. - Each hook maps to JSON file in project - Integration: Telegram, Discourse, etc.</p>
+<p><strong>6. Workflows</strong> - Multi-step recipes reusable by agents - Workflow format: <code>.workflow.json</code> or <code>.workflow.yaml</code> - Enable parallel task execution - Save and reuse across projects</p>
+<p><strong>7. Powers (MCP Integration)</strong> - Connect agents to external tools and services - One standard way to access external resources - Upload custom MCPs as folders - Typically <code>.power.md</code> at root</p>
+<p><strong>8. Memory Management</strong> - Session recap: summarize conversations - Automatic memory persistence - Reopen summaries or pick up where left off - Model fallback: switch models if one unavailable</p>
+<p><strong>9. Approval Modes</strong> - <strong>Default:</strong> Every action needs human approval - <strong>LLM-based:</strong> Intelligent approval suggestions - <strong>Modes:</strong> Allow once, block once, ask if unsure</p>
+</section>
+<section id="project-creation-workflow" class="level4">
+<h4 class="anchored" data-anchor-id="project-creation-workflow"><strong>Project Creation Workflow</strong></h4>
+<p><strong>Step 1: Create New Chat Session</strong> - Define working space - Choose coding model (consider credits/power) - Set effort level (auto vs.&nbsp;manual) - Attach relevant files - Limit/enable internet access - Select repository access level</p>
+<p><strong>Step 2: Configure Workspace</strong> - Set up digital workspace environment - Define repository location - Create GitHub integration</p>
+<p><strong>Step 3: Start Development</strong> - Use multi-agent workflows - Run parallel sessions - Monitor token usage and costs</p>
+</section>
+</section>
+<section id="multi-agent-session-management-in-practice" class="level3">
+<h3 class="anchored" data-anchor-id="multi-agent-session-management-in-practice">5. <strong>Multi-Agent Session Management in Practice</strong></h3>
+<section id="exploration-session-example" class="level4">
+<h4 class="anchored" data-anchor-id="exploration-session-example"><strong>Exploration Session Example</strong></h4>
+<p><strong>Scenario:</strong> Understanding an existing project</p>
+<p><strong>Agent Actions:</strong> 1. Looks for steering files (project specifications) 2. Searches for learning memories 3. Attempts repository operations 4. Uses investigation tools iteratively 5. Provides comprehensive analysis</p>
+<p><strong>Chain of Thought Process:</strong> - Agent thinks step-by-step (may take 20-40 seconds) - Multiple tool investigations - Iterative refinement - Final consolidated response</p>
+<p><strong>Token Usage:</strong> 11,292 credits for detailed exploration</p>
+</section>
+<section id="coding-session-management" class="level4">
+<h4 class="anchored" data-anchor-id="coding-session-management"><strong>Coding Session Management</strong></h4>
+<p><strong>Multi-Session Parallel Workflow:</strong></p>
+<pre><code>Session 1: Backend Development
+Session 2: Frontend Implementation  
+Session 3: Testing &amp; Validation
+Session 4: Documentation
+
+All running with shared workspace context</code></pre>
+<p><strong>Workflow Challenges Encountered:</strong> - Workflow launch failures (invalid input) - Schema mismatches - Iteration limits - Branch management</p>
+<p><strong>Recovery Techniques:</strong> - Step-by-step workflow iteration - Explicit parameter specification - Format validation - Fallback strategies</p>
+</section>
+<section id="real-project-example-cloud-native-architecture" class="level4">
+<h4 class="anchored" data-anchor-id="real-project-example-cloud-native-architecture"><strong>Real Project Example: Cloud-Native Architecture</strong></h4>
+<p><strong>Project Structure Created:</strong></p>
+<pre><code>backend/
+  main/
+  deployment/
+
+frontend/
+  components/
+  
+docs/
+  architecture/</code></pre>
+<p><strong>Technology Stack:</strong> - Frontend: React, Vite - Backend: FastAPI 2.0 - Caching: Redis - MCP Studio integration</p>
+<p><strong>Runtime Architecture:</strong></p>
+<pre><code>Browser (SSY) → HTTPS
+      ↓
+Frontend (TS)
+      ↓
+API (FastAPI)
+      ↓
+Redis Cache
+      ↓
+MCP Studio Services</code></pre>
+<p><strong>Orchestration Pattern:</strong></p>
+<pre><code>Validation Step → Authorization → Execution
+  ↓               ↓                ↓
+Schemas       User Checks      Task Logic
+(Type safety) (Permission)    (Business logic)</code></pre>
+</section>
+</section>
+<section id="error-handling-recovery" class="level3">
+<h3 class="anchored" data-anchor-id="error-handling-recovery">6. <strong>Error Handling &amp; Recovery</strong></h3>
+<section id="common-challenges" class="level4">
+<h4 class="anchored" data-anchor-id="common-challenges"><strong>Common Challenges</strong></h4>
+<ol type="1">
+<li><strong>Clone Repository Errors</strong>
+<ul>
+<li>Attempting to clone during development</li>
+<li>Caused by vague initial prompts</li>
+<li>Solution: Provide clear workspace context</li>
+</ul></li>
+<li><strong>Workflow Launch Failures</strong>
+<ul>
+<li>Invalid input messages</li>
+<li>Missing schema definitions</li>
+<li>Solution: Explicit parameter types and validation</li>
+</ul></li>
+<li><strong>Session Management Issues</strong>
+<ul>
+<li>Multiple agents conflicting</li>
+<li>Sandbox sleep/wake cycles</li>
+<li>Solution: Clear session boundaries</li>
+</ul></li>
+</ol>
+</section>
+<section id="recovery-strategies" class="level4">
+<h4 class="anchored" data-anchor-id="recovery-strategies"><strong>Recovery Strategies</strong></h4>
+<p><strong>Git Rollback:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status           <span class="co"># Check current state</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> restore <span class="op">&lt;</span>file<span class="op">&gt;</span>   <span class="co"># Discard uncommitted changes</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> reset <span class="at">--hard</span>     <span class="co"># Return to last commit</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Session Cleanup:</strong> - Close problematic session - Create new focused session - Provide full context from start</p>
+<p><strong>Branching Strategy:</strong> - Create separate branches for features - Avoid main branch conflicts - Clean merge requests with proper CI</p>
+</section>
+</section>
+<section id="practical-session-flow" class="level3">
+<h3 class="anchored" data-anchor-id="practical-session-flow">7. <strong>Practical Session Flow</strong></h3>
+<section id="phase-1-initial-exploration-4-20-seconds" class="level4">
+<h4 class="anchored" data-anchor-id="phase-1-initial-exploration-4-20-seconds"><strong>Phase 1: Initial Exploration</strong> (4-20 seconds)</h4>
+<ul>
+<li>Agent reviews project structure</li>
+<li>Identifies existing code</li>
+<li>Notes potential issues</li>
+</ul>
+</section>
+<section id="phase-2-implementation-10-30-minutes" class="level4">
+<h4 class="anchored" data-anchor-id="phase-2-implementation-10-30-minutes"><strong>Phase 2: Implementation</strong> (10-30 minutes)</h4>
+<ul>
+<li>Agent writes code based on specifications</li>
+<li>Creates multiple files</li>
+<li>Tests implementation</li>
+<li>Fixes errors iteratively</li>
+</ul>
+</section>
+<section id="phase-3-validation-5-10-minutes" class="level4">
+<h4 class="anchored" data-anchor-id="phase-3-validation-5-10-minutes"><strong>Phase 3: Validation</strong> (5-10 minutes)</h4>
+<ul>
+<li>Push branches to GitHub</li>
+<li>Create pull requests</li>
+<li>Verify CI/CD checks</li>
+<li>Document limitations</li>
+</ul>
+</section>
+<section id="phase-4-documentation-5-15-minutes" class="level4">
+<h4 class="anchored" data-anchor-id="phase-4-documentation-5-15-minutes"><strong>Phase 4: Documentation</strong> (5-15 minutes)</h4>
+<ul>
+<li>Update README</li>
+<li>Create architecture diagrams</li>
+<li>Document deployment notes</li>
+<li>Plan future enhancements</li>
+</ul>
+<p><strong>Total Time per Feature:</strong> 20-60 minutes</p>
+</section>
+</section>
+<section id="cost-management" class="level3">
+<h3 class="anchored" data-anchor-id="cost-management">8. <strong>Cost Management</strong></h3>
+<p><strong>Example Costs:</strong> - Exploration session: ~11K credits (20-40 minutes) - Implementation session: ~20-30K credits - Validation &amp; testing: ~10-15K credits - Documentation: ~5-10K credits</p>
+<p><strong>Cost Optimization:</strong> 1. Use cheaper models for simple tasks 2. Batch related changes 3. Provide clear specifications upfront 4. Reuse existing sessions when possible 5. Monitor token usage per session</p>
+</section>
+<section id="best-practices-for-multi-agent-orchestration" class="level3">
+<h3 class="anchored" data-anchor-id="best-practices-for-multi-agent-orchestration">9. <strong>Best Practices for Multi-Agent Orchestration</strong></h3>
+<p>✅ <strong>DO:</strong> - Create separate sessions for distinct tasks - Provide full context in each session - Use workspace-level storage - Document limitations and risks - Test before merging - Create meaningful commit messages</p>
+<p>❌ <strong>DON’T:</strong> - Merge unreviewed code blindly - Ignore test failures - Expose secrets in code - Create too many parallel sessions at once - Skip CI/CD validation - Assume first attempt is production-ready</p>
+<hr>
+</section>
+</section>
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
+<section id="the-agentic-loop-is-the-foundation" class="level3">
+<h3 class="anchored" data-anchor-id="the-agentic-loop-is-the-foundation"><strong>The Agentic Loop is the Foundation</strong></h3>
+<p>Understanding how agents think, act, and iterate is essential for effective orchestration.</p>
+</section>
+<section id="workspace-context-matters" class="level3">
+<h3 class="anchored" data-anchor-id="workspace-context-matters"><strong>Workspace Context Matters</strong></h3>
+<p>Agents perform better when they understand the full project context, not just individual tasks.</p>
+</section>
+<section id="multi-agent-coordination-requires-planning" class="level3">
+<h3 class="anchored" data-anchor-id="multi-agent-coordination-requires-planning"><strong>Multi-Agent Coordination Requires Planning</strong></h3>
+<p>Clear task boundaries, proper branching, and clean handoffs prevent errors.</p>
+</section>
+<section id="cost-and-speed-are-tradeoffs" class="level3">
+<h3 class="anchored" data-anchor-id="cost-and-speed-are-tradeoffs"><strong>Cost and Speed Are Tradeoffs</strong></h3>
+<p>Faster models cost more; cheaper models take longer. Choose based on task complexity.</p>
+</section>
+<section id="human-oversight-remains-critical" class="level3">
+<h3 class="anchored" data-anchor-id="human-oversight-remains-critical"><strong>Human Oversight Remains Critical</strong></h3>
+<p>Even with advanced agents, review, test, and validation are non-negotiable.</p>
+</section>
+<section id="tools-and-environment-shape-quality" class="level3">
+<h3 class="anchored" data-anchor-id="tools-and-environment-shape-quality"><strong>Tools and Environment Shape Quality</strong></h3>
+<p>Good development environments (like Quro) with proper memory, hooks, and workflows significantly improve outcomes.</p>
+<hr>
+</section>
+</section>
+<section id="technical-lessons-learned" class="level2">
+<h2 class="anchored" data-anchor-id="technical-lessons-learned">Technical Lessons Learned</h2>
+<section id="on-token-economy" class="level3">
+<h3 class="anchored" data-anchor-id="on-token-economy"><strong>On Token Economy</strong></h3>
+<ul>
+<li>1M tokens ≈ 550K lines of code</li>
+<li>Track usage per session</li>
+<li>Model selection impacts cost significantly</li>
+</ul>
+</section>
+<section id="on-error-patterns" class="level3">
+<h3 class="anchored" data-anchor-id="on-error-patterns"><strong>On Error Patterns</strong></h3>
+<ul>
+<li>Vague prompts lead to unnecessary work</li>
+<li>Clear specifications reduce iteration</li>
+<li>Architecture understanding prevents regressions</li>
+</ul>
+</section>
+<section id="on-workflow-design" class="level3">
+<h3 class="anchored" data-anchor-id="on-workflow-design"><strong>On Workflow Design</strong></h3>
+<ul>
+<li>Parallel execution requires careful coordination</li>
+<li>Branching strategy prevents conflicts</li>
+<li>CI/CD validation catches early problems</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="action-items-for-participants" class="level2">
+<h2 class="anchored" data-anchor-id="action-items-for-participants">Action Items for Participants</h2>
+<p>✅ Set up Quro account (free tier available)<br>
+✅ Explore multi-agent workflows in practice<br>
+✅ Experiment with different models and costs<br>
+✅ Create workspace-specific configurations<br>
+✅ Practice session management techniques<br>
+✅ Document your team’s reusable skills</p>
+<hr>
+</section>
+<section id="resources-tools-mentioned" class="level2">
+<h2 class="anchored" data-anchor-id="resources-tools-mentioned">Resources &amp; Tools Mentioned</h2>
+<p><strong>Development Environments:</strong> - Quro (Primary demo) - Cursor - VS Code + extensions - Replit</p>
+<p><strong>Agents &amp; Orchestration:</strong> - Quro Crew (Local IDE) - LangChain - CrewAI</p>
+<p><strong>Deployment &amp; Monitoring:</strong> - GitHub/GitLab - Grafana dashboards - CI/CD pipelines (GitHub Actions, etc.)</p>
+<hr>
+</section>
+<section id="session-closing" class="level2">
+<h2 class="anchored" data-anchor-id="session-closing">Session Closing</h2>
+<p><strong>Lwin’s Message:</strong> “I want to show you how I’ve used these agents in my projects, managing multi-agent teams in this environment. Everyone has their own way of defining and creating projects. This is my way of doing the work. If you have projects you want to create together, we can work on this environment and learn it together.”</p>
+<p><strong>Key Success Formula:</strong> &gt; Vibe Coding + Discipline + Multi-Agent Orchestration = Production-Ready Software</p>
+<hr>
+<p><strong>Next Steps:</strong> Session X focuses on debugging in agentic systems — how to handle failures and maintain code quality when things go wrong.</p>
+<p><strong>Further Learning:</strong> Explore Quro documentation, LangChain, and CrewAI for deeper multi-agent orchestration patterns.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,278 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Lab 3: Monitor Cost, Latency, and Quality for an LLM App\n",
+    "\n",
+    "## Session outcome\n",
+    "\n",
+    "Participants will generate real LLM responses, collect telemetry, calculate operational metrics, and identify alert conditions."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import importlib.util\n",
+    "import json\n",
+    "import re\n",
+    "import statistics\n",
+    "import subprocess\n",
+    "import sys\n",
+    "import time\n",
+    "from dataclasses import dataclass, asdict\n",
+    "from datetime import datetime, timezone\n",
+    "from typing import Any, Dict, List\n",
+    "\n",
+    "\n",
+    "def install_if_missing(package: str, import_name: str | None = None) -> None:\n",
+    "    import_name = import_name or package.split(\">=\")[0].replace(\"-\", \"_\")\n",
+    "    if importlib.util.find_spec(import_name) is None:\n",
+    "        print(f\"Installing {package}...\")\n",
+    "        subprocess.check_call([sys.executable, \"-m\", \"pip\", \"install\", \"-q\", package])\n",
+    "\n",
+    "\n",
+    "install_if_missing(\"transformers>=4.44.0\", \"transformers\")\n",
+    "install_if_missing(\"accelerate>=0.33.0\", \"accelerate\")\n",
+    "install_if_missing(\"torch\", \"torch\")\n",
+    "\n",
+    "import torch\n",
+    "from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline\n",
+    "\n",
+    "\n",
+    "MODEL_ID = \"HuggingFaceTB/SmolLM2-135M-Instruct\"\n",
+    "\n",
+    "\n",
+    "def load_llm(model_id: str = MODEL_ID):\n",
+    "    print(f\"Loading open-source model: {model_id}\")\n",
+    "    tokenizer = AutoTokenizer.from_pretrained(model_id)\n",
+    "    dtype = torch.float16 if torch.cuda.is_available() else torch.float32\n",
+    "    model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=dtype)\n",
+    "    device = 0 if torch.cuda.is_available() else -1\n",
+    "    generator = pipeline(\"text-generation\", model=model, tokenizer=tokenizer, device=device)\n",
+    "    print(\"Device:\", \"GPU\" if torch.cuda.is_available() else \"CPU\")\n",
+    "    return tokenizer, generator\n",
+    "\n",
+    "\n",
+    "tokenizer, generator = load_llm()\n",
+    "\n",
+    "\n",
+    "def ask_llm(system: str, user: str, max_new_tokens: int = 180, temperature: float = 0.7) -> str:\n",
+    "    messages = [\n",
+    "        {\"role\": \"system\", \"content\": system},\n",
+    "        {\"role\": \"user\", \"content\": user},\n",
+    "    ]\n",
+    "    try:\n",
+    "        prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)\n",
+    "    except Exception:\n",
+    "        prompt = f\"System: {system}\\nUser: {user}\\nAssistant:\"\n",
+    "\n",
+    "    output = generator(\n",
+    "        prompt,\n",
+    "        max_new_tokens=max_new_tokens,\n",
+    "        do_sample=True,\n",
+    "        temperature=temperature,\n",
+    "        top_p=0.9,\n",
+    "        return_full_text=False,\n",
+    "        pad_token_id=tokenizer.eos_token_id,\n",
+    "    )[0][\"generated_text\"]\n",
+    "    return output.strip()\n",
+    "\n",
+    "\n",
+    "def extract_json(text: str) -> Dict[str, Any]:\n",
+    "    match = re.search(r\"\\{.*\\}\", text, flags=re.S)\n",
+    "    if not match:\n",
+    "        raise ValueError(\"No JSON object found in model output.\")\n",
+    "    return json.loads(match.group(0))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 1. Define Production-Like Requests"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "requests = [\n",
+    "    \"Explain why prompt versioning matters in production.\",\n",
+    "    \"What should we monitor after deploying an AI assistant?\",\n",
+    "    \"How can evals prevent bad AI releases?\",\n",
+    "    \"What is a rollback plan for an LLM app?\",\n",
+    "    \"How do we reduce cost without reducing quality?\",\n",
+    "    \"What risks come from giving tools to an AI agent?\",\n",
+    "]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 2. Generate Responses and Capture Telemetry\n",
+    "\n",
+    "Telemetry should include model, prompt version, latency, approximate token/character usage, and quality signals."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "SYSTEM = \"\"\"You are an AI operations instructor. Answer in one practical paragraph.\n",
+    "Mention concrete production concerns when relevant: evals, monitoring, rollback, cost, latency, safety, or quality.\n",
+    "\"\"\"\n",
+    "\n",
+    "telemetry = []\n",
+    "\n",
+    "for i, question in enumerate(requests, start=1):\n",
+    "    started = time.time()\n",
+    "    answer = ask_llm(SYSTEM, question, max_new_tokens=160, temperature=0.75)\n",
+    "    latency_ms = int((time.time() - started) * 1000)\n",
+    "    approx_tokens = max(1, len(answer.split()))\n",
+    "    estimated_cost = approx_tokens * 0.000001\n",
+    "\n",
+    "    telemetry.append({\n",
+    "        \"request_id\": f\"req-{i:03d}\",\n",
+    "        \"model_id\": MODEL_ID,\n",
+    "        \"prompt_version\": \"ops_instructor@v1\",\n",
+    "        \"question\": question,\n",
+    "        \"answer\": answer,\n",
+    "        \"latency_ms\": latency_ms,\n",
+    "        \"approx_output_tokens\": approx_tokens,\n",
+    "        \"estimated_cost_usd\": estimated_cost,\n",
+    "        \"format_ok\": len(answer.strip()) > 20,\n",
+    "        \"mentions_operational_concern\": bool(re.search(r\"eval|monitor|rollback|cost|latency|safety|quality|version\", answer, re.I)),\n",
+    "    })\n",
+    "\n",
+    "telemetry[0]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 3. Calculate Monitoring Metrics"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def percentile(values, p):\n",
+    "    values = sorted(values)\n",
+    "    index = int((len(values) - 1) * p)\n",
+    "    return values[index]\n",
+    "\n",
+    "\n",
+    "latencies = [row[\"latency_ms\"] for row in telemetry]\n",
+    "costs = [row[\"estimated_cost_usd\"] for row in telemetry]\n",
+    "\n",
+    "metrics = {\n",
+    "    \"requests\": len(telemetry),\n",
+    "    \"p50_latency_ms\": percentile(latencies, 0.50),\n",
+    "    \"p95_latency_ms\": percentile(latencies, 0.95),\n",
+    "    \"mean_latency_ms\": round(statistics.mean(latencies), 1),\n",
+    "    \"total_estimated_cost_usd\": round(sum(costs), 6),\n",
+    "    \"mean_estimated_cost_usd\": round(statistics.mean(costs), 6),\n",
+    "    \"format_compliance_rate\": round(sum(row[\"format_ok\"] for row in telemetry) / len(telemetry), 2),\n",
+    "    \"operational_relevance_rate\": round(sum(row[\"mentions_operational_concern\"] for row in telemetry) / len(telemetry), 2),\n",
+    "}\n",
+    "\n",
+    "metrics"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 4. Define Alerts\n",
+    "\n",
+    "Alerts should be connected to decisions: investigate, roll back, adjust prompt, or improve evals."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "ALERT_RULES = {\n",
+    "    \"p95_latency_ms\": {\"max\": 45000, \"action\": \"Check runtime, model size, and prompt length.\"},\n",
+    "    \"format_compliance_rate\": {\"min\": 0.95, \"action\": \"Tighten prompt and add structured output parser.\"},\n",
+    "    \"operational_relevance_rate\": {\"min\": 0.80, \"action\": \"Improve prompt and eval cases.\"},\n",
+    "}\n",
+    "\n",
+    "\n",
+    "alerts = []\n",
+    "for metric, rule in ALERT_RULES.items():\n",
+    "    value = metrics[metric]\n",
+    "    if \"max\" in rule and value > rule[\"max\"]:\n",
+    "        alerts.append({\"metric\": metric, \"value\": value, \"action\": rule[\"action\"]})\n",
+    "    if \"min\" in rule and value < rule[\"min\"]:\n",
+    "        alerts.append({\"metric\": metric, \"value\": value, \"action\": rule[\"action\"]})\n",
+    "\n",
+    "alerts if alerts else \"No alerts triggered\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 5. Inspect Low-Quality Responses"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for row in telemetry:\n",
+    "    if not row[\"mentions_operational_concern\"]:\n",
+    "        print(row[\"request_id\"], row[\"question\"])\n",
+    "        print(row[\"answer\"])\n",
+    "        print()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Hands-on deliverable\n",
+    "\n",
+    "Create a short monitoring report with:\n",
+    "\n",
+    "- one latency metric\n",
+    "- one quality metric\n",
+    "- one cost metric\n",
+    "- one recommended action if quality drops"
+   ]
+  }
+ ],
+ "metadata": {
+  "colab": {
+   "provenance": []
+  },
+  "kernelspec": {
+   "name": "python3",
+   "display_name": "Python 3"
+  },
+  "language_info": {
+   "name": "python"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}

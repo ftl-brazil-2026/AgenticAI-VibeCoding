@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>session-x_debugging-in-agentic-cage – Agentic AI Lessons</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a6a6f33836b8e69c33045518c714b347.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Agentic AI Lessons</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../sessions.html"> 
+<span class="menu-text">Session summaries</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../roadmap.html"> 
+<span class="menu-text">Roadmap</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../setup.html"> 
+<span class="menu-text">Setup</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../free-providers.html"> 
+<span class="menu-text">Free providers</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#debugging-in-the-agentic-cage---maintaining-control-over-ai-generated-code" id="toc-debugging-in-the-agentic-cage---maintaining-control-over-ai-generated-code" class="nav-link active" data-scroll-target="#debugging-in-the-agentic-cage---maintaining-control-over-ai-generated-code">Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#key-learning-outcomes" id="toc-key-learning-outcomes" class="nav-link" data-scroll-target="#key-learning-outcomes">Key Learning Outcomes</a></li>
+  <li><a href="#three-critical-characteristics" id="toc-three-critical-characteristics" class="nav-link" data-scroll-target="#three-critical-characteristics">Three Critical Characteristics</a></li>
+  <li><a href="#four-reasons-ai-generated-code-breaks" id="toc-four-reasons-ai-generated-code-breaks" class="nav-link" data-scroll-target="#four-reasons-ai-generated-code-breaks">Four Reasons AI-Generated Code Breaks</a></li>
+  <li><a href="#audit-framework-code-review-checklist" id="toc-audit-framework-code-review-checklist" class="nav-link" data-scroll-target="#audit-framework-code-review-checklist">Audit Framework: Code Review Checklist</a></li>
+  <li><a href="#understanding-error-types" id="toc-understanding-error-types" class="nav-link" data-scroll-target="#understanding-error-types">Understanding Error Types</a></li>
+  <li><a href="#providing-high-signal-context" id="toc-providing-high-signal-context" class="nav-link" data-scroll-target="#providing-high-signal-context">Providing High-Signal Context</a></li>
+  <li><a href="#the-endless-loop-problem" id="toc-the-endless-loop-problem" class="nav-link" data-scroll-target="#the-endless-loop-problem">The Endless Loop Problem</a></li>
+  <li><a href="#safety-nets-three-essential-habits" id="toc-safety-nets-three-essential-habits" class="nav-link" data-scroll-target="#safety-nets-three-essential-habits">Safety Nets: Three Essential Habits</a></li>
+  <li><a href="#git-recovery-commands-use-with-care" id="toc-git-recovery-commands-use-with-care" class="nav-link" data-scroll-target="#git-recovery-commands-use-with-care">Git Recovery Commands (Use With Care!)</a></li>
+  <li><a href="#regression-testing-framework" id="toc-regression-testing-framework" class="nav-link" data-scroll-target="#regression-testing-framework">Regression Testing Framework</a></li>
+  <li><a href="#technical-debt-management" id="toc-technical-debt-management" class="nav-link" data-scroll-target="#technical-debt-management">Technical Debt Management</a></li>
+  <li><a href="#real-world-case-study-donation-page-bug" id="toc-real-world-case-study-donation-page-bug" class="nav-link" data-scroll-target="#real-world-case-study-donation-page-bug">Real-World Case Study: Donation Page Bug</a></li>
+  <li><a href="#writing-effective-bug-reports" id="toc-writing-effective-bug-reports" class="nav-link" data-scroll-target="#writing-effective-bug-reports">Writing Effective Bug Reports</a></li>
+  <li><a href="#seven-step-debugging-pipeline" id="toc-seven-step-debugging-pipeline" class="nav-link" data-scroll-target="#seven-step-debugging-pipeline">Seven-Step Debugging Pipeline</a></li>
+  <li><a href="#three-key-lessons" id="toc-three-key-lessons" class="nav-link" data-scroll-target="#three-key-lessons">Three Key Lessons</a></li>
+  <li><a href="#the-big-picture" id="toc-the-big-picture" class="nav-link" data-scroll-target="#the-big-picture">The Big Picture</a></li>
+  <li><a href="#quiz-answers" id="toc-quiz-answers" class="nav-link" data-scroll-target="#quiz-answers">Quiz Answers</a></li>
+  <li><a href="#references-further-reading" id="toc-references-further-reading" class="nav-link" data-scroll-target="#references-further-reading">References &amp; Further Reading</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="debugging-in-the-agentic-cage---maintaining-control-over-ai-generated-code" class="level1">
+<h1>Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code</h1>
+<p><strong>📅 Date &amp; Time:</strong> November 23, 2026 at 15:42 (3:42 PM UTC)<br>
+<strong>👩‍🏫 Presenter:</strong> Shakila Alam Aishy (CS Student, Elite Research Lab Intern)<br>
+<strong>🎯 Session Type:</strong> Theory &amp; Debugging Principles<br>
+<strong>⏱️ Duration:</strong> 43 minutes 35 seconds</p>
+<hr>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This session teaches systematic debugging of AI-generated code. The key insight: <strong>AI can write code quickly, but speed doesn’t equal quality</strong>. Just as a mechanic can replace a car part quickly, we must still verify safety before driving. This session teaches frameworks for inspecting, testing, and verifying AI output.</p>
+<hr>
+</section>
+<section id="key-learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="key-learning-outcomes">Key Learning Outcomes</h2>
+<ol type="1">
+<li><strong>Understand Code Failure Modes</strong> - Recognize four common reasons AI code breaks</li>
+<li><strong>Audit Generated Code Effectively</strong> - Develop verification checklists</li>
+<li><strong>Provide High-Signal Context</strong> - Write prompts that prevent misunderstanding</li>
+<li><strong>Avoid Endless Loop Failures</strong> - Know when to stop and reconsider</li>
+<li><strong>Implement Safety Nets</strong> - Use git checkpoints and regression tests</li>
+<li><strong>Write Effective Bug Reports</strong> - Communicate issues precisely to agents</li>
+</ol>
+<hr>
+</section>
+<section id="three-critical-characteristics" class="level2">
+<h2 class="anchored" data-anchor-id="three-critical-characteristics">Three Critical Characteristics</h2>
+<section id="autonomous-loop" class="level3">
+<h3 class="anchored" data-anchor-id="autonomous-loop"><strong>1. Autonomous Loop</strong></h3>
+<ul>
+<li>AI follows continuous cycle: read → change → run → test → retry</li>
+<li>Enables multi-step task handling</li>
+<li>Must be monitored for infinite loops</li>
+</ul>
+</section>
+<section id="generation-vs.-quality" class="level3">
+<h3 class="anchored" data-anchor-id="generation-vs.-quality"><strong>2. Generation vs.&nbsp;Quality</strong></h3>
+<ul>
+<li><strong>Speed ≠ Quality</strong></li>
+<li>Code may look correct but contain subtle errors</li>
+<li>Proper testing is non-negotiable</li>
+</ul>
+</section>
+<section id="confidence-bias" class="level3">
+<h3 class="anchored" data-anchor-id="confidence-bias"><strong>3. Confidence Bias</strong></h3>
+<ul>
+<li>AI sounds confident when incorrect</li>
+<li>May misunderstand requirements</li>
+<li>Introduces hidden security issues</li>
+<li>Never blindly accept solutions</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="four-reasons-ai-generated-code-breaks" class="level2">
+<h2 class="anchored" data-anchor-id="four-reasons-ai-generated-code-breaks">Four Reasons AI-Generated Code Breaks</h2>
+<section id="float-context-missing-domain-knowledge" class="level3">
+<h3 class="anchored" data-anchor-id="float-context-missing-domain-knowledge"><strong>1. Float Context</strong> (Missing Domain Knowledge)</h3>
+<p><strong>What:</strong> Agent lacks exact database schema, API contracts, or business rules</p>
+<p><strong>Example:</strong> Agent creates <code>amount</code> field but code uses <code>amount_cents</code></p>
+<p><strong>Result:</strong> Code looks reasonable but fails at runtime</p>
+<p><strong>Prevention:</strong> Provide exact field names, API contracts, and schema documentation</p>
+</section>
+<section id="dependency-problems" class="level3">
+<h3 class="anchored" data-anchor-id="dependency-problems"><strong>2. Dependency Problems</strong></h3>
+<p><strong>What:</strong> Agent imports package not installed, uses old function, or picks incompatible version</p>
+<p><strong>Examples:</strong> - Missing npm package - Deprecated function call - Version mismatch</p>
+<p><strong>Result:</strong> Build error or runtime failure</p>
+<p><strong>Prevention:</strong> Lock dependencies, specify versions clearly</p>
+</section>
+<section id="shallow-validation" class="level3">
+<h3 class="anchored" data-anchor-id="shallow-validation"><strong>3. Shallow Validation</strong></h3>
+<p><strong>What:</strong> Agent handles normal case but forgets edge cases</p>
+<p><strong>Examples:</strong> - What if value is missing? - What if user enters negative number? - What if text entered where number expected?</p>
+<p><strong>Result:</strong> Crashes on unusual inputs</p>
+<p><strong>Prevention:</strong> Specify edge cases explicitly</p>
+</section>
+<section id="regression" class="level3">
+<h3 class="anchored" data-anchor-id="regression"><strong>4. Regression</strong></h3>
+<p><strong>What:</strong> Fixing one problem accidentally breaks another feature</p>
+<p><strong>Example:</strong> Changing shared payment logic fixes donations but breaks receipts</p>
+<p><strong>Result:</strong> Hidden logic errors; program runs but produces wrong results</p>
+<p><strong>Prevention:</strong> Test related features after changes</p>
+<hr>
+</section>
+</section>
+<section id="audit-framework-code-review-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="audit-framework-code-review-checklist">Audit Framework: Code Review Checklist</h2>
+<section id="step-1-scope-verification" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-scope-verification"><strong>Step 1: Scope Verification</strong></h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status      <span class="co"># What files changed?</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> diff        <span class="co"># Exactly what changed in each file?</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>✓ Did agent change only requested files?<br>
+✓ Why were unrelated files modified?</p>
+</section>
+<section id="step-2-credential-exposure" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-credential-exposure"><strong>Step 2: Credential Exposure</strong></h3>
+<p>❌ Look for: - API keys - Tokens - Passwords - Private values</p>
+<p><strong>Critical:</strong> Secrets exposed in repos require rotating credentials, not just deleting lines</p>
+</section>
+<section id="step-3-network-error-paths" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-network-error-paths"><strong>Step 3: Network &amp; Error Paths</strong></h3>
+<ul>
+<li>What happens on timeout?</li>
+<li>What if server returns error?</li>
+<li>Does app show helpful message or freeze?</li>
+</ul>
+</section>
+<section id="step-4-avoid-blind-merging" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-avoid-blind-merging"><strong>Step 4: Avoid Blind Merging</strong></h3>
+<ul>
+<li>Don’t accept just because AI sounds confident</li>
+<li>Ask for explanation</li>
+<li>Inspect actual code</li>
+<li>Test before merging</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="understanding-error-types" class="level2">
+<h2 class="anchored" data-anchor-id="understanding-error-types">Understanding Error Types</h2>
+<section id="syntax-error" class="level3">
+<h3 class="anchored" data-anchor-id="syntax-error"><strong>Syntax Error</strong></h3>
+<ul>
+<li>Code violates language rules</li>
+<li>Missing bracket, invalid import</li>
+<li><strong>Detected:</strong> Build tools catch before execution</li>
+<li><strong>Example:</strong> <code>import { func from "module"</code> (missing closing brace)</li>
+</ul>
+</section>
+<section id="runtime-error" class="level3">
+<h3 class="anchored" data-anchor-id="runtime-error"><strong>Runtime Error</strong></h3>
+<ul>
+<li>Appears while program runs</li>
+<li>Attempts invalid operation</li>
+<li><strong>Example:</strong> Reading property from undefined: <code>amount.cents</code> when <code>amount = undefined</code></li>
+<li><strong>Symptom:</strong> Program crashes</li>
+</ul>
+</section>
+<section id="logical-error" class="level3">
+<h3 class="anchored" data-anchor-id="logical-error"><strong>Logical Error</strong></h3>
+<ul>
+<li>Program runs, answer is wrong</li>
+<li><strong>Most Dangerous:</strong> No crash, silent failure</li>
+<li><strong>Example:</strong> $25 treated as 25 cents (not 2,500 cents)</li>
+<li><strong>Detection:</strong> Only through testing</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="providing-high-signal-context" class="level2">
+<h2 class="anchored" data-anchor-id="providing-high-signal-context">Providing High-Signal Context</h2>
+<section id="vague-prompt" class="level3">
+<h3 class="anchored" data-anchor-id="vague-prompt"><strong>❌ Vague Prompt:</strong></h3>
+<p>“Donation pays checkout failed. Fix it.” - No reproduction steps - No error message - No context - Result: AI guesses, makes unnecessary changes</p>
+</section>
+<section id="structured-prompt" class="level3">
+<h3 class="anchored" data-anchor-id="structured-prompt"><strong>✅ Structured Prompt:</strong></h3>
+<pre><code>When I enter amount: -50
+Click: Donate button
+Expected: Error message below button
+Actual: Browser stays silent, but server returns 400 error
+Error message: "Invalid amount"
+File to fix: donations.js
+Root issue: Error not displayed to user</code></pre>
+<ul>
+<li>Specific reproduction steps</li>
+<li>File locations</li>
+<li>Expected vs.&nbsp;actual</li>
+<li>Server response details</li>
+<li>Result: AI understands exactly what’s wrong</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="the-endless-loop-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-endless-loop-problem">The Endless Loop Problem</h2>
+<section id="phase-1-speculative-patching" class="level3">
+<h3 class="anchored" data-anchor-id="phase-1-speculative-patching"><strong>Phase 1: Speculative Patching</strong></h3>
+<ul>
+<li>Agent tries fix without understanding root cause</li>
+<li>Makes assumptions</li>
+<li>Applies quick workaround</li>
+</ul>
+</section>
+<section id="phase-2-error-compounding" class="level3">
+<h3 class="anchored" data-anchor-id="phase-2-error-compounding"><strong>Phase 2: Error Compounding</strong></h3>
+<ul>
+<li>First fix creates new error</li>
+<li>Agent tries fixing that</li>
+<li>Adds more code</li>
+<li>Project becomes messier</li>
+</ul>
+</section>
+<section id="phase-3-total-drift" class="level3">
+<h3 class="anchored" data-anchor-id="phase-3-total-drift"><strong>Phase 3: Total Drift</strong></h3>
+<ul>
+<li>Original problem still unsolved</li>
+<li>Codebase is now worse</li>
+<li>Hundreds of lines of unnecessary code</li>
+</ul>
+</section>
+<section id="the-stop-rule" class="level3">
+<h3 class="anchored" data-anchor-id="the-stop-rule"><strong>The Stop Rule:</strong></h3>
+<blockquote class="blockquote">
+<p><strong>If agent repeatedly fails on same issue, don’t ask again. STOP. Investigate and reconsider approach.</strong></p>
+</blockquote>
+<p><strong>Better Prompt:</strong></p>
+<pre><code>"Last change modified these two files and caused these tests to fail.
+Inspect these functions, explain the cause, propose smallest change.
+Don't edit unrelated files."</code></pre>
+<hr>
+</section>
+</section>
+<section id="safety-nets-three-essential-habits" class="level2">
+<h2 class="anchored" data-anchor-id="safety-nets-three-essential-habits">Safety Nets: Three Essential Habits</h2>
+<section id="habit-1-atomic-checkpoints" class="level3">
+<h3 class="anchored" data-anchor-id="habit-1-atomic-checkpoints"><strong>Habit 1: Atomic Checkpoints</strong></h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit          <span class="co"># Save known good state before risky change</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status          <span class="co"># Verify working tree is clean</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Then: Try AI-generated change</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> diff            <span class="co"># Review before committing again</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>Provides recovery point</li>
+<li>Doesn’t prove code is perfect</li>
+<li>Gives clear place to return to</li>
+</ul>
+</section>
+<section id="habit-2-inspect-the-diff" class="level3">
+<h3 class="anchored" data-anchor-id="habit-2-inspect-the-diff"><strong>Habit 2: Inspect the Diff</strong></h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> diff            <span class="co"># Line-by-line review</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Key Questions: - Related to task? - Changed validation? - Modified function signature? - Added new dependency? - <strong>More reliable than summary</strong></p>
+</section>
+<section id="habit-3-use-branches-for-experiments" class="level3">
+<h3 class="anchored" data-anchor-id="habit-3-use-branches-for-experiments"><strong>Habit 3: Use Branches for Experiments</strong></h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout <span class="at">-b</span> feature/experiment</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Try AI changes</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> diff main..feature/experiment</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># If good: merge</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># If bad: abandon without affecting main</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="git-recovery-commands-use-with-care" class="level2">
+<h2 class="anchored" data-anchor-id="git-recovery-commands-use-with-care">Git Recovery Commands (Use With Care!)</h2>
+<section id="git-restore" class="level3">
+<h3 class="anchored" data-anchor-id="git-restore"><strong>git restore</strong></h3>
+<ul>
+<li>Discards uncommitted changes in tracked files</li>
+<li><strong>Warning:</strong> May permanently remove work</li>
+<li><strong>Before using:</strong> <code>git status</code> to verify</li>
+</ul>
+</section>
+<section id="git-reset-hard" class="level3">
+<h3 class="anchored" data-anchor-id="git-reset-hard"><strong>git reset –hard</strong></h3>
+<ul>
+<li>Reverts working tree to chosen commit</li>
+<li><strong>Very destructive:</strong> Removes all uncommitted changes</li>
+<li><strong>Must know exact commit</strong> to return to</li>
+</ul>
+</section>
+<section id="git-clean" class="level3">
+<h3 class="anchored" data-anchor-id="git-clean"><strong>git clean</strong></h3>
+<ul>
+<li>Removes untracked files and directories</li>
+<li><strong>Danger:</strong> May delete work you care about</li>
+<li><strong>Process:</strong> Always <code>git status</code> first</li>
+</ul>
+<p><strong>Golden Rule:</strong> <code>git status</code> → Review → Understand what will be removed → Execute</p>
+<hr>
+</section>
+</section>
+<section id="regression-testing-framework" class="level2">
+<h2 class="anchored" data-anchor-id="regression-testing-framework">Regression Testing Framework</h2>
+<p><strong>Definition:</strong> Change fixes one problem but breaks something else</p>
+<p><strong>Example:</strong> - Fix: Donation form now submits - Regression: Same change breaks receipt generation</p>
+<p><strong>Three-Stage Test Process:</strong></p>
+<section id="stage-1-reproduce-bug-fix" class="level3">
+<h3 class="anchored" data-anchor-id="stage-1-reproduce-bug-fix"><strong>Stage 1: Reproduce Bug Fix</strong></h3>
+<ul>
+<li>Confirm specific original failure is gone</li>
+<li>Use exact reproduction steps from bug report</li>
+</ul>
+</section>
+<section id="stage-2-test-related-features" class="level3">
+<h3 class="anchored" data-anchor-id="stage-2-test-related-features"><strong>Stage 2: Test Related Features</strong></h3>
+<ul>
+<li>Payment processing</li>
+<li>Billing receipts</li>
+<li>Error handling</li>
+<li>Other downstream systems</li>
+</ul>
+</section>
+<section id="stage-3-add-regression-test" class="level3">
+<h3 class="anchored" data-anchor-id="stage-3-add-regression-test"><strong>Stage 3: Add Regression Test</strong></h3>
+<ul>
+<li>Write test that fails if problem returns</li>
+<li>Prevents same bug in future</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="technical-debt-management" class="level2">
+<h2 class="anchored" data-anchor-id="technical-debt-management">Technical Debt Management</h2>
+<p><strong>Definition:</strong> Code works now but becomes hard to change/maintain later</p>
+<section id="strategy-1-eliminate-duplication" class="level3">
+<h3 class="anchored" data-anchor-id="strategy-1-eliminate-duplication"><strong>Strategy 1: Eliminate Duplication</strong></h3>
+<p>❌ Repeated logic in multiple places<br>
+✓ Extract to shared utility function</p>
+</section>
+<section id="strategy-2-clear-naming" class="level3">
+<h3 class="anchored" data-anchor-id="strategy-2-clear-naming"><strong>Strategy 2: Clear Naming</strong></h3>
+<p>❌ <code>temp</code>, <code>data</code>, <code>rest</code><br>
+✓ <code>userProfile</code>, <code>paymentAmount</code>, <code>receiptStatus</code></p>
+</section>
+<section id="strategy-3-preserve-external-apis" class="level3">
+<h3 class="anchored" data-anchor-id="strategy-3-preserve-external-apis"><strong>Strategy 3: Preserve External APIs</strong></h3>
+<ul>
+<li>Don’t change function signatures unexpectedly</li>
+<li>Maintain data contracts</li>
+<li>Refactor internal implementation, not interface</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="real-world-case-study-donation-page-bug" class="level2">
+<h2 class="anchored" data-anchor-id="real-world-case-study-donation-page-bug">Real-World Case Study: Donation Page Bug</h2>
+<section id="the-problem" class="level3">
+<h3 class="anchored" data-anchor-id="the-problem"><strong>The Problem</strong></h3>
+<p>User clicks “Donate” with $25<br>
+Button stuck in loading<br>
+Payment never completes</p>
+</section>
+<section id="the-errors-found" class="level3">
+<h3 class="anchored" data-anchor-id="the-errors-found"><strong>The Errors Found</strong></h3>
+<ol type="1">
+<li><strong>Missing Currency Payload</strong>
+<ul>
+<li>Frontend sends only amount</li>
+<li>Stripe requires currency field</li>
+<li>Result: HTTP 500 error</li>
+</ul></li>
+<li><strong>Hardcoded Secret</strong>
+<ul>
+<li>Stripe API key in client-side HTML</li>
+<li>Security risk: exposed in browser</li>
+<li>Should be server-side only</li>
+</ul></li>
+<li><strong>Uncaught Rejections</strong>
+<ul>
+<li>Payment gateway declines transaction</li>
+<li>Application doesn’t handle error</li>
+<li>User sees no feedback</li>
+</ul></li>
+</ol>
+</section>
+<section id="root-cause-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="root-cause-analysis"><strong>Root Cause Analysis</strong></h3>
+<p>Single failure involved: - Functional error (missing field) - Security vulnerability (exposed key) - Poor error handling (silent failure)</p>
+<p><strong>Lesson:</strong> Debug fully, don’t just make error disappear</p>
+<hr>
+</section>
+</section>
+<section id="writing-effective-bug-reports" class="level2">
+<h2 class="anchored" data-anchor-id="writing-effective-bug-reports">Writing Effective Bug Reports</h2>
+<section id="clear-title-severity" class="level3">
+<h3 class="anchored" data-anchor-id="clear-title-severity"><strong>1. Clear Title &amp; Severity</strong></h3>
+<pre><code>"Donation form hangs on submit when checkout returns 500 error"</code></pre>
+<ul>
+<li>States user experience</li>
+<li>Avoids unverified cause in title</li>
+</ul>
+</section>
+<section id="exact-reproduction-steps" class="level3">
+<h3 class="anchored" data-anchor-id="exact-reproduction-steps"><strong>2. Exact Reproduction Steps</strong></h3>
+<ul>
+<li>Which page?</li>
+<li>What amount to enter?</li>
+<li>Which button to click?</li>
+<li>Any special conditions?</li>
+</ul>
+</section>
+<section id="expected-vs.-actual" class="level3">
+<h3 class="anchored" data-anchor-id="expected-vs.-actual"><strong>3. Expected vs.&nbsp;Actual</strong></h3>
+<p><strong>Expected:</strong> Donation processed OR clear failure message<br>
+<strong>Actual:</strong> Button keeps loading indefinitely</p>
+</section>
+<section id="evidence" class="level3">
+<h3 class="anchored" data-anchor-id="evidence"><strong>4. Evidence</strong></h3>
+<ul>
+<li>Test name that passed after fix</li>
+<li>Commit reference with change</li>
+<li><strong>Don’t include:</strong> API keys, tokens, private data</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="seven-step-debugging-pipeline" class="level2">
+<h2 class="anchored" data-anchor-id="seven-step-debugging-pipeline">Seven-Step Debugging Pipeline</h2>
+<p><strong>Order matters:</strong></p>
+<section id="step-1-reproduce" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-reproduce"><strong>Step 1: REPRODUCE</strong></h3>
+<p>Make failure happen in controlled way<br>
+If can’t reproduce → need more info</p>
+</section>
+<section id="step-2-collect" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-collect"><strong>Step 2: COLLECT</strong></h3>
+<p>Save error message, stack trace, test output<br>
+Remove secrets before sharing</p>
+</section>
+<section id="step-3-audit" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-audit"><strong>Step 3: AUDIT</strong></h3>
+<p>Read source code, understand surrounding logic<br>
+Error is clue, but need full context</p>
+</section>
+<section id="step-4-prompt" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-prompt"><strong>Step 4: PROMPT</strong></h3>
+<p>Give agent narrow task with evidence<br>
+Expected behavior, don’t-change list</p>
+</section>
+<section id="step-5-review" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-review"><strong>Step 5: REVIEW</strong></h3>
+<p>Inspect diff line by line<br>
+Confirm intended changes, no unrelated edits</p>
+</section>
+<section id="step-6-test" class="level3">
+<h3 class="anchored" data-anchor-id="step-6-test"><strong>Step 6: TEST</strong></h3>
+<p>Rerun test that exposed bug<br>
+Run regression tests for related features</p>
+</section>
+<section id="step-7-commit" class="level3">
+<h3 class="anchored" data-anchor-id="step-7-commit"><strong>Step 7: COMMIT</strong></h3>
+<p>Once reviewed and tested<br>
+Create known good checkpoint</p>
+<hr>
+</section>
+</section>
+<section id="three-key-lessons" class="level2">
+<h2 class="anchored" data-anchor-id="three-key-lessons">Three Key Lessons</h2>
+<section id="audit-every-line" class="level3">
+<h3 class="anchored" data-anchor-id="audit-every-line"><strong>1. Audit Every Line</strong></h3>
+<ul>
+<li>Code looks convincing but check: scope, security, logic</li>
+<li>Never accept just because AI sounds confident</li>
+</ul>
+</section>
+<section id="provide-evidence" class="level3">
+<h3 class="anchored" data-anchor-id="provide-evidence"><strong>2. Provide Evidence</strong></h3>
+<ul>
+<li>Logs, reproduction steps, file locations</li>
+<li>Exact behavior descriptions</li>
+<li>Prevents guessing</li>
+</ul>
+</section>
+<section id="test-recover" class="level3">
+<h3 class="anchored" data-anchor-id="test-recover"><strong>3. Test &amp; Recover</strong></h3>
+<ul>
+<li>Use git checkpoints</li>
+<li>Inspect diffs</li>
+<li>Run regression tests</li>
+<li>If repeated fixes fail: <strong>STOP and reconsider</strong></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="the-big-picture" class="level2">
+<h2 class="anchored" data-anchor-id="the-big-picture">The Big Picture</h2>
+<blockquote class="blockquote">
+<p>AI can accelerate coding, but discipline in debugging makes results reliable.</p>
+</blockquote>
+<p><strong>Goal:</strong> Not to avoid AI tools, but to use them thoughtfully while keeping responsibility and control in human hands.</p>
+<hr>
+</section>
+<section id="quiz-answers" class="level2">
+<h2 class="anchored" data-anchor-id="quiz-answers">Quiz Answers</h2>
+<p><strong>Q1:</strong> If exposed secret, what to do?<br>
+<strong>A:</strong> Remove, store securely on server, rotate compromised credential<br>
+<em>(Deletion alone is insufficient; key may be cached or accessed)</em></p>
+<p><strong>Q2:</strong> Agent keeps failing on same bug. What to do?<br>
+<strong>A:</strong> Stop and investigate. Don’t ask agent to try again.<br>
+<em>(Use Stop Rule)</em></p>
+<p><strong>Q3:</strong> Before asking AI to fix regression, first step?<br>
+<strong>A:</strong> Reproduce bug deterministically and collect clean specific logs.<br>
+<em>(Replaces guessing with evidence)</em></p>
+<p><strong>Q4:</strong> Testing after bug fix, what to confirm?<br>
+<strong>A:</strong> Fix original bug + related features don’t break<br>
+<em>(Regression testing matters)</em></p>
+<hr>
+</section>
+<section id="references-further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="references-further-reading">References &amp; Further Reading</h2>
+<ul>
+<li>Git documentation: safe recovery practices</li>
+<li>Testing frameworks for your language</li>
+<li>Security best practices (OWASP)</li>
+<li>Code review guidelines</li>
+</ul>
+<hr>
+<p><strong>Session Ending:</strong> “Debugging isn’t just making the error disappear. It’s understanding why it happened, finding root cause, and ensuring the same problem doesn’t happen again.” — Shakila</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

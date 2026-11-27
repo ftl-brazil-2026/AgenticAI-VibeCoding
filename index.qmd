@@ -76,15 +76,15 @@ Link for the coding materials (this is a zip file to be downloaded): [Coding-mat
 What is the difference of a prompt and a agentic scheme? How can agents take their own decision? What are the ways to organize and plan the use of agents for a task driven approach? What are the most common ways to set up agents and config the environment? 
 These and more answers in our class. You can watch the Theorical Session in our recordings. 
 
-Forms given in Class: [Session 1 feedback: How AI agents think and act](https://docs.google.com/forms/d/11OjxCXNignMPoYWbO-q4OwjWOzmvJbCAkEXRaffv5w8/viewform?ts=6af86790&edit_requested=true)
+Forms given in Class: [Session 1 feedback: How AI agents think and act](https://docs.google.com/forms/d/11OjxCXNignMPoYWbO-q4OwjWOzmvJbCAkEXRaffv5w8/viewform?ts=6af86790&edit_requested=true){.btn .btn-primary target="_blank"}
 
-[First Session Slides](materials/deck-Alan-Al-Jammoor.pdf)
+[First Session Slides](materials/deck-Alan-Al-Jammoor.pdf){.btn .btn-primary target="_blank"}
 
-[Reading list](materials/reading-list-Alan-Al-Jammoor.html)
+[Reading list](materials/reading-list-Alan-Al-Jammoor.html){.btn .btn-primary target="_blank"}
 
-[How Agent Works](materials/agent-step-by-step.html)
+[How Agent Works](materials/agent-step-by-step.html){.btn .btn-primary target="_blank"}
 
-[How an AI Agent Works](materials/agent-step-by-step-Alan-Al-Jamoor.html)
+[How an AI Agent Works](materials/agent-step-by-step-Alan-Al-Jamoor.html){.btn .btn-primary target="_blank"}
 
 
 ### Session VIII and IX: Managing Multi-Agent Teams
@@ -97,7 +97,7 @@ Supervise an agent team through typed handoffs, scoped tools, independent checks
 
 [Slides](materials/s5-slides.html){.btn .btn-primary}
 [Flashcards Study](materials/s5-flashcards.html){.btn .btn-primary}
-[Reading List]()
+[Reading List](){.btn .btn-primary target="_blank"}
 
 
 ### Session X & XI: Debugging in the Agentic Age
@@ -122,9 +122,13 @@ Practical hands-on lab on making AI agents work effectively in real software pro
 
 ### Class 9: AI-First SDLC: Deployment & Operations
 
-**Presenter:** Seth Odhiambo, **Status:** Confirmed **Roadmap session:** S6
+**Presenter:** Seth Odhiambo, **Date:** December 01st and 2nd, 2026
 
-Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+How effectively softwares have been deployed and how the LLM can help software developers, builders and general public to make it robust for cybersecurity safety. Seth will show different operations used on daily basis that can help with students engaging on the topics of Agentic AI and Vibe Coding to proceed with the right path and tools.
+
+[Presentation](materials/AI_First_SDLC_Presentation_Seth_Odiambo.pdf){.btn .btn-primary target="_blank"}
+
+[Notebook](materials/Seth_real_llm_monitoring_lab.ipynb_Seth){.btn .btn-primary target="_blank"}
 
 ### Class 10: Capstone: Building an Autonomous Micro-Product
 

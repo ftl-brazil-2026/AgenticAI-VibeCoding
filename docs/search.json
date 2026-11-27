@@ -445,14 +445,14 @@
     "href": "index.html#classes",
     "title": "Agentic AI & Vibe Coding",
     "section": "Classes",
-    "text": "Classes\n\nSession I: Introduction to the Vibe Paradigm\nPresenter: Phyo Ko Ko\nKey ideas of Vibe Coding. Setting up a standard dictionary of terms. What is Vibe Coding, and what are the best practices? How are people using Vibe Coding around the world?\nLink for the presentation: Presentation\nLink for the GitHub: GitHub\n\n\nSession II: Architecting and configuring the AI Workspace\nPresenter: Ruiya Zhou\nHow can we properly configure the workspace for working with agents? Which software, tools and libraries are the most used? What do professionals in the field use? These and many more questions will be answered during the session.\nLink to Drive: Drive Folder of the Session\n\n\nSession IV and V: Development paradigms: Intent-Based “Vibe” Iteration, Spec-Driven, Agentic Orchestration\nPresenter: Akshi Rao\nWhat is intent-based? spec-based or agentic orchestration? How does the meaning and the driving intents of your project matters for the outcome of LLMs? What are the human specifications for we need to set up when developing in the agentic AI era?\nLink for the presentation: Slides-Presentation\nLink for the coding materials (this is a zip file to be downloaded): Coding-materials-zip-file\n\n\nSession VI and VII: Agentic Mechanics: Planning & Tool Use\nPresenter: Alan al-jammar ·Date: 14/11 5pm (GMT+3)\nWhat is the difference of a prompt and a agentic scheme? How can agents take their own decision? What are the ways to organize and plan the use of agents for a task driven approach? What are the most common ways to set up agents and config the environment? These and more answers in our class. You can watch the Theorical Session in our recordings.\nForms given in Class: Session 1 feedback: How AI agents think and act\nFirst Session Slides\nReading list\nHow Agent Works\nHow an AI Agent Works\n\n\nSession VIII and IX: Managing Multi-Agent Teams\nPresenter: Lwin Ravendo, GitHub Status: Ready Roadmap session: S5\nSupervise an agent team through typed handoffs, scoped tools, independent checks and human decisions. The course starts with deterministic fixtures and ends with a Software Factory that builds a minimalist travel website using local files and Git operations. No LLM or API key is needed, so the cost is $0.00.\nGitHub\nSlides Flashcards Study Reading List\n\n\nSession X & XI: Debugging in the Agentic Age\nPresenter: Shakila Alam Aishy\nLearn systematic debugging of AI-generated code. Session X covers four reasons AI code breaks and audit frameworks. Session XI is a live debugging lab fixing a real broken donation page, demonstrating security vulnerabilities and proper recovery techniques.\nGithub Repository\nSession X Summary\nSession XI Summary\n\n\nSession XII: Context Engineering & Large Codebases\nPresenter: Ekoko Clesh (Mozambique) · Date: November 25, 2026\nPractical hands-on lab on making AI agents work effectively in real software projects. Learn to map repositories, write effective agent instructions, review AI-generated code safely, and use reusable project rules (agents.md). Includes real example of building a task manager web application.\nSession XII Summary\n\n\nClass 9: AI-First SDLC: Deployment & Operations\nPresenter: Seth Odhiambo, Status: Confirmed Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 10: Capstone: Building an Autonomous Micro-Product\nPresenter: Serra Tosun, Status: Confirmed Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 11: Practical Applications and Use Cases\nPresenter: Nouran Mansour, Status: Confirmed Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed."
+    "text": "Classes\n\nSession I: Introduction to the Vibe Paradigm\nPresenter: Phyo Ko Ko\nKey ideas of Vibe Coding. Setting up a standard dictionary of terms. What is Vibe Coding, and what are the best practices? How are people using Vibe Coding around the world?\nLink for the presentation: Presentation\nLink for the GitHub: GitHub\n\n\nSession II: Architecting and configuring the AI Workspace\nPresenter: Ruiya Zhou\nHow can we properly configure the workspace for working with agents? Which software, tools and libraries are the most used? What do professionals in the field use? These and many more questions will be answered during the session.\nLink to Drive: Drive Folder of the Session\n\n\nSession IV and V: Development paradigms: Intent-Based “Vibe” Iteration, Spec-Driven, Agentic Orchestration\nPresenter: Akshi Rao\nWhat is intent-based? spec-based or agentic orchestration? How does the meaning and the driving intents of your project matters for the outcome of LLMs? What are the human specifications for we need to set up when developing in the agentic AI era?\nLink for the presentation: Slides-Presentation\nLink for the coding materials (this is a zip file to be downloaded): Coding-materials-zip-file\n\n\nSession VI and VII: Agentic Mechanics: Planning & Tool Use\nPresenter: Alan al-jammar ·Date: 14/11 5pm (GMT+3)\nWhat is the difference of a prompt and a agentic scheme? How can agents take their own decision? What are the ways to organize and plan the use of agents for a task driven approach? What are the most common ways to set up agents and config the environment? These and more answers in our class. You can watch the Theorical Session in our recordings.\nForms given in Class: Session 1 feedback: How AI agents think and act\nFirst Session Slides\nReading list\nHow Agent Works\nHow an AI Agent Works\n\n\nSession VIII and IX: Managing Multi-Agent Teams\nPresenter: Lwin Ravendo, GitHub Status: Ready Roadmap session: S5\nSupervise an agent team through typed handoffs, scoped tools, independent checks and human decisions. The course starts with deterministic fixtures and ends with a Software Factory that builds a minimalist travel website using local files and Git operations. No LLM or API key is needed, so the cost is $0.00.\nGitHub\nSlides Flashcards Study Reading List\n\n\nSession X & XI: Debugging in the Agentic Age\nPresenter: Shakila Alam Aishy\nLearn systematic debugging of AI-generated code. Session X covers four reasons AI code breaks and audit frameworks. Session XI is a live debugging lab fixing a real broken donation page, demonstrating security vulnerabilities and proper recovery techniques.\nGithub Repository\nSession X Summary\nSession XI Summary\n\n\nSession XII: Context Engineering & Large Codebases\nPresenter: Ekoko Clesh (Mozambique) · Date: November 25, 2026\nPractical hands-on lab on making AI agents work effectively in real software projects. Learn to map repositories, write effective agent instructions, review AI-generated code safely, and use reusable project rules (agents.md). Includes real example of building a task manager web application.\nSession XII Summary\n\n\nClass 9: AI-First SDLC: Deployment & Operations\nPresenter: Seth Odhiambo, Date: December 01st and 2nd, 2026\nHow effectively softwares have been deployed and how the LLM can help software developers, builders and general public to make it robust for cybersecurity safety. Seth will show different operations used on daily basis that can help with students engaging on the topics of Agentic AI and Vibe Coding to proceed with the right path and tools.\nPresentation\nNotebook\n\n\nClass 10: Capstone: Building an Autonomous Micro-Product\nPresenter: Serra Tosun, Status: Confirmed Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed.\n\n\nClass 11: Practical Applications and Use Cases\nPresenter: Nouran Mansour, Status: Confirmed Roadmap session: S6\nDescription coming soon. The presenter’s GitHub link will be added here once the class is confirmed."
   },
   {
     "objectID": "sessions.html",
     "href": "sessions.html",
     "title": "Session summaries",
     "section": "",
-    "text": "Hello! Here you can find a brief summary of what each session has covered so far. If you are lost and does not know where to start, we reccomend to go session by session in order to grasp the core concepts of Vibe Coding, how Agents works and how to manage multi-agents.\nChoose a session to read its short summary.\nAll times are GMT+3.\n\nSession I: Introduction to Vibe Coding\nNovember 2, 2026 at 18:30 GMT+3 · Phyo Ko Ko\n\n\nSession II: Introduction to Vibe Coding, Practical Session\nNovember 3, 2026 at 18:30 GMT+3 · Phyo Ko Ko\n\n\nSession III: Architecting and Configuring the AI Workspace\nNovember 4, 2026 at 18:30 GMT+3 · Ruiya Zhou · Summary coming soon\n\n\nSession V: Development Paradigms\nNovember 7, 2026 at 09:00 GMT+3 · Akshi Rao\n\n\nSession VI: Agents Mechanisms\nNovember 14, 2026 at 17:00 GMT+3 · Alan Al Jammoor\n\n\nSession VII: Practical Lab, Agents Mechanisms\nNovember 15, 2026 at 17:00 GMT+3 · Alan Al Jammoor\n\n\nSession VIII: Multi-Agents Orchestration\nNovember 16, 2026 at 18:30 GMT+3 · Lwin Ravendo\n\n\nSession IX: Practical Multi-Agents Orchestration\nNovember 17, 2026 at 18:30 GMT+3 · Lwin Ravendo · Summary coming soon\n\n\nSession X: Capstone Project\nDate to be confirmed · Summary coming soon"
+    "text": "Hello! Here you can find a brief summary of what each session has covered so far. If you are lost and does not know where to start, we reccomend to go session by session in order to grasp the core concepts of Vibe Coding, how Agents works and how to manage multi-agents.\nChoose a session to read its short summary.\nAll times are GMT+3.\n\nSession I: Introduction to Vibe Coding\nNovember 2, 2026 at 18:30 GMT+3 · Phyo Ko Ko\n\n\nSession II: Introduction to Vibe Coding, Practical Session\nNovember 3, 2026 at 18:30 GMT+3 · Phyo Ko Ko\n\n\nSession III: Architecting and Configuring the AI Workspace\nNovember 4, 2026 at 18:30 GMT+3 · Ruiya Zhou · Summary coming soon\n\n\nSession V: Development Paradigms\nNovember 7, 2026 at 09:00 GMT+3 · Akshi Rao\n\n\nSession VI: Agents Mechanisms\nNovember 14, 2026 at 17:00 GMT+3 · Alan Al Jammoor\n\n\nSession VII: Practical Lab, Agents Mechanisms\nNovember 15, 2026 at 17:00 GMT+3 · Alan Al Jammoor\n\n\nSession VIII: Multi-Agents Orchestration\nNovember 16, 2026 at 18:30 GMT+3 · Lwin Ravendo\n\n\nSession IX: Practical Multi-Agents Orchestration\nNovember 17, 2026 at 18:30 GMT+3 · Lwin Ravendo\n\n\nSession X: Theory of Debugging in the Agentic Age\nNovember 23, 2026 at 18:30 GMT+3 with Shakila Alam\n\n\nSession XI: Practical of Debugging in the Agentic Age\nNovember 24, 2026 at 18:30 GMT+3 with Shakila Alam\n\n\nSession XII: Theory Context Engineering & Large Codebases\nNovember 25, 2026 at 18:30 GMT+3 with Ekoko Clesh\n\n\nSession XII: Practical Context Engineering & Large Codebases\nNovember 30, 2026 at 18:30 GMT+3 with Ekoko Clesh\n\n\nSession XIII: AI-First SDLC: Deployment & Operations\nDecember 01, 2026 at 18:30 GMT+3 with Seth Odiambo\n\n\nSession XIV: Practical AI-First SDLC: Deployment & Operations\nDecember 02, 2026 at 18:30 GMT+3 with Seth Odiambo\n\n\nSession X: Capstone Project\nDate to be confirmed · Summary coming soon"
   },
   {
     "objectID": "sessions/session-2.html",
@@ -859,5 +859,628 @@
     "title": "Standard setup",
     "section": "10. Check your setup",
     "text": "10. Check your setup\nRun each command. Each should print a version number:\ngit --version\nuv --version\nnode --version\ncode --version\ngemini --version\naider --version\nIf a command says “not found”, close the terminal and open a new one. If it still fails, note the exact message and ask in the course channel.\nOptional, for the private/local path only:\nollama --version\n\n\n\n\n\n\nNoteFree tiers change\n\n\n\nLimits, model names and free plans change often. Before each session, the coordinators re-check the tools listed here, so a step that no longer matches the provider’s screen should be reported in the course channel."
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "📅 Date & Time: November 23, 2026 at 15:42 (3:42 PM UTC)\n👩‍🏫 Presenter: Shakila Alam Aishy (CS Student, Elite Research Lab Intern)\n🎯 Session Type: Theory & Debugging Principles\n⏱️ Duration: 43 minutes 35 seconds\n\n\n\nThis session teaches systematic debugging of AI-generated code. The key insight: AI can write code quickly, but speed doesn’t equal quality. Just as a mechanic can replace a car part quickly, we must still verify safety before driving. This session teaches frameworks for inspecting, testing, and verifying AI output.\n\n\n\n\n\nUnderstand Code Failure Modes - Recognize four common reasons AI code breaks\nAudit Generated Code Effectively - Develop verification checklists\nProvide High-Signal Context - Write prompts that prevent misunderstanding\nAvoid Endless Loop Failures - Know when to stop and reconsider\nImplement Safety Nets - Use git checkpoints and regression tests\nWrite Effective Bug Reports - Communicate issues precisely to agents\n\n\n\n\n\n\n\n\nAI follows continuous cycle: read → change → run → test → retry\nEnables multi-step task handling\nMust be monitored for infinite loops\n\n\n\n\n\nSpeed ≠ Quality\nCode may look correct but contain subtle errors\nProper testing is non-negotiable\n\n\n\n\n\nAI sounds confident when incorrect\nMay misunderstand requirements\nIntroduces hidden security issues\nNever blindly accept solutions\n\n\n\n\n\n\n\n\nWhat: Agent lacks exact database schema, API contracts, or business rules\nExample: Agent creates amount field but code uses amount_cents\nResult: Code looks reasonable but fails at runtime\nPrevention: Provide exact field names, API contracts, and schema documentation\n\n\n\nWhat: Agent imports package not installed, uses old function, or picks incompatible version\nExamples: - Missing npm package - Deprecated function call - Version mismatch\nResult: Build error or runtime failure\nPrevention: Lock dependencies, specify versions clearly\n\n\n\nWhat: Agent handles normal case but forgets edge cases\nExamples: - What if value is missing? - What if user enters negative number? - What if text entered where number expected?\nResult: Crashes on unusual inputs\nPrevention: Specify edge cases explicitly\n\n\n\nWhat: Fixing one problem accidentally breaks another feature\nExample: Changing shared payment logic fixes donations but breaks receipts\nResult: Hidden logic errors; program runs but produces wrong results\nPrevention: Test related features after changes\n\n\n\n\n\n\n\ngit status      # What files changed?\ngit diff        # Exactly what changed in each file?\n✓ Did agent change only requested files?\n✓ Why were unrelated files modified?\n\n\n\n❌ Look for: - API keys - Tokens - Passwords - Private values\nCritical: Secrets exposed in repos require rotating credentials, not just deleting lines\n\n\n\n\nWhat happens on timeout?\nWhat if server returns error?\nDoes app show helpful message or freeze?\n\n\n\n\n\nDon’t accept just because AI sounds confident\nAsk for explanation\nInspect actual code\nTest before merging\n\n\n\n\n\n\n\n\n\nCode violates language rules\nMissing bracket, invalid import\nDetected: Build tools catch before execution\nExample: import { func from \"module\" (missing closing brace)\n\n\n\n\n\nAppears while program runs\nAttempts invalid operation\nExample: Reading property from undefined: amount.cents when amount = undefined\nSymptom: Program crashes\n\n\n\n\n\nProgram runs, answer is wrong\nMost Dangerous: No crash, silent failure\nExample: $25 treated as 25 cents (not 2,500 cents)\nDetection: Only through testing\n\n\n\n\n\n\n\n\n“Donation pays checkout failed. Fix it.” - No reproduction steps - No error message - No context - Result: AI guesses, makes unnecessary changes\n\n\n\nWhen I enter amount: -50\nClick: Donate button\nExpected: Error message below button\nActual: Browser stays silent, but server returns 400 error\nError message: \"Invalid amount\"\nFile to fix: donations.js\nRoot issue: Error not displayed to user\n\nSpecific reproduction steps\nFile locations\nExpected vs. actual\nServer response details\nResult: AI understands exactly what’s wrong\n\n\n\n\n\n\n\n\n\nAgent tries fix without understanding root cause\nMakes assumptions\nApplies quick workaround\n\n\n\n\n\nFirst fix creates new error\nAgent tries fixing that\nAdds more code\nProject becomes messier\n\n\n\n\n\nOriginal problem still unsolved\nCodebase is now worse\nHundreds of lines of unnecessary code\n\n\n\n\n\nIf agent repeatedly fails on same issue, don’t ask again. STOP. Investigate and reconsider approach.\n\nBetter Prompt:\n\"Last change modified these two files and caused these tests to fail.\nInspect these functions, explain the cause, propose smallest change.\nDon't edit unrelated files.\"\n\n\n\n\n\n\n\ngit commit          # Save known good state before risky change\ngit status          # Verify working tree is clean\n# Then: Try AI-generated change\ngit diff            # Review before committing again\n\nProvides recovery point\nDoesn’t prove code is perfect\nGives clear place to return to\n\n\n\n\ngit diff            # Line-by-line review\nKey Questions: - Related to task? - Changed validation? - Modified function signature? - Added new dependency? - More reliable than summary\n\n\n\ngit checkout -b feature/experiment\n# Try AI changes\ngit diff main..feature/experiment\n# If good: merge\n# If bad: abandon without affecting main\n\n\n\n\n\n\n\n\nDiscards uncommitted changes in tracked files\nWarning: May permanently remove work\nBefore using: git status to verify\n\n\n\n\n\nReverts working tree to chosen commit\nVery destructive: Removes all uncommitted changes\nMust know exact commit to return to\n\n\n\n\n\nRemoves untracked files and directories\nDanger: May delete work you care about\nProcess: Always git status first\n\nGolden Rule: git status → Review → Understand what will be removed → Execute\n\n\n\n\n\nDefinition: Change fixes one problem but breaks something else\nExample: - Fix: Donation form now submits - Regression: Same change breaks receipt generation\nThree-Stage Test Process:\n\n\n\nConfirm specific original failure is gone\nUse exact reproduction steps from bug report\n\n\n\n\n\nPayment processing\nBilling receipts\nError handling\nOther downstream systems\n\n\n\n\n\nWrite test that fails if problem returns\nPrevents same bug in future\n\n\n\n\n\n\nDefinition: Code works now but becomes hard to change/maintain later\n\n\n❌ Repeated logic in multiple places\n✓ Extract to shared utility function\n\n\n\n❌ temp, data, rest\n✓ userProfile, paymentAmount, receiptStatus\n\n\n\n\nDon’t change function signatures unexpectedly\nMaintain data contracts\nRefactor internal implementation, not interface\n\n\n\n\n\n\n\n\nUser clicks “Donate” with $25\nButton stuck in loading\nPayment never completes\n\n\n\n\nMissing Currency Payload\n\nFrontend sends only amount\nStripe requires currency field\nResult: HTTP 500 error\n\nHardcoded Secret\n\nStripe API key in client-side HTML\nSecurity risk: exposed in browser\nShould be server-side only\n\nUncaught Rejections\n\nPayment gateway declines transaction\nApplication doesn’t handle error\nUser sees no feedback\n\n\n\n\n\nSingle failure involved: - Functional error (missing field) - Security vulnerability (exposed key) - Poor error handling (silent failure)\nLesson: Debug fully, don’t just make error disappear\n\n\n\n\n\n\n\n\"Donation form hangs on submit when checkout returns 500 error\"\n\nStates user experience\nAvoids unverified cause in title\n\n\n\n\n\nWhich page?\nWhat amount to enter?\nWhich button to click?\nAny special conditions?\n\n\n\n\nExpected: Donation processed OR clear failure message\nActual: Button keeps loading indefinitely\n\n\n\n\nTest name that passed after fix\nCommit reference with change\nDon’t include: API keys, tokens, private data\n\n\n\n\n\n\nOrder matters:\n\n\nMake failure happen in controlled way\nIf can’t reproduce → need more info\n\n\n\nSave error message, stack trace, test output\nRemove secrets before sharing\n\n\n\nRead source code, understand surrounding logic\nError is clue, but need full context\n\n\n\nGive agent narrow task with evidence\nExpected behavior, don’t-change list\n\n\n\nInspect diff line by line\nConfirm intended changes, no unrelated edits\n\n\n\nRerun test that exposed bug\nRun regression tests for related features\n\n\n\nOnce reviewed and tested\nCreate known good checkpoint\n\n\n\n\n\n\n\n\nCode looks convincing but check: scope, security, logic\nNever accept just because AI sounds confident\n\n\n\n\n\nLogs, reproduction steps, file locations\nExact behavior descriptions\nPrevents guessing\n\n\n\n\n\nUse git checkpoints\nInspect diffs\nRun regression tests\nIf repeated fixes fail: STOP and reconsider\n\n\n\n\n\n\n\nAI can accelerate coding, but discipline in debugging makes results reliable.\n\nGoal: Not to avoid AI tools, but to use them thoughtfully while keeping responsibility and control in human hands.\n\n\n\n\nQ1: If exposed secret, what to do?\nA: Remove, store securely on server, rotate compromised credential\n(Deletion alone is insufficient; key may be cached or accessed)\nQ2: Agent keeps failing on same bug. What to do?\nA: Stop and investigate. Don’t ask agent to try again.\n(Use Stop Rule)\nQ3: Before asking AI to fix regression, first step?\nA: Reproduce bug deterministically and collect clean specific logs.\n(Replaces guessing with evidence)\nQ4: Testing after bug fix, what to confirm?\nA: Fix original bug + related features don’t break\n(Regression testing matters)\n\n\n\n\n\nGit documentation: safe recovery practices\nTesting frameworks for your language\nSecurity best practices (OWASP)\nCode review guidelines\n\n\nSession Ending: “Debugging isn’t just making the error disappear. It’s understanding why it happened, finding root cause, and ensuring the same problem doesn’t happen again.” — Shakila"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#overview",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#overview",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "This session teaches systematic debugging of AI-generated code. The key insight: AI can write code quickly, but speed doesn’t equal quality. Just as a mechanic can replace a car part quickly, we must still verify safety before driving. This session teaches frameworks for inspecting, testing, and verifying AI output."
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#key-learning-outcomes",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#key-learning-outcomes",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "Understand Code Failure Modes - Recognize four common reasons AI code breaks\nAudit Generated Code Effectively - Develop verification checklists\nProvide High-Signal Context - Write prompts that prevent misunderstanding\nAvoid Endless Loop Failures - Know when to stop and reconsider\nImplement Safety Nets - Use git checkpoints and regression tests\nWrite Effective Bug Reports - Communicate issues precisely to agents"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#three-critical-characteristics",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#three-critical-characteristics",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "AI follows continuous cycle: read → change → run → test → retry\nEnables multi-step task handling\nMust be monitored for infinite loops\n\n\n\n\n\nSpeed ≠ Quality\nCode may look correct but contain subtle errors\nProper testing is non-negotiable\n\n\n\n\n\nAI sounds confident when incorrect\nMay misunderstand requirements\nIntroduces hidden security issues\nNever blindly accept solutions"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#four-reasons-ai-generated-code-breaks",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#four-reasons-ai-generated-code-breaks",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "What: Agent lacks exact database schema, API contracts, or business rules\nExample: Agent creates amount field but code uses amount_cents\nResult: Code looks reasonable but fails at runtime\nPrevention: Provide exact field names, API contracts, and schema documentation\n\n\n\nWhat: Agent imports package not installed, uses old function, or picks incompatible version\nExamples: - Missing npm package - Deprecated function call - Version mismatch\nResult: Build error or runtime failure\nPrevention: Lock dependencies, specify versions clearly\n\n\n\nWhat: Agent handles normal case but forgets edge cases\nExamples: - What if value is missing? - What if user enters negative number? - What if text entered where number expected?\nResult: Crashes on unusual inputs\nPrevention: Specify edge cases explicitly\n\n\n\nWhat: Fixing one problem accidentally breaks another feature\nExample: Changing shared payment logic fixes donations but breaks receipts\nResult: Hidden logic errors; program runs but produces wrong results\nPrevention: Test related features after changes"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#audit-framework-code-review-checklist",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#audit-framework-code-review-checklist",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "git status      # What files changed?\ngit diff        # Exactly what changed in each file?\n✓ Did agent change only requested files?\n✓ Why were unrelated files modified?\n\n\n\n❌ Look for: - API keys - Tokens - Passwords - Private values\nCritical: Secrets exposed in repos require rotating credentials, not just deleting lines\n\n\n\n\nWhat happens on timeout?\nWhat if server returns error?\nDoes app show helpful message or freeze?\n\n\n\n\n\nDon’t accept just because AI sounds confident\nAsk for explanation\nInspect actual code\nTest before merging"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#understanding-error-types",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#understanding-error-types",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "Code violates language rules\nMissing bracket, invalid import\nDetected: Build tools catch before execution\nExample: import { func from \"module\" (missing closing brace)\n\n\n\n\n\nAppears while program runs\nAttempts invalid operation\nExample: Reading property from undefined: amount.cents when amount = undefined\nSymptom: Program crashes\n\n\n\n\n\nProgram runs, answer is wrong\nMost Dangerous: No crash, silent failure\nExample: $25 treated as 25 cents (not 2,500 cents)\nDetection: Only through testing"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#providing-high-signal-context",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#providing-high-signal-context",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "“Donation pays checkout failed. Fix it.” - No reproduction steps - No error message - No context - Result: AI guesses, makes unnecessary changes\n\n\n\nWhen I enter amount: -50\nClick: Donate button\nExpected: Error message below button\nActual: Browser stays silent, but server returns 400 error\nError message: \"Invalid amount\"\nFile to fix: donations.js\nRoot issue: Error not displayed to user\n\nSpecific reproduction steps\nFile locations\nExpected vs. actual\nServer response details\nResult: AI understands exactly what’s wrong"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#the-endless-loop-problem",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#the-endless-loop-problem",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "Agent tries fix without understanding root cause\nMakes assumptions\nApplies quick workaround\n\n\n\n\n\nFirst fix creates new error\nAgent tries fixing that\nAdds more code\nProject becomes messier\n\n\n\n\n\nOriginal problem still unsolved\nCodebase is now worse\nHundreds of lines of unnecessary code\n\n\n\n\n\nIf agent repeatedly fails on same issue, don’t ask again. STOP. Investigate and reconsider approach.\n\nBetter Prompt:\n\"Last change modified these two files and caused these tests to fail.\nInspect these functions, explain the cause, propose smallest change.\nDon't edit unrelated files.\""
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#safety-nets-three-essential-habits",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#safety-nets-three-essential-habits",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "git commit          # Save known good state before risky change\ngit status          # Verify working tree is clean\n# Then: Try AI-generated change\ngit diff            # Review before committing again\n\nProvides recovery point\nDoesn’t prove code is perfect\nGives clear place to return to\n\n\n\n\ngit diff            # Line-by-line review\nKey Questions: - Related to task? - Changed validation? - Modified function signature? - Added new dependency? - More reliable than summary\n\n\n\ngit checkout -b feature/experiment\n# Try AI changes\ngit diff main..feature/experiment\n# If good: merge\n# If bad: abandon without affecting main"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#git-recovery-commands-use-with-care",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#git-recovery-commands-use-with-care",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "Discards uncommitted changes in tracked files\nWarning: May permanently remove work\nBefore using: git status to verify\n\n\n\n\n\nReverts working tree to chosen commit\nVery destructive: Removes all uncommitted changes\nMust know exact commit to return to\n\n\n\n\n\nRemoves untracked files and directories\nDanger: May delete work you care about\nProcess: Always git status first\n\nGolden Rule: git status → Review → Understand what will be removed → Execute"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#regression-testing-framework",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#regression-testing-framework",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "Definition: Change fixes one problem but breaks something else\nExample: - Fix: Donation form now submits - Regression: Same change breaks receipt generation\nThree-Stage Test Process:\n\n\n\nConfirm specific original failure is gone\nUse exact reproduction steps from bug report\n\n\n\n\n\nPayment processing\nBilling receipts\nError handling\nOther downstream systems\n\n\n\n\n\nWrite test that fails if problem returns\nPrevents same bug in future"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#technical-debt-management",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#technical-debt-management",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "Definition: Code works now but becomes hard to change/maintain later\n\n\n❌ Repeated logic in multiple places\n✓ Extract to shared utility function\n\n\n\n❌ temp, data, rest\n✓ userProfile, paymentAmount, receiptStatus\n\n\n\n\nDon’t change function signatures unexpectedly\nMaintain data contracts\nRefactor internal implementation, not interface"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#real-world-case-study-donation-page-bug",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#real-world-case-study-donation-page-bug",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "User clicks “Donate” with $25\nButton stuck in loading\nPayment never completes\n\n\n\n\nMissing Currency Payload\n\nFrontend sends only amount\nStripe requires currency field\nResult: HTTP 500 error\n\nHardcoded Secret\n\nStripe API key in client-side HTML\nSecurity risk: exposed in browser\nShould be server-side only\n\nUncaught Rejections\n\nPayment gateway declines transaction\nApplication doesn’t handle error\nUser sees no feedback\n\n\n\n\n\nSingle failure involved: - Functional error (missing field) - Security vulnerability (exposed key) - Poor error handling (silent failure)\nLesson: Debug fully, don’t just make error disappear"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#writing-effective-bug-reports",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#writing-effective-bug-reports",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "\"Donation form hangs on submit when checkout returns 500 error\"\n\nStates user experience\nAvoids unverified cause in title\n\n\n\n\n\nWhich page?\nWhat amount to enter?\nWhich button to click?\nAny special conditions?\n\n\n\n\nExpected: Donation processed OR clear failure message\nActual: Button keeps loading indefinitely\n\n\n\n\nTest name that passed after fix\nCommit reference with change\nDon’t include: API keys, tokens, private data"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#seven-step-debugging-pipeline",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#seven-step-debugging-pipeline",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "Order matters:\n\n\nMake failure happen in controlled way\nIf can’t reproduce → need more info\n\n\n\nSave error message, stack trace, test output\nRemove secrets before sharing\n\n\n\nRead source code, understand surrounding logic\nError is clue, but need full context\n\n\n\nGive agent narrow task with evidence\nExpected behavior, don’t-change list\n\n\n\nInspect diff line by line\nConfirm intended changes, no unrelated edits\n\n\n\nRerun test that exposed bug\nRun regression tests for related features\n\n\n\nOnce reviewed and tested\nCreate known good checkpoint"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#three-key-lessons",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#three-key-lessons",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "Code looks convincing but check: scope, security, logic\nNever accept just because AI sounds confident\n\n\n\n\n\nLogs, reproduction steps, file locations\nExact behavior descriptions\nPrevents guessing\n\n\n\n\n\nUse git checkpoints\nInspect diffs\nRun regression tests\nIf repeated fixes fail: STOP and reconsider"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#the-big-picture",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#the-big-picture",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "AI can accelerate coding, but discipline in debugging makes results reliable.\n\nGoal: Not to avoid AI tools, but to use them thoughtfully while keeping responsibility and control in human hands."
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#quiz-answers",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#quiz-answers",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "Q1: If exposed secret, what to do?\nA: Remove, store securely on server, rotate compromised credential\n(Deletion alone is insufficient; key may be cached or accessed)\nQ2: Agent keeps failing on same bug. What to do?\nA: Stop and investigate. Don’t ask agent to try again.\n(Use Stop Rule)\nQ3: Before asking AI to fix regression, first step?\nA: Reproduce bug deterministically and collect clean specific logs.\n(Replaces guessing with evidence)\nQ4: Testing after bug fix, what to confirm?\nA: Fix original bug + related features don’t break\n(Regression testing matters)"
+  },
+  {
+    "objectID": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#references-further-reading",
+    "href": "Session_Summaries/Session-X_Debugging-in-Agentic-Cage.html#references-further-reading",
+    "title": "Debugging in the Agentic Cage - Maintaining Control Over AI-Generated Code",
+    "section": "",
+    "text": "Git documentation: safe recovery practices\nTesting frameworks for your language\nSecurity best practices (OWASP)\nCode review guidelines\n\n\nSession Ending: “Debugging isn’t just making the error disappear. It’s understanding why it happened, finding root cause, and ensuring the same problem doesn’t happen again.” — Shakila"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "📅 Date & Time: November 25, 2026 at 15:39 (3:39 PM UTC)\n👨‍🏫 Presenter: Ekoko Clesh (Based in Mozambique)\n🎯 Session Type: Practical Hands-On Lab\n⏱️ Duration: 1 hour 30 minutes\n\n\n\nThis practical session teaches how to work effectively with AI coding agents on large, existing codebases. Rather than generating code from scratch, participants learn to guide AI agents to understand project structure, respect constraints, and make targeted changes. By the end, participants can create repository maps, write effective agent instructions, and review AI-generated code safely.\n\n\n\n\nBy the end of this session, you will have:\n\nA repository map - Visual understanding of how components connect\nA clear task brief - Instructions that guide AI agents effectively\nCode review skills - Ability to validate AI-generated changes\n\n\n\n\n\n\n\n\nAnswers questions\nSuggests code snippets\nReactive and passive\nExample: “How do I create auth in Python?”\n\n\n\n\n\nInspects entire project\nMakes multi-step plans\nEdits code across multiple files\nRuns tools (tests, linters, etc.)\nGenerates reports\nUnderstands context of existing code\n\nExample Difference: - Chat: “Here’s a Python auth pattern” - Agent: Finds existing auth system → understands patterns → implements consistent changes\n\n\n\n\n\n\n\n\nMany folders, modules, entry points\nShared services and data flows\nChanging one file may break other parts\nRequires understanding interconnections\n\nExample: Modifying a login function without knowing if auth is in that controller or another service can break everything.\n\n\n\n\nLegacy code with undocumented decisions\nReasons for implementations lost to time\nMust be preserved to avoid regression\nNot obvious from code alone\n\n\n\n\n\nAuthentication requirements\nData protection rules\nSecurity restrictions\nTeam-owned areas that shouldn’t be touched\nAPI contracts that must remain stable\n\n\n\n\n\nTests show expected behavior\nDocumentation reveals intent\nLogs indicate error patterns\nMust be understood before changes\n\n\n\n\n\n\n\n\n\"Add authentication\"\n\nNo location specified\nNo existing pattern identified\nNo boundaries defined\nNo success criteria\nResult: Agent guesses, may break things\n\n\n\n\nBackend uses existing JWT middleware in auth.py\nKeep the user schema unchanged\nRun the auth tests to verify\n\nSpecifies location\nIdentifies pattern to follow\nDefines constraints\nProvides verification method\nResult: Agent understands exactly what to do\n\n\n\n\n\n\n\n\nExample: “Add a filter to dashboard allowing users to view records by date” - Clear action - Specific outcome - Measurable result\n\n\n\nExample: “Dashboard component in frontend/, API in backend/api.py, tests in tests/dashboard” - Relevant files - Related components - Existing patterns - Documentation locations\n\n\n\nExample: “Don’t modify database schema, keep API response format, no new dependencies” - Database structure - API contracts - Existing dependencies - File organization - Naming patterns\n\n\n\nExample: “Date filter works on dashboard, existing features unchanged, all tests pass” - Specific behaviors - Test coverage - Verification steps - Success criteria\n\n\n\n\n\n\n\nBuild a simple web task manager with: - Display task list - Add new tasks - Delete tasks - Mark tasks completed - Show completion counts - Persist tasks in browser storage\n\n\n\n\nUse only HTML, CSS, JavaScript\nNo external libraries\nBeginner-friendly code\nSeparate into 3 files (index.html, style.css, script.js)\nUse meaningful variable names\nResponsive design\n\n\n\n\n\nTasks appear when added\nAppearance changes when marked complete\nTasks disappear when deleted\nTasks persist after refresh\nTask count updates automatically\n\n\n\n\nAgent successfully created working task manager. Live demo in browser showed: - Adding tasks (e.g., “Coding”, “Running”) - Marking complete (stroke-through) - Deleting tasks - Local storage persistence - Responsive UI\n\n\n\n\n\n\n\nFind the main file that starts the application - May be test file, main.py, index.js, etc. - Shows how components interact\n\n\n\nIdentify major parts: - Models (data structures) - Services (business logic) - Validators (input checking) - Tests (expected behavior)\n\n\n\nHow does information move? - Request → Validation → Processing → Response - File → Parser → Logic → Output\n\n\n\nCreate repository_map.md including: - Main entry point - Key components - Data flow - Important constraints - Testing approach\n\n\n\n\n\nTask Manager Demo Structure:\n├── models.py (Task data: id, title, email, dueDate, completed)\n├── services.py (Business logic: create_task, list_tasks, complete_task)\n├── validator.py (Input validation: validate_email, validate_title)\n└── test_services.py (Tests: verify functions work correctly)\nEntry Point: test_services.py imports and tests all services\nData Flow: 1. Input (title, email) → Validator 2. Validator checks format 3. Services create task with auto-incrementing ID 4. Task added to list in memory 5. Test verifies behavior\n\n\n\n\n\n\nRepeating same instructions daily wastes tokens: - “Use Python 3 -m pytest to run tests” - “Keep validation in validator.py” - “Never hardcode secrets” - “Report changed files after each task”\n\n\n\nSingle file containing stable project rules:\n# Project Instructions for AI Agents\n\n## Commands\n- Run tests: `python -m pytest`\n- Start server: `python -m http.server`\n\n## Architecture\n- Keep validation logic in validator.py\n- Services handle business logic\n- Tests verify all changes\n\n## Constraints\n- Never hardcode API secrets\n- Don't modify database schema\n- Reuse existing validation patterns\n\n## Reporting\n- Report all files changed\n- Show test results\n- Note any new dependencies\n\n\n\n\nOne-time specification\nSaves tokens on repeated tasks\nEnsures consistency\nEasy to maintain\nShared across team\n\n\n\n\n\n\n\n\n\nUnderstand repository structure\nIdentify files related to task\nFind existing patterns\nNote constraints\n\n\n\n\n\nAsk agent to explain what it will change\nGet proposed implementation plan\nReview scope and approach\n\n\n\n\n\nReview the plan\nCheck it respects architecture\nVerify constraints understood\nApprove before coding\n\n\n\n\n\nAllow agent to implement approved changes\nMay happen across multiple files\nShould be scoped and focused\n\n\n\n\n\nRun relevant tests\nVerify expected behavior\nCheck for regressions\nLook for new errors\n\n\n\n\n\nInspect actual changes made\nVerify limited to relevant files\nCheck test coverage\nLook for security issues\nHuman decides: Accept or reject\n\n\n\n\n\n\nImportant Reminder: Tests passing does NOT automatically mean code is good.\nAgent might still: - Introduce unnecessary dependencies - Modify unrelated files - Change API contracts - Create technical debt - Miss edge cases\nHuman review is required for: - Architecture consistency - Code quality - Security implications - Performance impact - Maintainability\n\n\n\n\nBefore accepting any AI-generated code, ask:\n\n\nDoes the implementation actually match the request? - Behavior matches requirement? - Expected workflows work? - Edge cases handled?\n\n\n\nAre changes limited to relevant files? - No unrelated modifications? - Existing code untouched where appropriate? - Dependencies unchanged?\n\n\n\nDo tests cover behavior and failures? - Happy path tested? - Error cases handled? - Edge cases included? - Appropriate assertions?\n\n\n\nIs implementation safe and consistent? - Architecture respected? - Security vulnerabilities absent? - Code quality maintained? - Performance acceptable? - Existing patterns followed?\n\n\n\n\n\n\n\n“Improve email validation”\n\n\n\nGoal: Enhance email validation in validator.py\nContext: Current regex pattern at line 42, used in services.py create_task()\nConstraint: Keep function signature same, don't modify models\nDone When: Valid emails pass, invalid rejected, existing tests pass\n\n\n\n\nInspect existing pattern\nUnderstand why pattern exists\nPropose specific improvement\nVerify backward compatibility\nRun all validation tests\nReport changes made\n\n\n\n\n\nDid it change function signature? (bad)\nDid it break existing tests? (bad)\nIs performance worse? (bad)\nDoes it handle more cases correctly? (good)\nDid it touch unrelated files? (bad)\nDid it explain the change? (good)\n\n\n\n\n\n\n\n\n\nProject structure guidelines\nArchitecture patterns\nTesting commands\nConstraint rules\nNever-modify files\n\n\n\n\n\nExact goal for this task\nSpecific files involved\nParticular constraints\nDefinition of done\nVerification steps\n\n\n\n\n\nVague general statements\nContradictory instructions\nHistorical context not relevant\nExcessive examples\nUnrelated project history\n\n\n\n\n\n\nWhat: Standard benchmark to evaluate AI systems on real programming tasks\nHow: Uses real issues from actual repositories - Real requirements - Real codebases - Real test suites - Real constraints\nKey Insight: Generating code that “looks right” is not enough - Must solve the actual issue - Must pass existing tests - Must work in real context - Must be maintainable\nReminder: Even when automated tests pass, humans must review\n\n\n\n\nRemember this order:\nContext\n   ↓\nScoped Task\n   ↓\nSmall Change\n   ↓\nSupported by Evidence (Tests)\n   ↓\nHuman Decision (Accept/Reject)\n\n\n\n\n\n\n\nNever ignore existing structure and patterns\nUnderstand why decisions were made\nRespect boundaries and constraints\nUse repository maps for guidance\nCreate reusable agent instructions\n\n\n\n\n\nProvide context, not just requirements\nSpecify constraints clearly\nDefine success criteria explicitly\nUse agents.md for project rules\nTask briefs for specific work\n\n\n\n\n\nTest pass ≠ Code is good\nCheck scope (only necessary files)\nVerify architecture consistency\nLook for hidden problems\nHuman decides final approval\n\n\n\n\n\n\nBefore giving task to AI agent:\n✓ Created repository_map.md?\n✓ Wrote agents.md with project rules?\n✓ Identified specific files involved?\n✓ Defined clear constraints?\n✓ Specified success criteria?\n✓ Prepared test commands?\n✓ Reviewed similar existing code?\n✓ Ready to review changes?\n\n\n\n\n\nFor Your Project:\n\nCreate repository_map.md\nWrite agents.md\nDefine first task brief\n\nFor Your Team:\n\nShare repository_map.md\nEstablish project rules\nCreate review checklist\n\nFor Continuous Improvement:\n\nLog what agents do well\nDocument what goes wrong\nRefine instructions over time\n\n\n\nSession Closing:\n\nContext leads to scoped task. Scoped task leads to small change. Small change must be supported by evidence. Final decision belongs to human developer.\n\nRemember: The goal is not to remove humans from decision-making, but to make AI tools more effective while keeping humans in control."
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#overview",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#overview",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "This practical session teaches how to work effectively with AI coding agents on large, existing codebases. Rather than generating code from scratch, participants learn to guide AI agents to understand project structure, respect constraints, and make targeted changes. By the end, participants can create repository maps, write effective agent instructions, and review AI-generated code safely."
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#three-key-outcomes",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#three-key-outcomes",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "By the end of this session, you will have:\n\nA repository map - Visual understanding of how components connect\nA clear task brief - Instructions that guide AI agents effectively\nCode review skills - Ability to validate AI-generated changes"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#ai-coding-agent-vs.-chat-assistant",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#ai-coding-agent-vs.-chat-assistant",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Answers questions\nSuggests code snippets\nReactive and passive\nExample: “How do I create auth in Python?”\n\n\n\n\n\nInspects entire project\nMakes multi-step plans\nEdits code across multiple files\nRuns tools (tests, linters, etc.)\nGenerates reports\nUnderstands context of existing code\n\nExample Difference: - Chat: “Here’s a Python auth pattern” - Agent: Finds existing auth system → understands patterns → implements consistent changes"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#why-large-codebases-are-hard-four-reasons",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#why-large-codebases-are-hard-four-reasons",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Many folders, modules, entry points\nShared services and data flows\nChanging one file may break other parts\nRequires understanding interconnections\n\nExample: Modifying a login function without knowing if auth is in that controller or another service can break everything.\n\n\n\n\nLegacy code with undocumented decisions\nReasons for implementations lost to time\nMust be preserved to avoid regression\nNot obvious from code alone\n\n\n\n\n\nAuthentication requirements\nData protection rules\nSecurity restrictions\nTeam-owned areas that shouldn’t be touched\nAPI contracts that must remain stable\n\n\n\n\n\nTests show expected behavior\nDocumentation reveals intent\nLogs indicate error patterns\nMust be understood before changes"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#bad-prompt-vs.-good-prompt",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#bad-prompt-vs.-good-prompt",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "\"Add authentication\"\n\nNo location specified\nNo existing pattern identified\nNo boundaries defined\nNo success criteria\nResult: Agent guesses, may break things\n\n\n\n\nBackend uses existing JWT middleware in auth.py\nKeep the user schema unchanged\nRun the auth tests to verify\n\nSpecifies location\nIdentifies pattern to follow\nDefines constraints\nProvides verification method\nResult: Agent understands exactly what to do"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#four-essential-parts-of-an-agentic-task",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#four-essential-parts-of-an-agentic-task",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Example: “Add a filter to dashboard allowing users to view records by date” - Clear action - Specific outcome - Measurable result\n\n\n\nExample: “Dashboard component in frontend/, API in backend/api.py, tests in tests/dashboard” - Relevant files - Related components - Existing patterns - Documentation locations\n\n\n\nExample: “Don’t modify database schema, keep API response format, no new dependencies” - Database structure - API contracts - Existing dependencies - File organization - Naming patterns\n\n\n\nExample: “Date filter works on dashboard, existing features unchanged, all tests pass” - Specific behaviors - Test coverage - Verification steps - Success criteria"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#real-example-task-manager-application",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#real-example-task-manager-application",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Build a simple web task manager with: - Display task list - Add new tasks - Delete tasks - Mark tasks completed - Show completion counts - Persist tasks in browser storage\n\n\n\n\nUse only HTML, CSS, JavaScript\nNo external libraries\nBeginner-friendly code\nSeparate into 3 files (index.html, style.css, script.js)\nUse meaningful variable names\nResponsive design\n\n\n\n\n\nTasks appear when added\nAppearance changes when marked complete\nTasks disappear when deleted\nTasks persist after refresh\nTask count updates automatically\n\n\n\n\nAgent successfully created working task manager. Live demo in browser showed: - Adding tasks (e.g., “Coding”, “Running”) - Marking complete (stroke-through) - Deleting tasks - Local storage persistence - Responsive UI"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#mapping-a-large-repository",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#mapping-a-large-repository",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Find the main file that starts the application - May be test file, main.py, index.js, etc. - Shows how components interact\n\n\n\nIdentify major parts: - Models (data structures) - Services (business logic) - Validators (input checking) - Tests (expected behavior)\n\n\n\nHow does information move? - Request → Validation → Processing → Response - File → Parser → Logic → Output\n\n\n\nCreate repository_map.md including: - Main entry point - Key components - Data flow - Important constraints - Testing approach"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#example-repository-map",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#example-repository-map",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Task Manager Demo Structure:\n├── models.py (Task data: id, title, email, dueDate, completed)\n├── services.py (Business logic: create_task, list_tasks, complete_task)\n├── validator.py (Input validation: validate_email, validate_title)\n└── test_services.py (Tests: verify functions work correctly)\nEntry Point: test_services.py imports and tests all services\nData Flow: 1. Input (title, email) → Validator 2. Validator checks format 3. Services create task with auto-incrementing ID 4. Task added to list in memory 5. Test verifies behavior"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#why-project-rules-matter-agents.md",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#why-project-rules-matter-agents.md",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Repeating same instructions daily wastes tokens: - “Use Python 3 -m pytest to run tests” - “Keep validation in validator.py” - “Never hardcode secrets” - “Report changed files after each task”\n\n\n\nSingle file containing stable project rules:\n# Project Instructions for AI Agents\n\n## Commands\n- Run tests: `python -m pytest`\n- Start server: `python -m http.server`\n\n## Architecture\n- Keep validation logic in validator.py\n- Services handle business logic\n- Tests verify all changes\n\n## Constraints\n- Never hardcode API secrets\n- Don't modify database schema\n- Reuse existing validation patterns\n\n## Reporting\n- Report all files changed\n- Show test results\n- Note any new dependencies\n\n\n\n\nOne-time specification\nSaves tokens on repeated tasks\nEnsures consistency\nEasy to maintain\nShared across team"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#six-step-ai-assisted-workflow",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#six-step-ai-assisted-workflow",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Understand repository structure\nIdentify files related to task\nFind existing patterns\nNote constraints\n\n\n\n\n\nAsk agent to explain what it will change\nGet proposed implementation plan\nReview scope and approach\n\n\n\n\n\nReview the plan\nCheck it respects architecture\nVerify constraints understood\nApprove before coding\n\n\n\n\n\nAllow agent to implement approved changes\nMay happen across multiple files\nShould be scoped and focused\n\n\n\n\n\nRun relevant tests\nVerify expected behavior\nCheck for regressions\nLook for new errors\n\n\n\n\n\nInspect actual changes made\nVerify limited to relevant files\nCheck test coverage\nLook for security issues\nHuman decides: Accept or reject"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#critical-passing-tests-ready-to-merge",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#critical-passing-tests-ready-to-merge",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Important Reminder: Tests passing does NOT automatically mean code is good.\nAgent might still: - Introduce unnecessary dependencies - Modify unrelated files - Change API contracts - Create technical debt - Miss edge cases\nHuman review is required for: - Architecture consistency - Code quality - Security implications - Performance impact - Maintainability"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#four-questions-to-evaluate-ai-changes",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#four-questions-to-evaluate-ai-changes",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Before accepting any AI-generated code, ask:\n\n\nDoes the implementation actually match the request? - Behavior matches requirement? - Expected workflows work? - Edge cases handled?\n\n\n\nAre changes limited to relevant files? - No unrelated modifications? - Existing code untouched where appropriate? - Dependencies unchanged?\n\n\n\nDo tests cover behavior and failures? - Happy path tested? - Error cases handled? - Edge cases included? - Appropriate assertions?\n\n\n\nIs implementation safe and consistent? - Architecture respected? - Security vulnerabilities absent? - Code quality maintained? - Performance acceptable? - Existing patterns followed?"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#real-world-example-email-validation-change",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#real-world-example-email-validation-change",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "“Improve email validation”\n\n\n\nGoal: Enhance email validation in validator.py\nContext: Current regex pattern at line 42, used in services.py create_task()\nConstraint: Keep function signature same, don't modify models\nDone When: Valid emails pass, invalid rejected, existing tests pass\n\n\n\n\nInspect existing pattern\nUnderstand why pattern exists\nPropose specific improvement\nVerify backward compatibility\nRun all validation tests\nReport changes made\n\n\n\n\n\nDid it change function signature? (bad)\nDid it break existing tests? (bad)\nIs performance worse? (bad)\nDoes it handle more cases correctly? (good)\nDid it touch unrelated files? (bad)\nDid it explain the change? (good)"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#context-engineering-best-practices",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#context-engineering-best-practices",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Project structure guidelines\nArchitecture patterns\nTesting commands\nConstraint rules\nNever-modify files\n\n\n\n\n\nExact goal for this task\nSpecific files involved\nParticular constraints\nDefinition of done\nVerification steps\n\n\n\n\n\nVague general statements\nContradictory instructions\nHistorical context not relevant\nExcessive examples\nUnrelated project history"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#swe-bench-ai-benchmark",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#swe-bench-ai-benchmark",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "What: Standard benchmark to evaluate AI systems on real programming tasks\nHow: Uses real issues from actual repositories - Real requirements - Real codebases - Real test suites - Real constraints\nKey Insight: Generating code that “looks right” is not enough - Must solve the actual issue - Must pass existing tests - Must work in real context - Must be maintainable\nReminder: Even when automated tests pass, humans must review"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#session-summary-workflow",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#session-summary-workflow",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Remember this order:\nContext\n   ↓\nScoped Task\n   ↓\nSmall Change\n   ↓\nSupported by Evidence (Tests)\n   ↓\nHuman Decision (Accept/Reject)"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#key-takeaways",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#key-takeaways",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Never ignore existing structure and patterns\nUnderstand why decisions were made\nRespect boundaries and constraints\nUse repository maps for guidance\nCreate reusable agent instructions\n\n\n\n\n\nProvide context, not just requirements\nSpecify constraints clearly\nDefine success criteria explicitly\nUse agents.md for project rules\nTask briefs for specific work\n\n\n\n\n\nTest pass ≠ Code is good\nCheck scope (only necessary files)\nVerify architecture consistency\nLook for hidden problems\nHuman decides final approval"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#final-checklist-before-task",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#final-checklist-before-task",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "Before giving task to AI agent:\n✓ Created repository_map.md?\n✓ Wrote agents.md with project rules?\n✓ Identified specific files involved?\n✓ Defined clear constraints?\n✓ Specified success criteria?\n✓ Prepared test commands?\n✓ Reviewed similar existing code?\n✓ Ready to review changes?"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#recommended-next-steps",
+    "href": "Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.html#recommended-next-steps",
+    "title": "Context Engineering & Large Codebases - Making AI Agents Work in Real Projects",
+    "section": "",
+    "text": "For Your Project:\n\nCreate repository_map.md\nWrite agents.md\nDefine first task brief\n\nFor Your Team:\n\nShare repository_map.md\nEstablish project rules\nCreate review checklist\n\nFor Continuous Improvement:\n\nLog what agents do well\nDocument what goes wrong\nRefine instructions over time\n\n\n\nSession Closing:\n\nContext leads to scoped task. Scoped task leads to small change. Small change must be supported by evidence. Final decision belongs to human developer.\n\nRemember: The goal is not to remove humans from decision-making, but to make AI tools more effective while keeping humans in control."
+  },
+  {
+    "objectID": "sessions/session-9.html",
+    "href": "sessions/session-9.html",
+    "title": "Session IX: Practical Multi-Agents Orchestration",
+    "section": "",
+    "text": "← All session summaries · ← Previous: Session VIII · Next: Session X →\nDate: November 17, 2026 at 15:35 UTC · Presenter: Lwin Ravendo · Type: Hands-on Lab (1 hour 37 minutes)"
+  },
+  {
+    "objectID": "sessions/session-9.html#what-we-covered",
+    "href": "sessions/session-9.html#what-we-covered",
+    "title": "Session IX: Practical Multi-Agents Orchestration",
+    "section": "What we covered",
+    "text": "What we covered\n\nAgentic AI Under the Hood: Loop structure, tool calls, and how intelligence emerges from iteration\nAgent Architectures: Independent, decentralized, centralized, and hybrid agent patterns\nQuro Development Environment: Web IDE, CLI, local setup with multi-agent workflows\nMulti-Agent Session Management: Coordinating parallel development tasks with shared workspace context\nContext Window Expansion: From 8K tokens (2025) to 10M tokens (2026) — massive capability increase\nReal Project Example: Building cloud-native architecture with coordinated agents for backend, frontend, testing, documentation\nCost Management: Token economics, model selection tradeoffs, budget optimization\nError Handling & Recovery: Git checkpoints, rollback techniques, handling sandbox issues\nProduction Deployment: Complete flow from specification to deployment with proper validation"
+  },
+  {
+    "objectID": "sessions/session-9.html#key-takeaway",
+    "href": "sessions/session-9.html#key-takeaway",
+    "title": "Session IX: Practical Multi-Agents Orchestration",
+    "section": "Key takeaway",
+    "text": "Key takeaway\n\nUnderstanding the agentic loop is the foundation. Workspace context matters. Multi-agent coordination requires planning. Cost and speed are tradeoffs. Human oversight remains critical.\n\n\nWatch the recording"
+  },
+  {
+    "objectID": "sessions/session-11.html",
+    "href": "sessions/session-11.html",
+    "title": "Session XI: Practical Debugging Lab",
+    "section": "",
+    "text": "← All session summaries · ← Previous: Session X\nDate: November 24, 2026 at 15:44 UTC · Presenter: Shakila Alam Aishy · Type: Hands-on Lab (56 minutes 10 seconds)"
+  },
+  {
+    "objectID": "sessions/session-11.html#what-we-covered",
+    "href": "sessions/session-11.html#what-we-covered",
+    "title": "Session XI: Practical Debugging Lab",
+    "section": "What we covered",
+    "text": "What we covered\n\nLive Debugging Walkthrough: Real donation page broken by AI, finding and fixing issues\nReproduce & Observe: Silent failures—server error vs. user feedback\nCode Audit: Finding hardcoded API keys, missing validation, code duplication\nSecurity Issues: Exposed credentials in frontend, logged to console, sent in headers\nNetwork Analysis: Using browser DevTools to verify server behavior and error responses\nWeak vs. Strong Prompts: How prompt quality directly affects AI solution quality\nGit Recovery: rollback techniques with git restore, git reset, git clean\nSecure API Management: Moving secrets to .env files, never committing sensitive data\nGit Workflow: Staging, committing with meaningful messages, pushing changes\nTesting & Validation: Rerunning tests, manual edge-case testing, regression verification"
+  },
+  {
+    "objectID": "sessions/session-11.html#the-debugging-checklist",
+    "href": "sessions/session-11.html#the-debugging-checklist",
+    "title": "Session XI: Practical Debugging Lab",
+    "section": "The debugging checklist",
+    "text": "The debugging checklist\n✓ Reproduce · ✓ Collect evidence · ✓ Audit code · ✓ Identify root causes · ✓ Prompt AI clearly · ✓ Review changes · ✓ Test thoroughly · ✓ Commit cleanly"
+  },
+  {
+    "objectID": "sessions/session-11.html#key-takeaway",
+    "href": "sessions/session-11.html#key-takeaway",
+    "title": "Session XI: Practical Debugging Lab",
+    "section": "Key takeaway",
+    "text": "Key takeaway\n\nDebugging is systematic: reproduce → understand → fix properly → test → prevent recurrence. Version control is your safety net.\n\n\nWatch the recording"
+  },
+  {
+    "objectID": "sessions/session-10.html",
+    "href": "sessions/session-10.html",
+    "title": "Session X: Debugging in the Agentic Cage",
+    "section": "",
+    "text": "← All session summaries · ← Previous: Session IX · Next: Session XI →\nDate: November 23, 2026 at 15:42 UTC · Presenter: Shakila Alam Aishy · Type: Theory (43 minutes 35 seconds)"
+  },
+  {
+    "objectID": "sessions/session-10.html#what-we-covered",
+    "href": "sessions/session-10.html#what-we-covered",
+    "title": "Session X: Debugging in the Agentic Cage",
+    "section": "What we covered",
+    "text": "What we covered\n\nThree Critical Characteristics: Autonomous loops, generation vs. quality, confidence bias\nFour Reasons AI Code Breaks: Float context, dependency problems, shallow validation, regression\nAudit Framework: Scope verification, credential exposure, network paths, avoiding blind merges\nError Types: Syntax errors (detected early), runtime errors (crash), logical errors (silent failures)\nHigh-Signal Context: How to write prompts that prevent AI misunderstanding\nThe Endless Loop Problem: Speculative patching → error compounding → total drift. The Stop Rule.\nSafety Nets: Atomic checkpoints, inspecting diffs, using branches for experiments\nRegression Testing: Three-stage test process to prevent breaking related features\nTechnical Debt: Eliminating duplication, clear naming, preserving external APIs\nSeven-Step Pipeline: Reproduce → Collect → Audit → Prompt → Review → Test → Commit"
+  },
+  {
+    "objectID": "sessions/session-10.html#key-takeaway",
+    "href": "sessions/session-10.html#key-takeaway",
+    "title": "Session X: Debugging in the Agentic Cage",
+    "section": "Key takeaway",
+    "text": "Key takeaway\n\nAI accelerates coding, but discipline in debugging makes results reliable. Responsibility stays in human hands.\n\n\nWatch the recording"
+  },
+  {
+    "objectID": "sessions/session-12.html",
+    "href": "sessions/session-12.html",
+    "title": "Session XII: Context Engineering & Large Codebases",
+    "section": "",
+    "text": "← All session summaries · ← Previous: Session XI\nDate: November 25, 2026 at 15:39 UTC · Presenter: Ekoko Clesh (Mozambique) · Type: Hands-on Lab (1 hour 30 minutes)"
+  },
+  {
+    "objectID": "sessions/session-12.html#what-we-covered",
+    "href": "sessions/session-12.html#what-we-covered",
+    "title": "Session XII: Context Engineering & Large Codebases",
+    "section": "What we covered",
+    "text": "What we covered\n\nAI Agent vs. Chat Assistant: How coding agents inspect, plan, edit, run tools—far beyond simple Q&A\nWhy Large Codebases Are Hard: Structure, history, boundaries, and evidence\nBad Prompts vs. Good Prompts: Vague instructions fail; clear context succeeds\nFour Essential Task Parts: Goal, Context, Constraint, Done When\nRepository Mapping: Understanding entry points, components, data flow\nagents.md Files: Reusable project rules to avoid token waste\nSix-Step Workflow: Explore → Plan → Approve → Edit → Test → Review\nCode Review Framework: Four questions before accepting AI changes\nReal Example: Building a task manager web app from specification\nSWE Bench Concept: Real benchmarks for real programming tasks"
+  },
+  {
+    "objectID": "sessions/session-12.html#key-insight",
+    "href": "sessions/session-12.html#key-insight",
+    "title": "Session XII: Context Engineering & Large Codebases",
+    "section": "Key insight",
+    "text": "Key insight\n\nPassing tests ≠ code is ready. Test pass proves behavior; humans decide if change belongs in project.\n\n\nWatch the recording"
+  },
+  {
+    "objectID": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html",
+    "href": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html",
+    "title": "Practical Multi-Agents Orchestration - Building AI-Driven Development Workflows",
+    "section": "",
+    "text": "📅 Date & Time: November 17, 2026 at 15:35 (3:35 PM UTC)\n👨‍🏫 Presenter: Lwin Ravendo (Frontier Tech Leader, UN Volunteer, Agentic AI Trainer)\n🎯 Session Type: Hands-On Lab - Multi-Agent System Development\n⏱️ Duration: 1 hour 37 minutes\n\n\n\nThis practical session demonstrates real-world multi-agent orchestration using Quro, a modern AI-powered development environment. Participants see how to coordinate multiple AI agents to build complete software projects from specification to deployment, managing parallel workflows, handling errors, and maintaining code quality throughout the development lifecycle.\n\n\n\n\n\nUnderstand Agentic AI Under the Hood - Master the anatomy of agents and how loops enable intelligence\nMaster Quro Environment - Learn web-based, CLI, and IDE development with multi-agent workflows\nManage Multi-Agent Sessions - Coordinate multiple agents working on different tasks in parallel\nHandle Errors & Rollbacks - Use git checkpoints and recovery techniques effectively\nDeploy Production Code - Build complete projects with proper testing and validation\n\n\n\n\n\n\n\n\n\nModel → System Prompt → Tool Calls → Scales → MCP Instructions\n  ↓\nMessages Block (storage for context, memory, messages)\n  ↓\nLoops continuously until goal is achieved\nKey Components: - Model: The LLM (Claude, GPT, etc.) - System Prompt: Triggers tool calls and agent behavior - Tool Calls: Actions the agent can request (run code, modify files, etc.) - Scales: Reusable instructions and skills - MCP Instructions: Model Context Protocol for external integrations - Messages Block: Persistent storage for context and history\nDefinition: A strong AI engineer is a person who can run this loop reliably and at scale.\n\n\n\n1. Independent/Isolated Agents\nAgent A ─┐\nAgent B ─├─ Isolated execution (no direct communication)\nAgent C ─┘\n\nEach works independently in sandboxed environment\nNo coordination between agents\nBest for simple, non-dependent tasks\n\n2. Decentralized (P2P) Agents\nAgent 1 ←→ Agent 2\n  ↕        ↕\nAgent 3 ←→ Agent 4\n\nPeer-to-peer direct connections\nAgents communicate directly\nMore complex coordination\nExample: blockchain-inspired architectures\n\n3. Centralized Agents\nCentral Controller/Broker\n        ↓\n   ┌────┼────┐\n   ↓    ↓    ↓\n  Sub  Sub  Sub\n  Ag-A Ag-B Ag-C\n\nCentral orchestrator controls all sub-agents\nClear command flow\nEasier to manage but single point of failure\n\n4. Hybrid Architecture\nGlobal Coordinator\n    ↓\n ┌──┴──┐\n ↓     ↓\nCluster A  Cluster B\n(Decentr.) (Centralized)\n\nCombines multiple patterns\nUsed by cloud-augmented research systems\nMost flexible approach\n\n\n\n\n\n\n\n\nType: Reactive systems\nProcess: Prompt → Generate → Return\nContext Window: Previously ~8K tokens\nControl: Limited to generation\nExample: ChatGPT interface usage\n\n\n\n\n\nType: Proactive systems\nProcess: Prompt → Action → Tool Call → Perception → Decide → Execute\nContext Window: 1M - 10M tokens (massive expansion)\nControl: Agent decides next steps\nModels with Large Context Windows:\n\nLlama 2: 10M tokens (recent)\nGPT-6 Extra: 1M tokens\nClaude Opus 5: 1M tokens\nGemini 4 Aragon: 1M tokens\nQwen Qwanta: 1-10M tokens (late 2026)\n\n\nLeading Inference Engineering Platforms: - HexDash - Prime Perform - Together.ai - Firewalls AI\nNew Failure Modes (2026): - Semantic failures (meaning breaks down at scale) - Logic failures (inference reasoning fails)\n\n\n\n\n\n\nUser Prompt\n    ↓\nLLM + Few-shot examples\n    ↓\nGenerate output\n    ↓\nEdit prompt → Loop until satisfied\n    ↓\nResult\n\nPrimarily prompt-driven\nLimited by context window\nTrial and error approach\n\n\n\n\nUser Prompt (Specification)\n    ↓\nLLM Creates Endpoints/Features\n    ↓\nAdd Validation & Error Handling\n    ↓\nTest & Verify\n    ↓\nReturn 200 status (success)\n\nClear specifications from start\nStructured error handling\nProper acceptance validation\n\n\n\n\nRequirements (Context Isolation)\n    ↓\nDesign (BRDs, mission control files)\n    ↓\nBuild (Agent workflow MD files)\n    ↓\nTest (Stack traces, error handling)\n    ↓\nRelease (Deployment environment)\n    ↓\nOperate (Grafana dashboards, monitoring)\n    ↓\nMaintain (Production environment)\nKey Principle (2026): “Evals are the new PRD of digital workspace” — Luin CEO insight that evaluation frameworks now define product requirements.\n\n\n\n\n\n\nQuro is an AI-powered IDE that helps build software from prototype to production with: - Web-based IDE (no local storage needed) - Local IDE (VS Code integration) - CLI interface - Mobile app (newly released)\n\n\n\n\n\n\nModel\nCredits\nContext Window\nUse Case\n\n\n\n\nClaude Opus 5.5\n1 credit\n1M tokens\nPower/precision\n\n\nClaude Sonnet 5\n1.38 credits\n1M tokens\nBalanced\n\n\nClaude Haiku 4.4\n2.7 credits\nLower\nBudget\n\n\nGPT-5.6\n4.4 credits\n1M tokens\nAlternative\n\n\nDeepSeek M1\nLower cost\nVariable\nBudget coding\n\n\nKimi K3\nVariable\n-\nData flow/code analysis\n\n\n\n\n\n\n1. Cloud Configuration (Agent Config) - Share configurations across web and local environments - Synchronize workspaces between IDE and browser - Persistent session state\n2. DRM System (Development Requirements) - Document development standards in IDE and CLI - Include: coding standards, architectural decisions, profile libraries, dependencies - Portable across all environments\n3. Skills - Reusable instructions for agents - Specialized for specific tasks - Stored as folders with .skill.md and .rules - Applied contextually per session\n4. Custom Agents - Create tailored agents for specific tasks - Defined via JSON or Markdown+YAML - Synchronized across environments - Task-specific configurations\n5. Hooks - Trigger agent prompts or shell commands automatically - Events: file saving, tool calls, prompting, etc. - Each hook maps to JSON file in project - Integration: Telegram, Discourse, etc.\n6. Workflows - Multi-step recipes reusable by agents - Workflow format: .workflow.json or .workflow.yaml - Enable parallel task execution - Save and reuse across projects\n7. Powers (MCP Integration) - Connect agents to external tools and services - One standard way to access external resources - Upload custom MCPs as folders - Typically .power.md at root\n8. Memory Management - Session recap: summarize conversations - Automatic memory persistence - Reopen summaries or pick up where left off - Model fallback: switch models if one unavailable\n9. Approval Modes - Default: Every action needs human approval - LLM-based: Intelligent approval suggestions - Modes: Allow once, block once, ask if unsure\n\n\n\nStep 1: Create New Chat Session - Define working space - Choose coding model (consider credits/power) - Set effort level (auto vs. manual) - Attach relevant files - Limit/enable internet access - Select repository access level\nStep 2: Configure Workspace - Set up digital workspace environment - Define repository location - Create GitHub integration\nStep 3: Start Development - Use multi-agent workflows - Run parallel sessions - Monitor token usage and costs\n\n\n\n\n\n\nScenario: Understanding an existing project\nAgent Actions: 1. Looks for steering files (project specifications) 2. Searches for learning memories 3. Attempts repository operations 4. Uses investigation tools iteratively 5. Provides comprehensive analysis\nChain of Thought Process: - Agent thinks step-by-step (may take 20-40 seconds) - Multiple tool investigations - Iterative refinement - Final consolidated response\nToken Usage: 11,292 credits for detailed exploration\n\n\n\nMulti-Session Parallel Workflow:\nSession 1: Backend Development\nSession 2: Frontend Implementation  \nSession 3: Testing & Validation\nSession 4: Documentation\n\nAll running with shared workspace context\nWorkflow Challenges Encountered: - Workflow launch failures (invalid input) - Schema mismatches - Iteration limits - Branch management\nRecovery Techniques: - Step-by-step workflow iteration - Explicit parameter specification - Format validation - Fallback strategies\n\n\n\nProject Structure Created:\nbackend/\n  main/\n  deployment/\n\nfrontend/\n  components/\n  \ndocs/\n  architecture/\nTechnology Stack: - Frontend: React, Vite - Backend: FastAPI 2.0 - Caching: Redis - MCP Studio integration\nRuntime Architecture:\nBrowser (SSY) → HTTPS\n      ↓\nFrontend (TS)\n      ↓\nAPI (FastAPI)\n      ↓\nRedis Cache\n      ↓\nMCP Studio Services\nOrchestration Pattern:\nValidation Step → Authorization → Execution\n  ↓               ↓                ↓\nSchemas       User Checks      Task Logic\n(Type safety) (Permission)    (Business logic)\n\n\n\n\n\n\n\nClone Repository Errors\n\nAttempting to clone during development\nCaused by vague initial prompts\nSolution: Provide clear workspace context\n\nWorkflow Launch Failures\n\nInvalid input messages\nMissing schema definitions\nSolution: Explicit parameter types and validation\n\nSession Management Issues\n\nMultiple agents conflicting\nSandbox sleep/wake cycles\nSolution: Clear session boundaries\n\n\n\n\n\nGit Rollback:\ngit status           # Check current state\ngit restore &lt;file&gt;   # Discard uncommitted changes\ngit reset --hard     # Return to last commit\nSession Cleanup: - Close problematic session - Create new focused session - Provide full context from start\nBranching Strategy: - Create separate branches for features - Avoid main branch conflicts - Clean merge requests with proper CI\n\n\n\n\n\n\n\nAgent reviews project structure\nIdentifies existing code\nNotes potential issues\n\n\n\n\n\nAgent writes code based on specifications\nCreates multiple files\nTests implementation\nFixes errors iteratively\n\n\n\n\n\nPush branches to GitHub\nCreate pull requests\nVerify CI/CD checks\nDocument limitations\n\n\n\n\n\nUpdate README\nCreate architecture diagrams\nDocument deployment notes\nPlan future enhancements\n\nTotal Time per Feature: 20-60 minutes\n\n\n\n\nExample Costs: - Exploration session: ~11K credits (20-40 minutes) - Implementation session: ~20-30K credits - Validation & testing: ~10-15K credits - Documentation: ~5-10K credits\nCost Optimization: 1. Use cheaper models for simple tasks 2. Batch related changes 3. Provide clear specifications upfront 4. Reuse existing sessions when possible 5. Monitor token usage per session\n\n\n\n✅ DO: - Create separate sessions for distinct tasks - Provide full context in each session - Use workspace-level storage - Document limitations and risks - Test before merging - Create meaningful commit messages\n❌ DON’T: - Merge unreviewed code blindly - Ignore test failures - Expose secrets in code - Create too many parallel sessions at once - Skip CI/CD validation - Assume first attempt is production-ready\n\n\n\n\n\n\n\nUnderstanding how agents think, act, and iterate is essential for effective orchestration.\n\n\n\nAgents perform better when they understand the full project context, not just individual tasks.\n\n\n\nClear task boundaries, proper branching, and clean handoffs prevent errors.\n\n\n\nFaster models cost more; cheaper models take longer. Choose based on task complexity.\n\n\n\nEven with advanced agents, review, test, and validation are non-negotiable.\n\n\n\nGood development environments (like Quro) with proper memory, hooks, and workflows significantly improve outcomes.\n\n\n\n\n\n\n\n\n1M tokens ≈ 550K lines of code\nTrack usage per session\nModel selection impacts cost significantly\n\n\n\n\n\nVague prompts lead to unnecessary work\nClear specifications reduce iteration\nArchitecture understanding prevents regressions\n\n\n\n\n\nParallel execution requires careful coordination\nBranching strategy prevents conflicts\nCI/CD validation catches early problems\n\n\n\n\n\n\n✅ Set up Quro account (free tier available)\n✅ Explore multi-agent workflows in practice\n✅ Experiment with different models and costs\n✅ Create workspace-specific configurations\n✅ Practice session management techniques\n✅ Document your team’s reusable skills\n\n\n\n\nDevelopment Environments: - Quro (Primary demo) - Cursor - VS Code + extensions - Replit\nAgents & Orchestration: - Quro Crew (Local IDE) - LangChain - CrewAI\nDeployment & Monitoring: - GitHub/GitLab - Grafana dashboards - CI/CD pipelines (GitHub Actions, etc.)\n\n\n\n\nLwin’s Message: “I want to show you how I’ve used these agents in my projects, managing multi-agent teams in this environment. Everyone has their own way of defining and creating projects. This is my way of doing the work. If you have projects you want to create together, we can work on this environment and learn it together.”\nKey Success Formula: &gt; Vibe Coding + Discipline + Multi-Agent Orchestration = Production-Ready Software\n\nNext Steps: Session X focuses on debugging in agentic systems — how to handle failures and maintain code quality when things go wrong.\nFurther Learning: Explore Quro documentation, LangChain, and CrewAI for deeper multi-agent orchestration patterns."
+  },
+  {
+    "objectID": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#overview",
+    "href": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#overview",
+    "title": "Practical Multi-Agents Orchestration - Building AI-Driven Development Workflows",
+    "section": "",
+    "text": "This practical session demonstrates real-world multi-agent orchestration using Quro, a modern AI-powered development environment. Participants see how to coordinate multiple AI agents to build complete software projects from specification to deployment, managing parallel workflows, handling errors, and maintaining code quality throughout the development lifecycle."
+  },
+  {
+    "objectID": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#key-learning-outcomes",
+    "href": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#key-learning-outcomes",
+    "title": "Practical Multi-Agents Orchestration - Building AI-Driven Development Workflows",
+    "section": "",
+    "text": "Understand Agentic AI Under the Hood - Master the anatomy of agents and how loops enable intelligence\nMaster Quro Environment - Learn web-based, CLI, and IDE development with multi-agent workflows\nManage Multi-Agent Sessions - Coordinate multiple agents working on different tasks in parallel\nHandle Errors & Rollbacks - Use git checkpoints and recovery techniques effectively\nDeploy Production Code - Build complete projects with proper testing and validation"
+  },
+  {
+    "objectID": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#main-topics-covered",
+    "href": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#main-topics-covered",
+    "title": "Practical Multi-Agents Orchestration - Building AI-Driven Development Workflows",
+    "section": "",
+    "text": "Model → System Prompt → Tool Calls → Scales → MCP Instructions\n  ↓\nMessages Block (storage for context, memory, messages)\n  ↓\nLoops continuously until goal is achieved\nKey Components: - Model: The LLM (Claude, GPT, etc.) - System Prompt: Triggers tool calls and agent behavior - Tool Calls: Actions the agent can request (run code, modify files, etc.) - Scales: Reusable instructions and skills - MCP Instructions: Model Context Protocol for external integrations - Messages Block: Persistent storage for context and history\nDefinition: A strong AI engineer is a person who can run this loop reliably and at scale.\n\n\n\n1. Independent/Isolated Agents\nAgent A ─┐\nAgent B ─├─ Isolated execution (no direct communication)\nAgent C ─┘\n\nEach works independently in sandboxed environment\nNo coordination between agents\nBest for simple, non-dependent tasks\n\n2. Decentralized (P2P) Agents\nAgent 1 ←→ Agent 2\n  ↕        ↕\nAgent 3 ←→ Agent 4\n\nPeer-to-peer direct connections\nAgents communicate directly\nMore complex coordination\nExample: blockchain-inspired architectures\n\n3. Centralized Agents\nCentral Controller/Broker\n        ↓\n   ┌────┼────┐\n   ↓    ↓    ↓\n  Sub  Sub  Sub\n  Ag-A Ag-B Ag-C\n\nCentral orchestrator controls all sub-agents\nClear command flow\nEasier to manage but single point of failure\n\n4. Hybrid Architecture\nGlobal Coordinator\n    ↓\n ┌──┴──┐\n ↓     ↓\nCluster A  Cluster B\n(Decentr.) (Centralized)\n\nCombines multiple patterns\nUsed by cloud-augmented research systems\nMost flexible approach\n\n\n\n\n\n\n\n\nType: Reactive systems\nProcess: Prompt → Generate → Return\nContext Window: Previously ~8K tokens\nControl: Limited to generation\nExample: ChatGPT interface usage\n\n\n\n\n\nType: Proactive systems\nProcess: Prompt → Action → Tool Call → Perception → Decide → Execute\nContext Window: 1M - 10M tokens (massive expansion)\nControl: Agent decides next steps\nModels with Large Context Windows:\n\nLlama 2: 10M tokens (recent)\nGPT-6 Extra: 1M tokens\nClaude Opus 5: 1M tokens\nGemini 4 Aragon: 1M tokens\nQwen Qwanta: 1-10M tokens (late 2026)\n\n\nLeading Inference Engineering Platforms: - HexDash - Prime Perform - Together.ai - Firewalls AI\nNew Failure Modes (2026): - Semantic failures (meaning breaks down at scale) - Logic failures (inference reasoning fails)\n\n\n\n\n\n\nUser Prompt\n    ↓\nLLM + Few-shot examples\n    ↓\nGenerate output\n    ↓\nEdit prompt → Loop until satisfied\n    ↓\nResult\n\nPrimarily prompt-driven\nLimited by context window\nTrial and error approach\n\n\n\n\nUser Prompt (Specification)\n    ↓\nLLM Creates Endpoints/Features\n    ↓\nAdd Validation & Error Handling\n    ↓\nTest & Verify\n    ↓\nReturn 200 status (success)\n\nClear specifications from start\nStructured error handling\nProper acceptance validation\n\n\n\n\nRequirements (Context Isolation)\n    ↓\nDesign (BRDs, mission control files)\n    ↓\nBuild (Agent workflow MD files)\n    ↓\nTest (Stack traces, error handling)\n    ↓\nRelease (Deployment environment)\n    ↓\nOperate (Grafana dashboards, monitoring)\n    ↓\nMaintain (Production environment)\nKey Principle (2026): “Evals are the new PRD of digital workspace” — Luin CEO insight that evaluation frameworks now define product requirements.\n\n\n\n\n\n\nQuro is an AI-powered IDE that helps build software from prototype to production with: - Web-based IDE (no local storage needed) - Local IDE (VS Code integration) - CLI interface - Mobile app (newly released)\n\n\n\n\n\n\nModel\nCredits\nContext Window\nUse Case\n\n\n\n\nClaude Opus 5.5\n1 credit\n1M tokens\nPower/precision\n\n\nClaude Sonnet 5\n1.38 credits\n1M tokens\nBalanced\n\n\nClaude Haiku 4.4\n2.7 credits\nLower\nBudget\n\n\nGPT-5.6\n4.4 credits\n1M tokens\nAlternative\n\n\nDeepSeek M1\nLower cost\nVariable\nBudget coding\n\n\nKimi K3\nVariable\n-\nData flow/code analysis\n\n\n\n\n\n\n1. Cloud Configuration (Agent Config) - Share configurations across web and local environments - Synchronize workspaces between IDE and browser - Persistent session state\n2. DRM System (Development Requirements) - Document development standards in IDE and CLI - Include: coding standards, architectural decisions, profile libraries, dependencies - Portable across all environments\n3. Skills - Reusable instructions for agents - Specialized for specific tasks - Stored as folders with .skill.md and .rules - Applied contextually per session\n4. Custom Agents - Create tailored agents for specific tasks - Defined via JSON or Markdown+YAML - Synchronized across environments - Task-specific configurations\n5. Hooks - Trigger agent prompts or shell commands automatically - Events: file saving, tool calls, prompting, etc. - Each hook maps to JSON file in project - Integration: Telegram, Discourse, etc.\n6. Workflows - Multi-step recipes reusable by agents - Workflow format: .workflow.json or .workflow.yaml - Enable parallel task execution - Save and reuse across projects\n7. Powers (MCP Integration) - Connect agents to external tools and services - One standard way to access external resources - Upload custom MCPs as folders - Typically .power.md at root\n8. Memory Management - Session recap: summarize conversations - Automatic memory persistence - Reopen summaries or pick up where left off - Model fallback: switch models if one unavailable\n9. Approval Modes - Default: Every action needs human approval - LLM-based: Intelligent approval suggestions - Modes: Allow once, block once, ask if unsure\n\n\n\nStep 1: Create New Chat Session - Define working space - Choose coding model (consider credits/power) - Set effort level (auto vs. manual) - Attach relevant files - Limit/enable internet access - Select repository access level\nStep 2: Configure Workspace - Set up digital workspace environment - Define repository location - Create GitHub integration\nStep 3: Start Development - Use multi-agent workflows - Run parallel sessions - Monitor token usage and costs\n\n\n\n\n\n\nScenario: Understanding an existing project\nAgent Actions: 1. Looks for steering files (project specifications) 2. Searches for learning memories 3. Attempts repository operations 4. Uses investigation tools iteratively 5. Provides comprehensive analysis\nChain of Thought Process: - Agent thinks step-by-step (may take 20-40 seconds) - Multiple tool investigations - Iterative refinement - Final consolidated response\nToken Usage: 11,292 credits for detailed exploration\n\n\n\nMulti-Session Parallel Workflow:\nSession 1: Backend Development\nSession 2: Frontend Implementation  \nSession 3: Testing & Validation\nSession 4: Documentation\n\nAll running with shared workspace context\nWorkflow Challenges Encountered: - Workflow launch failures (invalid input) - Schema mismatches - Iteration limits - Branch management\nRecovery Techniques: - Step-by-step workflow iteration - Explicit parameter specification - Format validation - Fallback strategies\n\n\n\nProject Structure Created:\nbackend/\n  main/\n  deployment/\n\nfrontend/\n  components/\n  \ndocs/\n  architecture/\nTechnology Stack: - Frontend: React, Vite - Backend: FastAPI 2.0 - Caching: Redis - MCP Studio integration\nRuntime Architecture:\nBrowser (SSY) → HTTPS\n      ↓\nFrontend (TS)\n      ↓\nAPI (FastAPI)\n      ↓\nRedis Cache\n      ↓\nMCP Studio Services\nOrchestration Pattern:\nValidation Step → Authorization → Execution\n  ↓               ↓                ↓\nSchemas       User Checks      Task Logic\n(Type safety) (Permission)    (Business logic)\n\n\n\n\n\n\n\nClone Repository Errors\n\nAttempting to clone during development\nCaused by vague initial prompts\nSolution: Provide clear workspace context\n\nWorkflow Launch Failures\n\nInvalid input messages\nMissing schema definitions\nSolution: Explicit parameter types and validation\n\nSession Management Issues\n\nMultiple agents conflicting\nSandbox sleep/wake cycles\nSolution: Clear session boundaries\n\n\n\n\n\nGit Rollback:\ngit status           # Check current state\ngit restore &lt;file&gt;   # Discard uncommitted changes\ngit reset --hard     # Return to last commit\nSession Cleanup: - Close problematic session - Create new focused session - Provide full context from start\nBranching Strategy: - Create separate branches for features - Avoid main branch conflicts - Clean merge requests with proper CI\n\n\n\n\n\n\n\nAgent reviews project structure\nIdentifies existing code\nNotes potential issues\n\n\n\n\n\nAgent writes code based on specifications\nCreates multiple files\nTests implementation\nFixes errors iteratively\n\n\n\n\n\nPush branches to GitHub\nCreate pull requests\nVerify CI/CD checks\nDocument limitations\n\n\n\n\n\nUpdate README\nCreate architecture diagrams\nDocument deployment notes\nPlan future enhancements\n\nTotal Time per Feature: 20-60 minutes\n\n\n\n\nExample Costs: - Exploration session: ~11K credits (20-40 minutes) - Implementation session: ~20-30K credits - Validation & testing: ~10-15K credits - Documentation: ~5-10K credits\nCost Optimization: 1. Use cheaper models for simple tasks 2. Batch related changes 3. Provide clear specifications upfront 4. Reuse existing sessions when possible 5. Monitor token usage per session\n\n\n\n✅ DO: - Create separate sessions for distinct tasks - Provide full context in each session - Use workspace-level storage - Document limitations and risks - Test before merging - Create meaningful commit messages\n❌ DON’T: - Merge unreviewed code blindly - Ignore test failures - Expose secrets in code - Create too many parallel sessions at once - Skip CI/CD validation - Assume first attempt is production-ready"
+  },
+  {
+    "objectID": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#key-takeaways",
+    "href": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#key-takeaways",
+    "title": "Practical Multi-Agents Orchestration - Building AI-Driven Development Workflows",
+    "section": "",
+    "text": "Understanding how agents think, act, and iterate is essential for effective orchestration.\n\n\n\nAgents perform better when they understand the full project context, not just individual tasks.\n\n\n\nClear task boundaries, proper branching, and clean handoffs prevent errors.\n\n\n\nFaster models cost more; cheaper models take longer. Choose based on task complexity.\n\n\n\nEven with advanced agents, review, test, and validation are non-negotiable.\n\n\n\nGood development environments (like Quro) with proper memory, hooks, and workflows significantly improve outcomes."
+  },
+  {
+    "objectID": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#technical-lessons-learned",
+    "href": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#technical-lessons-learned",
+    "title": "Practical Multi-Agents Orchestration - Building AI-Driven Development Workflows",
+    "section": "",
+    "text": "1M tokens ≈ 550K lines of code\nTrack usage per session\nModel selection impacts cost significantly\n\n\n\n\n\nVague prompts lead to unnecessary work\nClear specifications reduce iteration\nArchitecture understanding prevents regressions\n\n\n\n\n\nParallel execution requires careful coordination\nBranching strategy prevents conflicts\nCI/CD validation catches early problems"
+  },
+  {
+    "objectID": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#action-items-for-participants",
+    "href": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#action-items-for-participants",
+    "title": "Practical Multi-Agents Orchestration - Building AI-Driven Development Workflows",
+    "section": "",
+    "text": "✅ Set up Quro account (free tier available)\n✅ Explore multi-agent workflows in practice\n✅ Experiment with different models and costs\n✅ Create workspace-specific configurations\n✅ Practice session management techniques\n✅ Document your team’s reusable skills"
+  },
+  {
+    "objectID": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#resources-tools-mentioned",
+    "href": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#resources-tools-mentioned",
+    "title": "Practical Multi-Agents Orchestration - Building AI-Driven Development Workflows",
+    "section": "",
+    "text": "Development Environments: - Quro (Primary demo) - Cursor - VS Code + extensions - Replit\nAgents & Orchestration: - Quro Crew (Local IDE) - LangChain - CrewAI\nDeployment & Monitoring: - GitHub/GitLab - Grafana dashboards - CI/CD pipelines (GitHub Actions, etc.)"
+  },
+  {
+    "objectID": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#session-closing",
+    "href": "Session_Summaries/Session-IX_Practical-Multi-Agents-Orchestration.html#session-closing",
+    "title": "Practical Multi-Agents Orchestration - Building AI-Driven Development Workflows",
+    "section": "",
+    "text": "Lwin’s Message: “I want to show you how I’ve used these agents in my projects, managing multi-agent teams in this environment. Everyone has their own way of defining and creating projects. This is my way of doing the work. If you have projects you want to create together, we can work on this environment and learn it together.”\nKey Success Formula: &gt; Vibe Coding + Discipline + Multi-Agent Orchestration = Production-Ready Software\n\nNext Steps: Session X focuses on debugging in agentic systems — how to handle failures and maintain code quality when things go wrong.\nFurther Learning: Explore Quro documentation, LangChain, and CrewAI for deeper multi-agent orchestration patterns."
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "📅 Date & Time: November 24, 2026 at 15:44 (3:44 PM UTC)\n👩‍🏫 Presenter: Shakila Alam Aishy\n🎯 Session Type: Hands-On Lab - Live Debugging Exercise\n⏱️ Duration: 56 minutes 10 seconds\n\n\n\nLive debugging session where participants follow step-by-step as a donation page built by AI is debugged. The page “looks fine” but is broken. Working through realistic debugging workflow: reproduce → audit → understand → fix → test → commit.\n\n\n\n\n✓ Node.js v18+\n✓ VS Code\n✓ Git\n✓ AI assistant (ChatGPT, Claude, etc. — free tier acceptable)\n✓ No GPU or paid subscription required\n\n\n\n\nWhat: Donation page built by AI\nIssue: Broken functionality\nTask: Find root cause, fix properly, write regression test\n\n\n\n\n\n\ngit clone [repo-url]\ncd lab-folder\n\n\n\nnpm test\nResult: - 3 tests PASSING - 4 tests MARKED AS TODO (incomplete/not implemented)\nInsight: Failing tests indicate missing implementation\n\n\n\n\n\n\n\nnpm start\n\n\n\n\nOpen browser to localhost\nEnter donation amount: -50 (negative value)\nClick “Donate” button\n\n\n\n\n\nBrowser: No error message, button appears inactive\nServer logs: Error detected and rejected\n\n\n\n\n\n\n\n\n\n\n\n\napp.js - Main application file\ndonations.js - Donation handler\n\n\n\n\nQ1: What does code do? Which services interact? - Handles donation submission - Interacts with payment processor (Stripe) - Communicates with server\nQ2: Sensitive data exposed? - API keys hardcoded in frontend ✓ (SECURITY ISSUE) - API key printed to console ✓ (EXPOSES SECRET) - Key sent in request headers ✓ (ACCESSIBLE VIA NETWORK)\nQ3: User feedback on errors? - Error checking exists (if conditions) - No else block for failures - Console-only error logging - User never sees message\nQ4: Unnecessary duplication? - Fetch logic repeated in lines 22-37 AND 39-52 - Same logic copy-pasted - Should be reusable function\n\n\n\n\n\n\n\n// ❌ WRONG\nconst apiKey = \"stripe_test_key_12345\";\n\nExposed in browser\nVisible in page source\nAccessible to anyone\n\n\n\n\n// ❌ WRONG\nconsole.log(apiKey);\n\nLogs sensitive data\nBrowser DevTools visible\nMay appear in cloud logs\n\n\n\n\n// ❌ WRONG\nheaders: { \"X-API-Key\": apiKey }\n\nNetwork tab shows header values\nObservable by any user\nNo special hacking skills needed\n\nDemonstration:\n1. Right-click → Inspect → Network tab\n2. Enter amount\n3. Click Donate\n4. View POST request details\n5. API key visible in request headers\n\n\n\nMove API key to backend environment variables\n# .env file (never committed)\nAPI_KEY=stripe_test_key_12345\n// server.js (backend)\nconst apiKey = process.env.API_KEY;\nif (!apiKey) {\n  throw new Error(\"API_KEY missing from .env\");\n}\n\n\n\n\n\n\n\n1. Open browser DevTools (F12)\n2. Go to Network tab\n3. Enter donation amount: -15\n4. Click \"Donate\"\n5. Watch the POST request\n\n\n\n\nRequest endpoint: /api/charge\nResponse status: 400 (bad request)\nResponse body: { \"error\": \"Invalid amount\" }\n\n\n\n\nServer is working correctly and rejecting invalid amounts. Frontend is ignoring the error message.\n\n\n\n\n\n\n\n\"My donation page doesn't work. Fix it.\"\n\nInsufficient information\nAI must guess\nLikely makes unnecessary changes\n\n\n\n\nWhen I enter amount: -50\nClick: Donate\nExpected: Error message appears below button\nActual: Nothing happens (silent failure)\n\nError in Network tab:\nPOST /api/charge returns 400: \"Invalid amount\"\n\nFile: donations.js\nIssue: Error response not displayed to user\nKey Elements: - Exact reproduction steps - Input values - Expected vs. actual - Network evidence - Specific file location - Root cause identified\n\n\n\n\n\n\n\n// ❌ Checks only if empty, not if negative/zero\nif (!amount)\nFix: Validate range\n// ✓ Proper validation\nif (!amount || amount &lt;= 0 || !currency) {\n  showError(\"Invalid amount\");\n}\n\n\n\n// ❌ Error only logged to console\nif (!response.ok) {\n  console.log(error);  // User never sees this\n}\nFix: Show user message\n// ✓ Display to user\nif (!response.ok) {\n  document.getElementById(\"error-message\").innerHTML = error.message;\n}\n\n\n\n\nSame fetch logic repeated\nShould be single reusable function\n\n\n\n\n\n\n\n\n# Check current state\ngit status\n\n# If changes not committed yet:\ngit restore &lt;filename&gt;  # Discard uncommitted changes\n\n# If completely lost:\ngit reset --hard HEAD   # Return to last commit\n\n\n\n\n\n\n\nAPI_KEY=stripe_test_key_12345\n\n\n\necho \".env\" &gt;&gt; .gitignore\n\n\n\n// Load from environment\nconst apiKey = process.env.API_KEY;\n\nif (!apiKey) {\n  throw new Error(\"API_KEY missing from .env file\");\n}\n\n// Use it safely on server side only\nResult: API key never exposed in frontend or git history\n\n\n\n\n\n\n\ngit add &lt;filename&gt;\n\n\n\ngit commit -m \"Fix: Handle donation form errors properly\n\n- Add input validation for negative/zero amounts\n- Display error messages to user\n- Remove hardcoded API key from frontend\n- Move API key to backend environment\n- Fix duplicate fetch logic\"\n\n\n\ngit push origin main\n\n\n\n\n\n\n\nnpm test\n\nVerify previously passing tests still pass\nCheck if new test cases pass\n\n\n\n\n\nTest with valid amount\nTest with negative amount\nTest with zero amount\nTest with missing amount\nVerify error messages display correctly\n\n\n\n\n\n\n✓ Reproduce: Enter -50, click button, observe silent failure\n✓ Collect: Check Network tab, see 400 error response\n✓ Audit: Read app.js and donations.js carefully\n✓ Identify Issues: - Hardcoded API key (security) - Missing input validation - No error display - Duplicate code ✓ Prompt AI: Provide full context with network evidence\n✓ Review: Check diff, verify changes make sense\n✓ Test: Manual testing + regression tests\n✓ Commit: Push clean, well-documented changes\n\n\n\n\n\n\n\nServer error ≠ User feedback\nMust explicitly show messages\nTest edge cases (negative, zero, missing)\n\n\n\n\n\nHardcoded keys look “normal”\nTakes only seconds to expose\n.env files are essential\n\n\n\n\n\nDuplicate logic causes maintenance burden\nClear validation prevents crashes\nProper error handling improves UX\n\n\n\n\n\nReproduce first\nCollect evidence\nUnderstand root cause\nFix properly (not patches)\nTest thoroughly\n\n\n\n\n\nAlways have checkpoints\nReview changes before committing\nClear history shows what changed and why\n\n\n\n\n\n\ngit status      # Always check first\ngit diff        # Review before committing\ngit log         # Understand history\n\n\n\n\nThis lab demonstrated: 1. How to find bugs systematically 2. Why security matters during development 3. How to communicate problems to AI effectively 4. Proper workflow from reproduction to fix to test 5. Git as a safety mechanism\nMost Important: Debugging isn’t about making errors disappear—it’s about understanding why they happened and preventing them in the future.\n\nNext Steps: Apply these debugging techniques to your own projects. Start with systematic reproduction, provide full context to AI, test thoroughly, and always review before committing."
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#overview",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#overview",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "Live debugging session where participants follow step-by-step as a donation page built by AI is debugged. The page “looks fine” but is broken. Working through realistic debugging workflow: reproduce → audit → understand → fix → test → commit."
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#setup-requirements",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#setup-requirements",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "✓ Node.js v18+\n✓ VS Code\n✓ Git\n✓ AI assistant (ChatGPT, Claude, etc. — free tier acceptable)\n✓ No GPU or paid subscription required"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#the-problem-scenario",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#the-problem-scenario",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "What: Donation page built by AI\nIssue: Broken functionality\nTask: Find root cause, fix properly, write regression test"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-1-initial-assessment",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-1-initial-assessment",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "git clone [repo-url]\ncd lab-folder\n\n\n\nnpm test\nResult: - 3 tests PASSING - 4 tests MARKED AS TODO (incomplete/not implemented)\nInsight: Failing tests indicate missing implementation"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-2-reproduce-the-bug",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-2-reproduce-the-bug",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "npm start\n\n\n\n\nOpen browser to localhost\nEnter donation amount: -50 (negative value)\nClick “Donate” button\n\n\n\n\n\nBrowser: No error message, button appears inactive\nServer logs: Error detected and rejected"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-3-code-audit",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-3-code-audit",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "app.js - Main application file\ndonations.js - Donation handler\n\n\n\n\nQ1: What does code do? Which services interact? - Handles donation submission - Interacts with payment processor (Stripe) - Communicates with server\nQ2: Sensitive data exposed? - API keys hardcoded in frontend ✓ (SECURITY ISSUE) - API key printed to console ✓ (EXPOSES SECRET) - Key sent in request headers ✓ (ACCESSIBLE VIA NETWORK)\nQ3: User feedback on errors? - Error checking exists (if conditions) - No else block for failures - Console-only error logging - User never sees message\nQ4: Unnecessary duplication? - Fetch logic repeated in lines 22-37 AND 39-52 - Same logic copy-pasted - Should be reusable function"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#security-findings",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#security-findings",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "// ❌ WRONG\nconst apiKey = \"stripe_test_key_12345\";\n\nExposed in browser\nVisible in page source\nAccessible to anyone\n\n\n\n\n// ❌ WRONG\nconsole.log(apiKey);\n\nLogs sensitive data\nBrowser DevTools visible\nMay appear in cloud logs\n\n\n\n\n// ❌ WRONG\nheaders: { \"X-API-Key\": apiKey }\n\nNetwork tab shows header values\nObservable by any user\nNo special hacking skills needed\n\nDemonstration:\n1. Right-click → Inspect → Network tab\n2. Enter amount\n3. Click Donate\n4. View POST request details\n5. API key visible in request headers\n\n\n\nMove API key to backend environment variables\n# .env file (never committed)\nAPI_KEY=stripe_test_key_12345\n// server.js (backend)\nconst apiKey = process.env.API_KEY;\nif (!apiKey) {\n  throw new Error(\"API_KEY missing from .env\");\n}"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-4-analyze-network-traffic",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-4-analyze-network-traffic",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "1. Open browser DevTools (F12)\n2. Go to Network tab\n3. Enter donation amount: -15\n4. Click \"Donate\"\n5. Watch the POST request\n\n\n\n\nRequest endpoint: /api/charge\nResponse status: 400 (bad request)\nResponse body: { \"error\": \"Invalid amount\" }\n\n\n\n\nServer is working correctly and rejecting invalid amounts. Frontend is ignoring the error message."
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-5-weak-vs.-strong-prompts",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-5-weak-vs.-strong-prompts",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "\"My donation page doesn't work. Fix it.\"\n\nInsufficient information\nAI must guess\nLikely makes unnecessary changes\n\n\n\n\nWhen I enter amount: -50\nClick: Donate\nExpected: Error message appears below button\nActual: Nothing happens (silent failure)\n\nError in Network tab:\nPOST /api/charge returns 400: \"Invalid amount\"\n\nFile: donations.js\nIssue: Error response not displayed to user\nKey Elements: - Exact reproduction steps - Input values - Expected vs. actual - Network evidence - Specific file location - Root cause identified"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-6-code-issues-found",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-6-code-issues-found",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "// ❌ Checks only if empty, not if negative/zero\nif (!amount)\nFix: Validate range\n// ✓ Proper validation\nif (!amount || amount &lt;= 0 || !currency) {\n  showError(\"Invalid amount\");\n}\n\n\n\n// ❌ Error only logged to console\nif (!response.ok) {\n  console.log(error);  // User never sees this\n}\nFix: Show user message\n// ✓ Display to user\nif (!response.ok) {\n  document.getElementById(\"error-message\").innerHTML = error.message;\n}\n\n\n\n\nSame fetch logic repeated\nShould be single reusable function"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-7-git-recovery-rollback",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-7-git-recovery-rollback",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "# Check current state\ngit status\n\n# If changes not committed yet:\ngit restore &lt;filename&gt;  # Discard uncommitted changes\n\n# If completely lost:\ngit reset --hard HEAD   # Return to last commit"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-8-secure-api-key-management",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-8-secure-api-key-management",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "API_KEY=stripe_test_key_12345\n\n\n\necho \".env\" &gt;&gt; .gitignore\n\n\n\n// Load from environment\nconst apiKey = process.env.API_KEY;\n\nif (!apiKey) {\n  throw new Error(\"API_KEY missing from .env file\");\n}\n\n// Use it safely on server side only\nResult: API key never exposed in frontend or git history"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-9-git-workflow-for-changes",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-9-git-workflow-for-changes",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "git add &lt;filename&gt;\n\n\n\ngit commit -m \"Fix: Handle donation form errors properly\n\n- Add input validation for negative/zero amounts\n- Display error messages to user\n- Remove hardcoded API key from frontend\n- Move API key to backend environment\n- Fix duplicate fetch logic\"\n\n\n\ngit push origin main"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-10-testing-validation",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#step-10-testing-validation",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "npm test\n\nVerify previously passing tests still pass\nCheck if new test cases pass\n\n\n\n\n\nTest with valid amount\nTest with negative amount\nTest with zero amount\nTest with missing amount\nVerify error messages display correctly"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#complete-debugging-checklist",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#complete-debugging-checklist",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "✓ Reproduce: Enter -50, click button, observe silent failure\n✓ Collect: Check Network tab, see 400 error response\n✓ Audit: Read app.js and donations.js carefully\n✓ Identify Issues: - Hardcoded API key (security) - Missing input validation - No error display - Duplicate code ✓ Prompt AI: Provide full context with network evidence\n✓ Review: Check diff, verify changes make sense\n✓ Test: Manual testing + regression tests\n✓ Commit: Push clean, well-documented changes"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#key-lessons-from-lab",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#key-lessons-from-lab",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "Server error ≠ User feedback\nMust explicitly show messages\nTest edge cases (negative, zero, missing)\n\n\n\n\n\nHardcoded keys look “normal”\nTakes only seconds to expose\n.env files are essential\n\n\n\n\n\nDuplicate logic causes maintenance burden\nClear validation prevents crashes\nProper error handling improves UX\n\n\n\n\n\nReproduce first\nCollect evidence\nUnderstand root cause\nFix properly (not patches)\nTest thoroughly\n\n\n\n\n\nAlways have checkpoints\nReview changes before committing\nClear history shows what changed and why"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#three-essential-commands",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#three-essential-commands",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "git status      # Always check first\ngit diff        # Review before committing\ngit log         # Understand history"
+  },
+  {
+    "objectID": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#summary",
+    "href": "Session_Summaries/Session-XI_Practical-Debugging-Lab.html#summary",
+    "title": "Practical Debugging Lab - Fixing AI-Generated Code in Action",
+    "section": "",
+    "text": "This lab demonstrated: 1. How to find bugs systematically 2. Why security matters during development 3. How to communicate problems to AI effectively 4. Proper workflow from reproduction to fix to test 5. Git as a safety mechanism\nMost Important: Debugging isn’t about making errors disappear—it’s about understanding why they happened and preventing them in the future.\n\nNext Steps: Apply these debugging techniques to your own projects. Start with systematic reproduction, provide full context to AI, test thoroughly, and always review before committing."
+  },
+  {
+    "objectID": "sessions.html#session-x-xii-debugging-in-the-agentic-age-sessionssession-10.qmd",
+    "href": "sessions.html#session-x-xii-debugging-in-the-agentic-age-sessionssession-10.qmd",
+    "title": "Session summaries",
+    "section": "Session X & XII: Debugging in the Agentic Age (sessions/session-10.qmd)",
+    "text": "Session X & XII: Debugging in the Agentic Age (sessions/session-10.qmd)\nwith Shakila Alam\n\nSession X: Capstone Project\nDate to be confirmed · Summary coming soon"
+  },
+  {
+    "objectID": "sessions.html#session-x-theory-of-debugging-in-the-agentic-age-sessionssession-10.qmd",
+    "href": "sessions.html#session-x-theory-of-debugging-in-the-agentic-age-sessionssession-10.qmd",
+    "title": "Session summaries",
+    "section": "Session X: Theory of Debugging in the Agentic Age (sessions/session-10.qmd)",
+    "text": "Session X: Theory of Debugging in the Agentic Age (sessions/session-10.qmd)\nwith Shakila Alam"
+  },
+  {
+    "objectID": "sessions.html#session-xi-practical-of-debugging-in-the-agentic-age-sessionssession-11.qmd",
+    "href": "sessions.html#session-xi-practical-of-debugging-in-the-agentic-age-sessionssession-11.qmd",
+    "title": "Session summaries",
+    "section": "Session XI: Practical of Debugging in the Agentic Age (sessions/session-11.qmd)",
+    "text": "Session XI: Practical of Debugging in the Agentic Age (sessions/session-11.qmd)\nwith Shakila Alam"
+  },
+  {
+    "objectID": "sessions.html#session-xii-context-engineering-large-codebases-sessionssession-12.qmd",
+    "href": "sessions.html#session-xii-context-engineering-large-codebases-sessionssession-12.qmd",
+    "title": "Session summaries",
+    "section": "Session XII: Context Engineering & Large Codebases (sessions/session-12.qmd)",
+    "text": "Session XII: Context Engineering & Large Codebases (sessions/session-12.qmd)\nwith Ekoko Clesh\n\nSession X: Capstone Project\nDate to be confirmed · Summary coming soon"
+  },
+  {
+    "objectID": "sessions.html#session-x-theory-of-debugging-in-the-agentic-age",
+    "href": "sessions.html#session-x-theory-of-debugging-in-the-agentic-age",
+    "title": "Session summaries",
+    "section": "Session X: Theory of Debugging in the Agentic Age",
+    "text": "Session X: Theory of Debugging in the Agentic Age\nwith Shakila Alam"
+  },
+  {
+    "objectID": "sessions.html#session-xi-practical-of-debugging-in-the-agentic-age",
+    "href": "sessions.html#session-xi-practical-of-debugging-in-the-agentic-age",
+    "title": "Session summaries",
+    "section": "Session XI: Practical of Debugging in the Agentic Age",
+    "text": "Session XI: Practical of Debugging in the Agentic Age\nwith Shakila Alam"
+  },
+  {
+    "objectID": "sessions.html#session-xii-context-engineering-large-codebases",
+    "href": "sessions.html#session-xii-context-engineering-large-codebases",
+    "title": "Session summaries",
+    "section": "Session XII: Context Engineering & Large Codebases",
+    "text": "Session XII: Context Engineering & Large Codebases\nwith Ekoko Clesh\n\nSession X: Capstone Project\nDate to be confirmed · Summary coming soon"
   }
 ]

@@ -38,9 +38,34 @@ November 15, 2026 at 17:00 GMT+3 · Alan Al Jammoor
 
 November 16, 2026 at 18:30 GMT+3 · Lwin Ravendo
 
-### Session IX: Practical Multi-Agents Orchestration
+### [Session IX: Practical Multi-Agents Orchestration](sessions/session-9.qmd)
 
-November 17, 2026 at 18:30 GMT+3 · Lwin Ravendo · *Summary coming soon*
+November 17, 2026 at 18:30 GMT+3 · Lwin Ravendo 
+
+### [Session X: Theory of Debugging in the Agentic Age](sessions/session-10.qmd)
+
+November 23, 2026 at 18:30 GMT+3 with Shakila Alam
+
+### [Session XI: Practical of Debugging in the Agentic Age](sessions/session-11.qmd)
+
+November 24, 2026 at 18:30 GMT+3 with Shakila Alam 
+
+### [Session XII: Theory Context Engineering & Large Codebases](sessions/session-12.qmd)
+
+November 25, 2026 at 18:30 GMT+3 with Ekoko Clesh
+
+### [Session XII: Practical Context Engineering & Large Codebases]()
+
+November 30, 2026 at 18:30 GMT+3 with Ekoko Clesh
+
+### [Session XIII: AI-First SDLC: Deployment & Operations]()
+
+December 01, 2026 at 18:30 GMT+3 with Seth Odiambo
+
+### [Session XIV: Practical AI-First SDLC: Deployment & Operations]()
+
+December 02, 2026 at 18:30 GMT+3 with Seth Odiambo
+
 
 ### Session X: Capstone Project
 
