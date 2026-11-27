@@ -1,0 +1,28 @@
+---
+title: "Session XII: Context Engineering & Large Codebases"
+---
+
+[← All session summaries](../sessions.qmd) · [← Previous: Session XI](session-11.qmd)
+
+**Date:** November 25, 2026 at 15:39 UTC · **Presenter:** Ekoko Clesh (Mozambique) · **Type:** Hands-on Lab (1 hour 30 minutes)
+
+## What we covered
+
+- **AI Agent vs. Chat Assistant:** How coding agents inspect, plan, edit, run tools—far beyond simple Q&A
+- **Why Large Codebases Are Hard:** Structure, history, boundaries, and evidence
+- **Bad Prompts vs. Good Prompts:** Vague instructions fail; clear context succeeds
+- **Four Essential Task Parts:** Goal, Context, Constraint, Done When
+- **Repository Mapping:** Understanding entry points, components, data flow
+- **agents.md Files:** Reusable project rules to avoid token waste
+- **Six-Step Workflow:** Explore → Plan → Approve → Edit → Test → Review
+- **Code Review Framework:** Four questions before accepting AI changes
+- **Real Example:** Building a task manager web app from specification
+- **SWE Bench Concept:** Real benchmarks for real programming tasks
+
+## Key insight
+
+> Passing tests ≠ code is ready. Test pass proves behavior; humans decide if change belongs in project.
+
+::: {.recording-cta}
+[Watch the recording](https://drive.google.com/drive/folders/1V61sL0zoUn0w0_hpfqACW8BueSjfsFl_?usp=sharing){.btn .btn-primary .btn-lg target="_blank"}
+:::

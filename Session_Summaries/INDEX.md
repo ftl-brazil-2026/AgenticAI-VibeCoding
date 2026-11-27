@@ -260,6 +260,31 @@ This index provides quick navigation to all session summaries, including date, t
 
 * * *
 
+### **Session XII: Context Engineering & Large Codebases**
+📅 **November 25, 2026 at 15:39 (UTC)**  
+👨‍🏫 **Presenter:** Ekoko Clesh (Based in Mozambique)  
+⏱️ **Duration:** 1 hour 30 minutes  
+🎯 **Type:** Hands-On Lab - Real Project Work
+
+**Key Topics:**
+- AI Coding Agent vs. Chat Assistant (capabilities gap)
+- Why large codebases are hard (structure, history, boundaries, evidence)
+- Bad prompts vs. good prompts (context matters)
+- Four parts of effective tasks (goal, context, constraint, done when)
+- Repository mapping (entry points, components, data flow)
+- Creating agents.md for reusable project rules
+- Six-step AI-assisted workflow (Explore → Plan → Approve → Edit → Test → Review)
+- Evaluating AI changes (four critical questions)
+- Real example: Building task manager web application
+- SWE Bench and AI evaluation benchmarks
+- Code review best practices
+
+**Learning Outcome:** Master working with AI agents on existing codebases, write effective task briefs, evaluate AI-generated code safely, create reusable project instructions
+
+📄 **[Read Full Summary](Session-XII_Context-Engineering-Large-Codebases.md)**
+
+* * *
+
 ## 📊 Program Structure at a Glance
 
 | Session | Topic | Type | Status |
@@ -275,6 +300,7 @@ This index provides quick navigation to all session summaries, including date, t
 | IX | Multi-Agents Practical | Hands-On | ✅ Complete |
 | X | Debugging in Agentic Systems | Theory | ✅ Complete |
 | XI | Practical Debugging Lab | Hands-On | ✅ Complete |
+| XII | Context Engineering & Codebases | Hands-On | ✅ Complete |
 
 * * *
 

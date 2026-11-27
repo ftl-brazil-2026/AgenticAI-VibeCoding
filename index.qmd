@@ -100,19 +100,25 @@ Supervise an agent team through typed handoffs, scoped tools, independent checks
 [Reading List]()
 
 
-### Class X and XI: Debugging in the Agentic Age
+### Session X & XI: Debugging in the Agentic Age
 
-**Presenter:** Shakila Alam, 
+**Presenter:** Shakila Alam Aishy
 
-Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+Learn systematic debugging of AI-generated code. Session X covers four reasons AI code breaks and audit frameworks. Session XI is a live debugging lab fixing a real broken donation page, demonstrating security vulnerabilities and proper recovery techniques.
 
 [Github Repository](https://github.com/shakila-alam-aishy/Debugging-in-the-Agentic-Age_UNDP){.btn .btn-primary}
 
-### Class XII and XIII: Context Engineering & Large Codebases
+[Session X Summary](Session_Summaries/Session-X_Debugging-in-Agentic-Cage.md){.btn .btn-outline-primary}
 
-**Presenter:** Ekoko Clesh, **Status:** 25/11 and 30/11 **Roadmap session:** S6
+[Session XI Summary](Session_Summaries/Session-XI_Practical-Debugging-Lab.md){.btn .btn-outline-primary}
 
-Description coming soon. The presenter's GitHub link will be added here once the class is confirmed.
+### Session XII: Context Engineering & Large Codebases
+
+**Presenter:** Ekoko Clesh (Mozambique) · **Date:** November 25, 2026
+
+Practical hands-on lab on making AI agents work effectively in real software projects. Learn to map repositories, write effective agent instructions, review AI-generated code safely, and use reusable project rules (agents.md). Includes real example of building a task manager web application.
+
+[Session XII Summary](Session_Summaries/Session-XII_Context-Engineering-Large-Codebases.md){.btn .btn-primary target="_blank"}
 
 ### Class 9: AI-First SDLC: Deployment & Operations
 
